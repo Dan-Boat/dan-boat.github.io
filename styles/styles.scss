@@ -7,7 +7,7 @@
 
 :root {
     --color-primary: #191d2b;
-    --color-secondary: #27AE60;
+    --color-secondary: #1de7f5;
     --color-white: #FFFFFF;
     --color-black: #000;
     --color-grey0: #f8f8f8;
@@ -165,7 +165,7 @@ section {
         }
         .image {
             border-radius: var(--br-sm-2);
-            height: 90%;
+            height: 70%;
             width: 68%;
             margin-left: 4rem;
             background-color: var(--color-black);
