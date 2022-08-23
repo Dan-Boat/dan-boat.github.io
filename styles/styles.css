@@ -271,7 +271,7 @@ section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-right: 18rem;
+  padding-right: 10rem;
 }
 
 .header-content .right-header .name {
@@ -283,7 +283,7 @@ section {
 }
 
 .header-content .right-header p {
-  margin: 1.5rem 0;
+  margin: 1.9rem 0;
   line-height: 2rem;
 }
 

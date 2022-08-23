@@ -187,13 +187,13 @@ section {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-right: 18rem;
+        padding-right: 10rem;
         .name {
             font-size: 3rem;
             span { color: var(--color-secondary); }
         }
         p {
-            margin: 1.5rem 0;
+            margin: 1.9rem 0;
             line-height: 2rem;
         }
     }
