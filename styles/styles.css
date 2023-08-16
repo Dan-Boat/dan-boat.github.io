@@ -755,11 +755,15 @@ button {
   text-align: center;
   overflow: hidden;
 }
-.slider .impressions {
+
+.impressions {
   font-size: 3rem;
   font-weight: lighter;
+  text-align: center;
+  border: 2px solid var(--color-secondary);
+  margin-top: 10px;
 }
-.slider .impressions span {
+.impressions span {
   color: var(--color-secondary);
 }
 

@@ -723,11 +723,14 @@ button {
     margin-bottom: auto;
     text-align: center;
     overflow: hidden;
-    .impressions {
-        font-size: 3rem;
-        span { color: var(--color-secondary); }
-        font-weight: lighter;
-    }
+}
+.impressions {
+    font-size: 3rem;
+    span { color: var(--color-secondary); }
+    font-weight: lighter;
+    text-align: center;
+    border: 2px solid var(--color-secondary);
+    margin-top: 10px;
 }
   .image-container {
     width: 1800px;
@@ -774,6 +777,48 @@ button {
     width: 15px;
     border-radius: 50px;
     background-color: var(--color-secondary);
+}
+
+// Styling for the research-interest section
+
+
+.research-point {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+background-color: var(--color-primary);
+border-radius: 8px;
+margin: 20px 0;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+.research-info {
+    flex: 1;
+    text-align: left;
+
+    h3 {
+        font-size: 2rem;
+        text-transform: uppercase;
+        span { color: var(--color-secondary);color: $primary-color;}
+    }
+    p {
+    line-height: 2rem;
+    padding: 1rem;
+    color: var(--color-grey-1);
+    text-align: left;
+    text-justify: inter-word;
+    span { color: var(--color-secondary); }
+}
+    
+}
+
+.research-image {
+    flex: 1;
+    img {
+    max-width: 100%;
+    border-radius: 8px;
+    }
+}
 }
 
 
