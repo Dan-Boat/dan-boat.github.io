@@ -476,14 +476,16 @@ section {
       
        ul {
         list-style: square;
+        span { color: var(--color-secondary);}
       
             li {
                 margin-bottom: 10px;
+                list-style: lower-roman;
             }
       
         /* Change link color on hover */
             a:hover {
-                    background-color: var(--color-white);
+                    background-color: var(--color-secondary);
                     i { color: var(--color-primary); }
             }
         }
