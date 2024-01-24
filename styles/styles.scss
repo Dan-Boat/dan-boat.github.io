@@ -480,13 +480,7 @@ section {
       
             li {
                 margin-bottom: 10px;
-                list-style: lower-roman;
-            }
-      
-        /* Change link color on hover */
-            a:hover {
-                    background-color: var(--color-secondary);
-                    i { color: var(--color-primary); }
+                list-style: decimal;
             }
         }
     }
