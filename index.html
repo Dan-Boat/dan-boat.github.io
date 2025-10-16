@@ -5,11 +5,381 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+
+        /* Blog section styles */
+        .blog-container {
+            display: flex;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .blog-nav {
+            flex: 1;
+            max-width: 250px;
+            background: var(--color-grey-5);
+            padding: 1.5rem;
+            border-radius: 15px;
+            height: fit-content;
+            position: sticky;
+            top: 2rem;
+        }
+        
+        .blog-nav h3 {
+            margin-bottom: 1rem;
+            color: var(--color-secondary);
+        }
+        
+        .blog-list {
+            list-style: none;
+        }
+        
+        .blog-list-item {
+            padding: 0.8rem 1rem;
+            margin-bottom: 0.5rem;
+            border-left: 3px solid transparent;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .blog-list-item:hover {
+            background: var(--color-grey-4);
+            border-left: 3px solid var(--color-secondary);
+        }
+        
+        .blog-list-item.active {
+            background: var(--color-grey-4);
+            border-left: 3px solid var(--color-secondary);
+            font-weight: 600;
+        }
+        
+        .blog-content {
+            flex: 3;
+        }
+        
+        .blog-post {
+            display: none;
+            background: var(--color-grey-5);
+            padding: 2rem;
+            border-radius: 15px;
+            margin-bottom: 2rem;
+        }
+        
+        .blog-post.active {
+            display: block;
+            animation: fadeIn 0.5s ease;
+        }
+        
+        .blog-post img {
+            width: 100%;
+            border-radius: 10px;
+            margin: 1rem 0;
+            height: 300px;
+            object-fit: cover;
+        }
+        
+        .blog-post h2 {
+            color: var(--color-grey-2);
+            margin-bottom: 1rem;
+        }
+        
+        .blog-meta {
+            color: var(--color-grey-2);
+            font-style: italic;
+            margin-bottom: 1rem;
+            display: block;
+        }
+        
+        pre {
+            background: var(--color-grey-4);
+            padding: 1rem;
+            border-radius: 10px;
+            overflow-x: auto;
+            margin: 1rem 0;
+        }
+        
+        code {
+            font-family: 'Courier New', monospace;
+            color: var(--color-white);
+        }
+        
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        
+        @media screen and (max-width: 900px) {
+            .blog-container {
+                flex-direction: column;
+            }
+            
+            .blog-nav {
+                max-width: 100%;
+                position: relative;
+                top: 0;
+            }
+        }
+        
+        /* Publications */
+        .publications-list {
+            margin-bottom: 3rem;
+        }
+        
+        .publications-list h4 {
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+            color: var(--color-secondary);
+        }
+        
+        .publications-list ul {
+            padding-left: 2rem;
+        }
+        
+        .publications-list li {
+            margin-bottom: 1rem;
+            padding-left: 1rem;
+            border-left: 2px solid var(--color-grey-4);
+        }
+        
+        .publications-list a {
+            color: var(--color-grey-1);
+            transition: all 0.3s ease;
+        }
+        
+        .publications-list a:hover {
+            color: var(--color-grey-5);
+        }
+        
+        /* Contact */
+        .contact-content-con {
+            display: flex;
+            padding-top: 3.5rem;
+        }
+        
+        .left-contact {
+            flex: 2;
+        }
+        
+        .left-contact h4 {
+            margin-top: 1rem;
+            font-size: 2rem;
+            text-transform: uppercase;
+        }
+        
+        .left-contact p {
+            margin: 1rem 0;
+            line-height: 2rem;
+        }
+        
+        .contact-info .contact-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .contact-info .contact-item p {
+            margin: 0.3rem 0 !important;
+            padding: 0 !important;
+        }
+        
+        .contact-info .contact-item .icon {
+            display: grid;
+            grid-template-columns: 40px 1fr;
+        }
+        
+        .contact-info .contact-item .icon i {
+            display: flex;
+            align-items: center;
+            font-size: 1.3rem;
+        }
+        
+        .contact-icon {
+            display: flex;
+            margin-top: 2rem;
+        }
+        
+        .contact-icon a {
+            display: flex;
+            align-items: center;
+            color: var(--color-white);
+            background-color: var(--color-grey-5);
+            cursor: pointer;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin: 0 0.4rem;
+            transition: all 0.4s ease;
+        }
+        
+        .contact-icon a:hover {
+            background-color: var(--color-secondary);
+        }
+        
+        .contact-icon a:hover i {
+            color: var(--color-primary);
+        }
+        
+        .contact-icon a i {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3rem;
+        }
+        
+        .right-contact {
+            flex: 3;
+            margin-left: 3rem;
+        }
+        
+        .right-contact .input-control {
+            margin: 1.5rem 0;
+        }
+        
+        .right-contact .input-control input, .right-contact .input-control textarea {
+            border-radius: 30px;
+            font-weight: inherit;
+            font-size: inherit;
+            font-family: inherit;
+            padding: 0.8rem 1.1rem;
+            outline: none;
+            border: none;
+            background-color: var(--color-grey-5);
+            width: 100%;
+            color: var(--color-white);
+            resize: none;
+        }
+        
+        .right-contact .i-c-2 {
+            display: flex;
+        }
+        
+        .right-contact .i-c-2 :last-child {
+            margin-left: 1.5rem;
+        }
+        
+        .right-contact .submit-btn {
+            display: flex;
+            justify-content: flex-start;
+        }
+        
+        /* Buttons */
+        .main-btn {
+            border-radius: 30px;
+            color: inherit;
+            font-weight: 600;
+            position: relative;
+            border: 1px solid var(--color-secondary);
+            display: flex;
+            align-self: flex-start;
+            align-items: center;
+            overflow: hidden;
+        }
+        
+        .main-btn .btn-text {
+            padding: 0 2rem;
+        }
+        
+        .main-btn .btn-icon {
+            background-color: var(--color-secondary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            padding: 1rem;
+        }
+        
+        .main-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            transform: translateX(100%);
+            transition: all 0.4s ease;
+            z-index: -1;
+        }
+        
+        .main-btn:hover::before {
+            width: 100%;
+            height: 100%;
+            background-color: var(--color-secondary);
+            transform: translateX(0);
+        }
+        
+        .btn-con {
+            display: flex;
+            align-self: flex-start;
+        }
+        
+        /* Main Title */
+        .main-title {
+            text-align: center;
+        }
+        
+        .main-title h2 {
+            position: relative;
+            text-transform: uppercase;
+            font-size: 4rem;
+            font-weight: 700;
+        }
+        
+        .main-title h2 span {
+            color: var(--color-secondary);
+        }
+        
+        .main-title h2 .bg-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            color: var(--color-grey-5);
+            transition: all 0.4s ease;
+            z-index: -1;
+            transform: translate(-50%, -50%);
+            font-weight: 800;
+            font-size: 6.3rem;
+        }
+        
+        /* Image */
+        .image {
+            border-radius: 15px;
+            height: 500px;
+            width: 350px;
+            margin-left: 4rem;
+            background-color: var(--color-secondary);
+            transition: all 0.4s ease;
+        }
+        
+        .image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 15px;
+            transition: all 0.4s ease;
+            filter: grayscale(100%);
+        }
+        
+        .image img:hover {
+            filter: grayscale(0);
+        }
+        
+        /* Footer */
+        .copyright {
+            padding: 2rem 0;
+            text-align: center;
+            background-color: var(--color-grey-6);
+            margin-top: 4rem;
+        }
+        
+        .copyright small {
+            color: var(--color-grey-3);
+            font-size: 1.2rem;
+        }
+    </style>
 </head>
 <body class="main-content">
     <header class="container header active" id="home">
@@ -17,659 +387,709 @@
             <div class="left-header">
                 <div class="h-shape"></div>
                 <div class="image">
-                    <img src="/images/image2_main_page.jpg" alt="Display of my profile picture">
+                    <img src="./img/Daniel.jpg" alt="Display of my profile picture">
                 </div>
             </div>
             <div class="right-header">
                 <h1 class="name">
-                     <span>Akwaaba!</span> My name is <span>Daniel Boateng</span>, a climate scientist, Machine Learning, and Software engineer
-                     with professional training in Geological engineering. 
+                     <span>Akwaaba!</span> My name is <span>Dr. Daniel Boateng</span>, a Geospatial Data Scientist & Climate Risk Expert with adept 
+                     domain knowledge in Climate Modelling, Natural Catastrophe Modelling, 
+                     Index-based & Parametric Insurance, Machine Learning, Environmental Science and Geophysical & Geotechnical Engineering. 
                 </h1>
                 <p>
-                     <!-- Section about research background -->
-                     I am currently pursuing a Doctorate at the 
-                     Department of Geosciences, University of Tuebingen, Germany. My Ph.D. project intends to integrate 
-                     paleoclimate modeling and stable isotope paleoaltimetry to realistically reconstruct the past 
-                     elevation of mountains. More specifically, I perform deep-time past climate simulations 
-                     (e.g., Miocene) using isotope-enabled General Circulation Models (GCM) to understand the spatial
-                      distribution and variability of the isotopic composition of precipitation in response to 
-                      paleoenvironment conditions to help correct the climate signal of the meteoric stable isotopic 
-                      imprints in geological archives such paedogenic carbonates. Aside from my research in climate and 
-                      tectonic interactions, I am also leading numerous projects such as empirical statistical 
-                      downscaling using machine learning, simulation of the response of the West African Moonson in 
-                      the late Cenozoic, understanding the non-stationarity of the relationship between Northern 
-                      Hemisphere atmospheric circulation patterns (e.g., North Atlantic Oscillation) and stable 
-                      isotopes in past and present climate, and development of precipitation nowcasting models 
-                      using deep learning framework and satellite images. I am well-established in scientific and 
-                      open-source model development with advanced statistical, machine learning, and AI techniques
-                       in high-performance computing environments such as HPCs and clouds (e.g., Oracle and AWS). 
-                       I am currently also doing an intensive full-stack software engineering internship at ALX 
-                       Africa and Holberton School of Programming. Overall, I trust the process!
+                     I bring a unique blend of engineering training and a PhD in climate modeling (computational geoscience), 
+                     combined with 6+ years of experience across both industry and research. My expertise lies in applying advanced 
+                     computational skills—machine learning, AI, physics-based modeling, numerical methods, cloud engineering, 
+                     high-performance computing, and advanced statistics—to solve complex, real-world problems.
 
+                    I have delivered impactful solutions in diverse fields, including mining, geophysics, water resource management, 
+                    geotechnical engineering, software development, climate & weather risk modelling and the reinsurance industry. Collaborating with multinational teams has made me highly adaptable, 
+                    culturally agile, and an effective team player.
+
+                    Currently, I specialize in reinsurance, applying multidisciplinary geospatial and analytical expertise to pricing
+                    parametric insurance products in the Property & Casualty (P&C) space. My focus spans natural catastrophes, agriculture, weather derivatives, 
+                    and business interruption risks. Alongside this, I am expanding my skills as an AWS Solutions Architect and exploring 
+                    Generative AI applications to drive actionable business insights.
                 </p>
                 <div class="btn-con">
-                    <a href="./pdfs/Boateng_17_08_2023_CV.pdf" class="main-btn"> <!-- add the link to the CV from google drive-->
+                <div class="contact-icon">
+                    <!-- GitHub first -->
+                    <a href="https://github.com/Dan-Boat" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <!-- LinkedIn second -->
+                    <a href="https://www.linkedin.com/in/daniel-boateng-dr-rer-nat-3892311b4/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+
+                    <!-- Twitter -->
+                    <a href="https://twitter.com/Dann_boat" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+
+                    <!-- ResearchGate (replaced Facebook) -->
+                    <a href="https://www.researchgate.net/profile/Daniel-Boateng-13?ev=hdr_xprf" target="_blank">
+                        <i class="fab fa-researchgate"></i>
+                    </a>
+                </div>
+                </div>
+
+                <div class="btn-con">
+                    <a href="./pdfs/Boateng_CV.pdf" class="main-btn">
                         <span class="btn-text">Download CV</span>
                         <span class="btn-icon"><i class="fas fa-download"></i></span>
                     </a>
-                    <div class="contact-icon">
-                        <a href="https://www.facebook.com/daniel.boateng.9655/" target="_blank">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-
-                        <a href="https://twitter.com/Dann_boat" target="_blank">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="https://github.com/Dan-Boat" target="_blank">
-                            <i class="fab fa-github"></i>
-                        </a>
-
-                        <a href="https://www.linkedin.com/in/daniel-boateng-3892311b4/" target="_blank">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                    </div>
-
-                </div>
-                <div>
-                    <h1 class="impressions">
-                    Impressions</h1>
-                </div>
-
-                <div class="slider">
-                    <span id="slide-1"></span>
-                    <span id="slide-2"></span>
-                    <span id="slide-3"></span>
-                    <!-- <span id="slide-4"></span>
-                    <span id="slide-5"></span>
-                    <span id="slide-6"></span> -->
-    
-                    <div class="image-container">
-                        <img src="/images/imp7.jpeg" class="slide" width="600" height="400" />
-                        <img src="/images/imp_2.jpeg" class="slide" width="600" height="400" />
-                        <img src="/images/imp_3.jpeg" class="slide" width="600" height="400" />
-                        <!-- <img src="/images/imp_4.jpg" class="slide" width="500" height="300" />
-                        <img src="/images/imp_5.jpg" class="slide" width="500" height="300" />
-                        <img src="/images/imp_6.jpeg" class="slide" width="500" height="300" /> -->
-                    </div>
-    
-                    <div class="buttons">
-                        <a href="#slide-1"></a>
-                        <a href="#slide-2"></a>
-                        <a href="#slide-3"></a>
-                        <!-- <a href="#slide-4"></a>
-                        <a href="#slide-5"></a>
-                        <a href="#slide-6"></a> -->
-                        
-                    </div>
-    
-                </div>
-
             </div>
 
         </div>
     </header>
-    <main>
-        <section class="container about" id="about">
-            <div class="main-title">
-                <h2>About <span>me</span><span class="bg-text">Trust the Process</span></h2>
+    
+    <section class="container about" id="about">
+        <div class="main-title">
+            <h2>About <span>me</span><span class="bg-text">Trust the Process</span></h2>
+        </div>
+        <div class="about-container">
+            <div class="left-about">
+                <h4>Information About <span>Me</span></h4>
+                <p>
+                    <span>Experience:</span> Parametric Reinsurance & Climate Risk Specialist | Geospatial Analytics Solutions Expert | Climate & Weather Data Scientist and Engineer |
+                    Environmental Scientist | Geotechnical & Geophysical Engineer | Python Software Developer | AWS Solutions Architect | Generative AI Enthusiast
+                    <br><br/> 
+                    I have contributed to developing and underwriting parametric and index-based
+                    reinsurance solutions and developing software platform for satellite‑based CO2 emissions and Wildfire burned area monitoring. Proven expertise in Natural Catastrophe modelling (Tropical Cyclone,
+                    Earthquake, Flooding, SCS, Wildfire, etc), climate risk assessment, and
+                    insurnace structures product development, leveraging deep knowledge of the (re)insurance value chain to design scalable, client‑focused solutions. Adept
+                    at using machine learning, spatial data engineering, satellite and meteorological data processing, and time series analysis to price and innovate
+                    climate‑linked insurance products.<br><br/> 
+
+                    Skilled in Python, R, SQL/NoSQL, and cloud platforms (AWS, Azure, GCP) with a passion for building robust tools that drive automation and analytics
+                    at scale. Successfully led the deployment of a cloud‑based parametric pricing platform and worked cross‑functionally with technical and
+                    commercial teams to deliver impactful solutions. An exceptional communicator and collaborator, capable of translating complex datasets into
+                    actionable insights for clients and stakeholders.<br><br/> 
+
+                    <span>Hobby:</span> I love to volunteer for societal-building activities, enjoy playing and watching (Chelsea FC Fun for life!) football, 
+                    am passionate about new technology, and like spending time with my family. I am mostly coding and reading about APIs
+                    for new challenges.
+                </p>
+                <div class="btn-con">
+                    <a href="#" class="main-btn">
+                        <span class="btn-text">Download CV</span>
+                        <span class="btn-icon"><i class="fas fa-download"></i></span>
+                    </a>
+                    <div class="contact-icon">
+                <!-- GitHub first -->
+                    <a href="https://github.com/Dan-Boat" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <!-- LinkedIn second -->
+                    <a href="https://www.linkedin.com/in/daniel-boateng-dr-rer-nat-3892311b4/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+
+                    <!-- Twitter -->
+                    <a href="https://twitter.com/Dann_boat" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+
+                    <!-- ResearchGate (replaced Facebook) -->
+                    <a href="https://www.researchgate.net/profile/Daniel-Boateng-13?ev=hdr_xprf" target="_blank">
+                        <i class="fab fa-researchgate"></i>
+                    </a>
+                </div>
             </div>
-            <div class="about-container">
-                <div class="left-about">
-                    <h4>Information About <span>Me</span></h4>
+        </div>
+            <div class="right-about">
+                <div class="about-item">
+                    <div class="abt-text">
+                        <p class="large-text">7+</p>
+                        <p class="small-text">Research & Industry<br /> Projects</p>
+                    </div>
+                </div>
+                <div class="about-item">
+                    <div class="abt-text">
+                        <p class="large-text">35+</p>
+                        <p class="small-text">Citations</p>
+                    </div>
+                </div>
+                <div class="about-item">
+                    <div class="abt-text">
+                        <p class="large-text">6+</p>
+                        <p class="small-text">Solution Deployed<br /> AWS & Azure</p>
+                    </div>
+                </div>
+                <div class="about-item">
+                    <div class="abt-text">
+                        <p class="large-text">6+</p>
+                        <p class="small-text">Published Papers <br /> in High Impact Journals </p>
+                    </div>
+                </div>
+
+                <div class="about-item">
+                    <div class="abt-text">
+                        <p class="large-text">7+</p>
+                        <p class="small-text">Conference Abstracts <br /> (e.g., EGU, AGU) </p>
+                    </div>
+                </div>
+
+                <div class="about-item">
+                    <div class="abt-text">
+                        <p class="large-text">4+</p>
+                        <p class="small-text"> Invited<br /> Talks </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-stats">
+            <h4 class="stat-title">Programming Skills</h4>
+            <div class="progress-bars">
+                <div class="progress-bar">
+                    <p class="prog-title">R</p>
+                    <div class="progress-con">
+                        <p class="prog-text">80%</p>
+                        <div class="progress">
+                            <span class="html"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <p class="prog-title">Python</p>
+                    <div class="progress-con">
+                        <p class="prog-text">95%</p>
+                        <div class="progress">
+                            <span class="css"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <p class="prog-title">Javascript</p>
+                    <div class="progress-con">
+                        <p class="prog-text">75%</p>
+                        <div class="progress">
+                            <span class="js"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <p class="prog-title">FORTRAN</p>
+                    <div class="progress-con">
+                        <p class="prog-text">60%</p>
+                        <div class="progress">
+                            <span class="react"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <p class="prog-title">MATLAB</p>
+                    <div class="progress-con">
+                        <p class="prog-text">80%</p>
+                        <div class="progress">
+                            <span class="node"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <p class="prog-title">C++</p>
+                    <div class="progress-con">
+                        <p class="prog-text">60%</p>
+                        <div class="progress">
+                            <span class="python"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="progress-bar">
+                    <p class="prog-title">Shell scripting</p>
+                    <div class="progress-con">
+                        <p class="prog-text">80%</p>
+                        <div class="progress">
+                            <span class="python"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="progress-bar">
+                    <p class="prog-title">React</p>
+                    <div class="progress-con">
+                        <p class="prog-text">55%</p>
+                        <div class="progress">
+                            <span class="python"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h4 class="stat-title">My Timeline</h4>
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <div class="tl-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <p class="tl-duration">2025.02 - present</p>
+                <h5>Data Scientist <span> - Hannover Re </span></h5>
+                <p>
+                    Geospatial data analysis, Natural catastrophe modeling, Parametric insurance pricing,
+                    Machine learning, Climate risk assessment, and Cloud computing
+                </p>
+            </div>
+
+
+            <div class="timeline-item">
+                <div class="tl-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <p class="tl-duration">2024.5 - 2025.01</p>
+                <h5>PostDoc (Lecturer)<span> - Department of Geoscience, University of Tübingen</span></h5>
+                <p>
+                    Teaching Climate Modelling and Climate Dynamics courses to Masters students in Applied and Environmental Geoscience (AEG), Physics,
+                    Mathematics and Computer Science departments.
+
+                </p>
+            </div>
+
+            <div class="timeline-item">
+                <div class="tl-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <p class="tl-duration">2021.04 - 2024.04</p>
+                <h5>Ph.D (Dr. rer.nat in Computational Geoscience)<span> - Department of Geoscience, University of Tübingen</span></h5>
+                <p>
+                    Climate modeling, climate dynamics,Machine learning,  Empirical statistical downscaling, 
+                    climate and topography interactions and stable isotope modelling
+
+                </p>
+            </div>
+
+            <div class="timeline-item">
+                <div class="tl-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <p class="tl-duration">2023.07 - 2024.03</p>
+                <h5>Data Scientist & Engineer<span> - Equitech Futures, Chicago</span></h5>
+                <p>
+                    Platform engineer for analytic solution of atmospheric CO2 emissions for countries and regions using NASA satellite XCO2 measurements
+
+                </p>
+            </div>
+
+            <div class="timeline-item">
+                <div class="tl-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <p class="tl-duration">2019 - 2021</p>
+                <h5>Python Software developer<span> - Environmental Physics Group, 
+                    University of Tübingen</span></h5>
+                <p>
+                    Developed temperature calibration software on Raspi environment: flight temperature sensor control,
+                    voltage and pressure control into the calibration chamber and data analysis
+                </p>
+            </div>
+            <div class="timeline-item">
+                <div class="tl-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <p class="tl-duration">2018 - 2021</p>
+                <h5>Research Assistant<span> - Earth surface process Group, 
+                    University of Tübingen
+                </span></h5>
+                <p>
+                    Sceintific python module development: pyESD (empirical statistical downscaling),
+                    pyClimat (Visualizaition tools for climate model output) and running climate 
+                    simulations on Linux High Performace Computing environment
+
+                </p>
+            </div>
+            <div class="timeline-item">
+                <div class="tl-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <p class="tl-duration">2019 - 2020</p>
+                <h5>Research Assistant<span> -Max Phlack Institute of Development Biology</span></h5>
+                <p>
+                    Running bioelectric reactor to isolate H2 producing bactria: Analytical chemistry,
+                    molecular biology and biotechnology techniques
+                </p>
+            </div>
+            <div class="timeline-item">
+                <div class="tl-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <p class="tl-duration">2017 - 2020</p>
+                <h5>Master of Sceince in Applied and Environmental Geoscience (AEG)<span> -
+                     University of Tübingen</span></h5>
+                <p>
+                    Specializaiton in Hydrogeological and climate modeling.
+                    Master thesis: Prediction of precipitation response to 21st century climate change
+                    in the Ammer catchment (South-west Germany): Using Machine Learning algorithms 
+                    <br /> <br />
+                    <span class="highlight">Grade:</span> First Class
+                </p>
+            </div>
+            <div class="timeline-item">
+                <div class="tl-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <p class="tl-duration">2017 - present</p>
+                <h5>Teaching and Research Assistant<span> - Department of Geological Eng., KNUST-Ghana</span></h5>
+                <p>
+                    Assisting lectures in Geotechnical engineering, Geophysics, Rock Mechanics, Hydrogeology, 
+                    and computer programming
+                </p>
+            </div>
+
+            <div class="timeline-item">
+                <div class="tl-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <p class="tl-duration">2017 - present</p>
+                <h5>Bachelors in Geological Engineering<span> - Department of Geological Eng., KNUST-Ghana</span></h5>
+                <p>
+                    Bachelor thesis: Mapping of subsurface fracture characteristics using geoelectrics
+                    <br /> <br />
+                    <span class="highlight">Grade:</span> First Class
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Blog Section -->
+    <section class="container" id="blog">
+        <div class="main-title">
+            <h2><span>My Blog</span></h2>
+        </div>
+        
+        <div class="blog-container">
+            <div class="blog-nav">
+                <h3>Blog Posts</h3>
+                <ul class="blog-list">
+                    <li class="blog-list-item active" data-target="blog-2025-1">2025.1</li>
+                    <li class="blog-list-item" data-target="blog-2025-2">2025.2</li>
+                    <li class="blog-list-item" data-target="blog-2025-3">2025.3</li>
+                    <li class="blog-list-item" data-target="blog-2025-4">2025.4</li>
+                </ul>
+            </div>
+            
+            <div class="blog-content">
+
+
+                <!--start the blog editing from here-->  
+                <!-- Blog Post 1 -->
+                <div class="blog-post active" id="blog-2025-1">
+                    <h2>Understanding Parametric Insurance: A Comprehensive Guide</h2>
+                    <span class="blog-meta">Posted on January 15, 2025 | Parametric Insurance</span>
+                    <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Parametric Insurance">
+                    <p>Parametric insurance represents a revolutionary approach to risk transfer that differs fundamentally from traditional indemnity-based insurance. Instead of compensating for actual losses incurred, parametric insurance pays out based on the occurrence of a predefined event that meets specific parameter thresholds.</p>
+                    
+                    <p>These parameters are typically based on objective data sources such as weather station measurements, seismic activity readings, or satellite imagery. For example, a parametric drought insurance product might trigger payouts when rainfall measurements fall below a certain threshold for a predetermined period.</p>
+                    
+                    <h3>Key Advantages of Parametric Insurance</h3>
+                    <p>One of the most significant benefits of parametric insurance is the speed of payout. Since claims adjustment isn't necessary—the payout is determined automatically by the triggering event—funds can be disbursed within days rather than months. This rapid response is particularly valuable in disaster scenarios where immediate liquidity is crucial.</p>
+                    
+                    <p>Additionally, parametric insurance reduces moral hazard and adverse selection problems that plague traditional insurance. Because the payout isn't based on actual losses, there's no incentive for policyholders to exaggerate claims or engage in risky behavior post-event.</p>
+                    
+                    <p>From a programming perspective, implementing parametric insurance solutions requires robust data pipelines, sophisticated trigger modeling, and secure smart contract execution. In upcoming posts, I'll dive into the technical implementation details using Python and blockchain technologies.</p>
+                </div>
+                
+                <!-- Blog Post 2 -->
+                <div class="blog-post" id="blog-2025-2">
+                    <h2>Building a Parametric Insurance Model with Python</h2>
+                    <span class="blog-meta">Posted on February 3, 2025 | Programming, Python</span>
+                    <img src="./img/blog1.jpg" alt="Python Programming">
+                    <p>In this technical deep dive, we'll explore how to build a basic parametrich insurance model using Python. This model will focus on rainfall-based parametric insurance for agricultural applications—a common use case in developing countries where traditional crop insurance is often unavailable or unaffordable.</p>
+                    
+                    <p>We'll start by importing necessary libraries:</p>
+                    
+                    <pre><code>import pandas as pd
+                    import numpy as np
+                    import matplotlib.pyplot as plt
+                    from scipy import stats
+                    from datetime import datetime, timedelta</code></pre>
+                    
+                    <p>Next, we'll simulate historical rainfall data for our hypothetical region. In a real-world scenario, you would obtain this data from weather stations or satellite sources:</p>
+                    
+                    <pre><code># Generate synthetic rainfall data
+                    np.random.seed(42)
+                    dates = pd.date_range(start='2010-01-01', end='2024-12-31', freq='D')
+                    rainfall = np.random.gamma(shape=2, scale=2, size=len(dates))
+                    # Add seasonality
+                    seasonality = 5 * np.sin(2 * np.pi * dates.dayofyear / 365.25)
+                    rainfall = np.maximum(0, rainfall + seasonality)</code></pre>
+                    
+                    <p>We then define our trigger parameters. For this example, let's assume our insurance product pays out when cumulative rainfall over a 30-day period falls below 50mm:</p>
+                    
+                    <pre><code># Calculate 30-day rolling sum
+                    rolling_sum = pd.Series(rainfall, index=dates).rolling(30).sum()
+
+                    # Define trigger condition
+                    trigger_threshold = 50  # mm
+                    trigger_events = rolling_sum < trigger_threshold</code></pre>
+                    
+                    <p>In the next installment, we'll expand this model to include payout calculations, premium pricing, and risk assessment components.</p>
+                </div>
+                
+                <!-- Blog Post 3 -->
+                <div class="blog-post" id="blog-2025-3">
+                    <h2>Climate Risk Modeling for Parametric Products</h2>
+                    <span class="blog-meta">Posted on March 12, 2025 | Climate Risk, Modeling</span>
+                    <img src="https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Climate Risk Modeling">
+                    <p>Accurately modeling climate risk is fundamental to developing sustainable parametric insurance products. Unlike traditional insurance, which relies on historical loss data, parametric insurance requires a deep understanding of the physical triggers and their probability distributions.</p>
+                    
+                    <p>Climate risk modeling for parametric insurance involves several key steps:</p>
+                    
+                    <ol>
+                        <li><strong>Hazard Analysis:</strong> Identifying and quantifying the physical hazards (drought, flood, hurricane, etc.)</li>
+                        <li><strong>Exposure Assessment:</strong> Determining what assets or populations are vulnerable to these hazards</li>
+                        <li><strong>Trigger Design:</strong> Establishing objective, measurable parameters that correlate well with actual losses</li>
+                        <li><strong>Pricing:</strong> Calculating premiums based on the probability of trigger events and expected payouts</li>
+                    </ol>
+                    
+                    <p>One of the challenges in climate risk modeling is accounting for climate change. Historical data may no longer be representative of future conditions, requiring the use of climate projections and scenario analysis.</p>
+                    
+                    <p>Advanced techniques like extreme value theory (EVT) are particularly useful for modeling rare but catastrophic events. EVT helps us estimate the probability of events beyond our historical record, which is crucial for pricing insurance for severe weather events.</p>
+                    
+                    <p>In my next post, I'll demonstrate how to implement a generalized extreme value distribution in Python to model extreme rainfall events for parametric flood insurance.</p>
+                </div>
+                
+                <!-- Blog Post 4 -->
+                <div class="blog-post" id="blog-2025-4">
+                    <h2>Implementing Smart Contracts for Parametric Insurance</h2>
+                    <span class="blog-meta">Posted on April 5, 2025 | Blockchain, Smart Contracts</span>
+                    <img src="https://images.unsplash.com/photo-1639762681057-408e52192e55?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Smart Contracts">
+                    <p>Blockchain technology and smart contracts offer exciting possibilities for parametric insurance. By automating trigger verification and payout execution, smart contracts can further reduce administrative costs and delay, making parametric insurance even more efficient.</p>
+                    
+                    <p>In this post, we'll explore a basic implementation of a parametric insurance smart contract using Solidity, the programming language for Ethereum blockchain.</p>
+                    
+                    <p>First, we define our contract structure:</p>
+                    
+                    <pre><code>pragma solidity ^0.8.0;
+
+                contract ParametricInsurance {
+                    address public insurer;
+                    address public policyholder;
+                    uint public premium;
+                    uint public payoutAmount;
+                    uint public startDate;
+                    uint public endDate;
+                    bool public triggered;
+                    bool public paid;
+                    
+                    // Oracle address for external data
+                    address public oracle;
+                    
+                    constructor(address _policyholder, uint _premium, uint _payoutAmount, 
+                                uint _startDate, uint _endDate, address _oracle) {
+                        insurer = msg.sender;
+                        policyholder = _policyholder;
+                        premium = _premium;
+                        payoutAmount = _payoutAmount;
+                        startDate = _startDate;
+                        endDate = _endDate;
+                        oracle = _oracle;
+                        triggered = false;
+                        paid = false;
+                    }
+    
+                    // Additional functions would be implemented here
+                    }</code></pre>
+                    
+                    <p>The contract would need functions to:</p>
+                    <ul>
+                        <li>Check if the trigger condition has been met (typically via an oracle)</li>
+                        <li>Execute the payout if triggered</li>
+                        <li>Handle refunds if the policy expires without a trigger event</li>
+                        <li>Manage policy cancellation and adjustments</li>
+                    </ul>
+                    
+                    <p>Implementing such a system requires careful consideration of security, data reliability, and regulatory compliance. Oracles—services that provide external data to blockchain networks—must be highly reliable and tamper-proof to ensure the integrity of the insurance product.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="container" id="publications">
+        <div class="blogs">
+            <div class="publications-list"> 
+                <h4><span>Publications (Peer reviewed)</span></h4>
+                <ul>
+
+                <li><a href="https://www.sciencedirect.com/science/article/pii/S0921818125001171?via%3Dihub" target="_blank"><span>Boateng, D.</span> et. al.: Refining paleoelevation 
+                    estimates of the European Alps by simulating Middle Miocene
+                    climate and δ18O responses to diachronous surface uplift scenarios. Global and Planetary Change, 2025, 
+        
+                </a></li>
+
+                <li><a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024JD040748" target="_blank"><span>Boateng, D.</span> et. al.: West African Monsoon Dynamics and Its
+                     Control on the Stable Oxygen Isotopic Composition of Precipitation in the Late Cenozoic. JGR Atmospheres, 2024
+                </a></li>
+
+                <li><a href="https://gmd.copernicus.org/articles/16/6479/2023/" target="_blank"><span>Boateng, D.</span> and Mutz, S. G.: pyESDv1. 0.1: An open-source Python framework for
+                    empirical-statistical downscaling of climate information, Geoscientific Model Development, 2023.
+                </a></li>
+
+                <li><a href="https://esd.copernicus.org/articles/14/1183/2023/" target="_blank"><span>Boateng, D.</span>, et. al.: The effects of diachronous surface uplift of the European Alps on regional climate and the oxygen
+                    isotopic composition of precipitation, Earth System Dynamics, 2023.
+                </a></li>
+
+                <li><a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022PA004442" target="_blank"> Botsyun et. al (inc <span>Boateng, D.</span>): Middle Miocene climate and stable oxygen isotopes in Europe based on 
+                    numerical modeling, Paleoceanography and Paleoclimatology, 37, e2022PA004442, 2022.
+                </a></li>
+                <!-- Add more publications as needed -->
+                </ul>
+            </div>
+        
+          <div class="publications-list">
+            <h4><span>Conference Abstracts</h4></span>
+            <ul>
+              <li><a href="#" target="_blank"><span>Boateng, D.</span>, Mutz, S. G., and Ehlers, T. A.: How would the eastward propagation 
+                of surface uplift in the Alps affect regional climate and isotopic composition of precipitation?,
+                 EGU22-843, 2022.
+            </a></li>
+              <li><a href="#" target="_blank"><span>Boateng, D.</span>, Mutz, S. G., and Ehlers, T. A.: The influence of 
+                North Atlantic Oscillation on oxygen and hydrogen stable isotopes in precipitation of the Late Cenozoic: 
+                implications on paleoenvironment reconstructions, Copernicus Meetings, 2023.
+            </a></li>
+              <li><a href="#" target="_blank">Mutz, S. G. and <span>Boateng, D.</span>: pyESD: An open-source Python framework for 
+                empirical-statistical downscaling of climate information, Copernicus Meetings, 2023.
+            </a></li>
+
+            <li><a href="#" target="_blank">Sedhu-Madhavan, A., Mutz, S. G., <span>Boateng, D.</span>, 
+                and Ehlers, T. A.: A model-based exploration of mid-Holocene anti-phase climate variations in the Central Andes,
+                 Copernicus Meetings, 2023.
+
+            </a></li>
+
+            <li><a href="#" target="_blank">Mutz, S. G., <span>Boateng, D.</span>, and Mohadjer, S.: 
+                INTEGRATE: A higher-education teaching package for climate science, EGU22-864, 2022.
+            </a></li>
+
+            <li><a href="#" target="_blank">Arthur, F., <span>Boateng, D.</span>, and Baidu, M.: 
+                Prediction of Rainfall Response to the 21st-century Climate Change in Ghana using Machine Learning 
+                Empirical Statistical Downscaling, 2022, H25A-04, 2022.
+
+            </a></li>
+
+            <li><a href="#" target="_blank">Arthur, F., <span>Boateng, D.</span>, and Baidu, M.: 
+                The Evolution of African Monsoons and its Impacts on Precipitation Seasonality in the Cenozoic and future
+                 Climate Change, 2022, PP42D-1147, 2022.
+
+            </a></li>
+
+              <!-- Add more publications as needed -->
+            </ul>
+          </div>
+        </div>
+    </section>
+    
+    <section class="container contact" id="contact">
+        <div class="contact-container">
+            <div class="main-title">
+                <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
+            </div>
+            <div class="contact-content-con">
+                <div class="left-contact">
+                    <h4>Contact me here</h4>
                     <p>
-                        <!-- Inoformation about myself, personal and research <-->
-                        <span>Research:</span> I am a Research Associate in the Earth System Dynamics group 
-                        (leader: Prof. Todd Ehlers at the University of Glasgow) and Sustainable future paths and Climate Variability 
-                        group (SPACY) with Prof. Kira Rehfeld as the leader. I perform climate simulations using isotope-enabled General 
-                        Circulation Models (e.g., MPI-ESM), develop scientific software using machine learning algorithms and advanced statistics, 
-                        and manage numerous projects such as ANDeeL (Precipitation Nowcasting deep learning framework for West Africa), 
-                        pyESD (Empirical Statistical Downscaling), NAO-NONSTAT (understanding the non-stationarity of the North Atlantic 
-                        Oscillation influence on regional climate) and others. I am interested in solving real-world problems with my
-                        scientific understanding and technical skills.<br><br/> 
-                        <span>Hobby:</span> I love to volunteer for societal-building activities, enjoy playing and watching football, 
-                        am passionate about new technology (AI monster), and like spending time with my family. I am mostly coding and reading about APIs
-                        for new challenges.
+                        I think am very friendly and nice enough to work with everyone or team. 
+                        I am a problem solver and have passionate about open source software 
+                        development. I mostly reply Emails within 3 hrs. Kindly link up for 
+                        collaboration or information related to any of my projects. 
                     </p>
-                    <div class="btn-con">
-                        <a href="./pdfs/Boateng_17_08_2023_CV.pdf" class="main-btn"> <!-- add the link to the CV from google drive-->
-                            <span class="btn-text">Download CV</span>
-                            <span class="btn-icon"><i class="fas fa-download"></i></span>
-                        </a>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Location</span>
+                            </div>
+                            <p>
+                                : Tübingen, Germany 
+                            </p>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon">
+                                <i class="fas fa-envelope"></i>
+                                <span>Email</span>
+                            </div>
+                            <p>
+                                <span>: dannboateng@gmail.com</span>
+                            </p>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon">
+                                <i class="fas fa-user-graduate"></i>
+                                <span>Education</span>
+                            </div>
+                            <p>
+                                <span>: Department of Geoscience, University of Tübingen </span>
+                            </p>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon">
+                                <i class="fas fa-user-graduate"></i>
+                                <span>Mobile Number</span>
+                            </div>
+                            <p>
+                                <span>: +491783012296</span>
+                            </p>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon">
+                                <i class="fas fa-globe-africa"></i>
+                                <span>Languages</span>
+                            </div>
+                            <p>
+                                <span>: German (Intermediate), English (Advance), Twi (Advance)</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contact-icons">
                         <div class="contact-icon">
                             <a href="https://www.facebook.com/daniel.boateng.9655/" target="_blank">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
-    
                             <a href="https://twitter.com/Dann_boat" target="_blank">
                                 <i class="fab fa-twitter"></i>
                             </a>
                             <a href="https://github.com/Dan-Boat" target="_blank">
                                 <i class="fab fa-github"></i>
                             </a>
-    
                             <a href="https://www.linkedin.com/in/daniel-boateng-3892311b4/" target="_blank">
                                 <i class="fab fa-linkedin"></i>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="right-about">
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">5+</p>
-                            <p class="small-text">Research <br /> Projects</p>
+                <div class="right-contact">
+                    <form action="#" method="POST">
+                        <div class="input-control i-c-2"> 
+                            <input type="text" required placeholder="YOUR NAME">
+                            <input type="email" required placeholder="YOUR EMAIL">
                         </div>
-                    </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">12+</p>
-                            <p class="small-text">Citations</p>
-                        </div>
-                    </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">2+</p>
-                            <p class="small-text">Preprint<br />Papers</p>
-                        </div>
-                    </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">3+</p>
-                            <p class="small-text">Published Papers <br /> in High Impact Journals </p>
-                        </div>
-                    </div>
-
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">7+</p>
-                            <p class="small-text">Conference Abstracts <br /> (e.g., EGU, AGU) </p>
-                        </div>
-                    </div>
-
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">3+</p>
-                            <p class="small-text"> Invited<br /> Talks </p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="about-stats">
-                <h4 class="stat-title">Programming Skills</h4>
-                <div class="progress-bars">
-                    <div class="progress-bar">
-                        <p class="prog-title">html5</p>
-                        <div class="progress-con">
-                            <p class="prog-text">80%</p>
-                            <div class="progress">
-                                <span class="html"></span>
+                        <div>
+                            <div class="input-control">
+                                <input type="text" required placeholder="ENTER SUBJECT">
                             </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">CSS3</p>
-                        <div class="progress-con">
-                            <p class="prog-text">80%</p>
-                            <div class="progress">
-                                <span class="css"></span>
+
+                            <div class="input-control">
+                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
                             </div>
+ 
                         </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Javascript</p>
-                        <div class="progress-con">
-                            <p class="prog-text">75%</p>
-                            <div class="progress">
-                                <span class="js"></span>
-                            </div>
+                        <div>
+                            <button style="color:black; font: bold; font-size: 25px;"
+                             type="submit">Submit</button>
                         </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">FORTRAN</p>
-                        <div class="progress-con">
-                            <p class="prog-text">50%</p>
-                            <div class="progress">
-                                <span class="react"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">MATLAB</p>
-                        <div class="progress-con">
-                            <p class="prog-text">80%</p>
-                            <div class="progress">
-                                <span class="node"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Python</p>
-                        <div class="progress-con">
-                            <p class="prog-text">95%</p>
-                            <div class="progress">
-                                <span class="python"></span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="progress-bar">
-                        <p class="prog-title">Shell scripting</p>
-                        <div class="progress-con">
-                            <p class="prog-text">80%</p>
-                            <div class="progress">
-                                <span class="python"></span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="progress-bar">
-                        <p class="prog-title">C programming</p>
-                        <div class="progress-con">
-                            <p class="prog-text">65%</p>
-                            <div class="progress">
-                                <span class="python"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <h4 class="stat-title">My Timeline</h4>
-            <div class="timeline">
-
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2023.07 - present</p>
-                    <h5>Software Engineer | Research Fellow <span> - Equitech Futures | USA </span></h5>
-                    <p>
-                        Climate data science: Keras/tensorflow, sklearn, pandas, xarray (dask, xbatch), matplotlib, cartopy, seaborn
-                        Data engineering: Docker, Kafka, Terraform, Postgress, Spark 
-                        Database: Geoparquet
-                        Skills: Carbon action planning, Statistics, AI prompt engineering (GPT plugin)
                         
-                    </p>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2022.08 - 2023.09</p>
-                    <h5>Software Engineer Intern <span> - ALX-Africa | Holberton School Of Programming </span></h5>
-                    <p>
-                        Languages: Python (Django, flask, sqlalchemy), Java, HTML/CSS, C, Bash, and SAS
-                        Data pipeline: Docker, Kafka, Terraform, Postgress, Spark 
-                        Database: SQL, MangoDB
-                        Skills: Data Structures and Algorithm, Graphic, Unix programming, Reverse engineering, security and infrastructure design and management
-                        
-                    </p>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2021 - present</p>
-                    <h5>Ph.D candidate<span> - Department of Geoscience, University of Tübingen</span></h5>
-                    <p>
-                        Paleoclimate modeling, climate dynamics, Empirical statistical downscaling, 
-                        and stable isotope paleoaltimetry
-
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2019 - 2021</p>
-                    <h5>Python Software developer<span> - Environmental Physics Group, 
-                        University of Tübingen</span></h5>
-                    <p>
-                        Developed temperature calibration software on Raspi environment: flight temperature sensor control,
-                        voltage and pressure control into the calibration chamber and data analysis
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2018 - 2021</p>
-                    <h5>Research Assistant<span> - Earth surface process Group, 
-                        University of Tübingen
-                    </span></h5>
-                    <p>
-                        Sceintific python module development: pyESD (empirical statistical downscaling),
-                        pyClimat (Visualizaition tools for climate model output) and running climate 
-                        simulations on Linux High Performace Computing environment
-
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2019 - 2020</p>
-                    <h5>Research Assistant<span> -Max Phlack Institute of Development Biology</span></h5>
-                    <p>
-                        Running bioelectric reactor to isolate H2 producing bactria: Analytical chemistry,
-                        molecular biology and biotechnology techniques
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2017 - 2020</p>
-                    <h5>Master of Sceince in Applied and Environmental Geoscience (AEG)<span> -
-                         University of Tübingen</span></h5>
-                    <p>
-                        Specializaiton in Hydrogeological and climate modeling.
-                        Master thesis: Prediction of precipitation response to 21st century climate change
-                        in the Ammer catchment (South-west Germany): Using Machine Learning algorithms 
-                        <br /> <br />
-                        <span class="highlight">Grade:</span> First Class
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2017 - present</p>
-                    <h5>Teaching and Research Assistant<span> - Department of Geological Eng., KNUST-Ghana</span></h5>
-                    <p>
-                        Assisting lectures in Geotechnical engineering, Geophysics, Rock Mechanics, Hydrogeology, 
-                        and computer programming
-                    </p>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2017 - present</p>
-                    <h5>Bachelors in Geological Engineering<span> - Department of Geological Eng., KNUST-Ghana</span></h5>
-                    <p>
-                        Bachelor thesis: Mapping of subsurface fracture characteristics using geoelectrics
-                        <br /> <br />
-                        <span class="highlight">Grade:</span> First Class
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section class="container" id="portfolio">
-            <div class="main-title">
-                <h2><span>Research Interests</span></h2>
-            </div>
-            <div class="research-point">
-                <div class="research-info">
-                    <h3>1. Climate and Tectonic Interactions</h3>
-                    <img src="./img/climate_and_tect.png" alt="Climate and Tectonic Interactions" class="research-image">
-
-                    <p>
-                        The topographic evolution of mountain ranges over geological times is driven by geodynamic processes, such as lithospheric
-                        delamination and crustal thickening, as well as surface processes induced by climate variability. The vertical and horizontal
-                        displacement of orogens also affects climate patterns and dynamics (e.g., orographic precipitation and rain shadow). 
-                        My interest is to contribute to the reconstruction of the paleoenvironment by gaining a detailed understanding of the 
-                        complex synergies between climate and tectonics. For instance, knowledge about the past elevation of mountain ranges
-                        contributes to the understanding of geodynamic evolution, paleoclimate dynamics, and the distribution of biodiversity.
-                        To contribute to accurate paleoelevation reconstruction, I perform paleoclimate simulations using an isotope-enabled
-                        General Circulation Model (GCM) to quantify the isotopic signal due to surface uplift and paleoenvironmental changes,
-                        such as atmospheric CO2 levels, paleogeography, orbital forcing, and ocean circulations.
-                        The simulated isotopic patterns are combined with the stable isotope paleoaltimetry technique to estimate past elevations.
-                        On the other hand, I am also interested in understanding how surface uplift affects atmospheric circulation and regional
-                        climate patterns. My work has contributed to the understanding of the evolution of the European Alps' geodynamics under
-                        the German Research Foundation-funded SSP project 4DMB (http://www.spp-mountainbuilding.de/).<br>
-                    </p>
-                    <ul><span>Selected papers:</span>
-                        <li><span>Boateng, D.</span>, Mutz, S. G., and Ehlers, T. A.: How would the eastward propagation of surface uplift in the Alps affect
-                            regional climate and isotopic composition of precipitation?, EGU22-843, <a href="https://doi.org/10.5194/egusphere-egu22-843">https://doi.org/10.5194/egusphere-egu22-843</a>,
-                            2022a.</li>
-                
-                        <li>S., Ehlers, T. A., Koptev, A., Böhme, M., Methner, K., Risi, C., Stepanek, C., Mutz, S. G., Werner, M., and <span>Boateng, D.</span> Middle Miocene climate and stable oxygen isotopes in Europe based on numerical modeling, Paleoceanography and Paleoclimatology, 37, e2022PA004442, 2022.</li>
-                        
-                        <li><span>Boateng, D.</span>, Mutz, S. G., Ballian, A., Meijers, M. J., Methner, K., Botsyun, S., Mulch, A., and Ehlers, T. A.: The effects of diachronous surface uplift of the European Alps on regional climate and the oxygen isotopic composition of precipitation, Earth System Dynamics Discussions, 1–45, 2022b.</li>
-                        
-                        <li><span>Boateng, D.</span>, Mutz, S. G., and Ehlers, T. A.: The influence of North Atlantic Oscillation on oxygen and hydrogen stable isotopes in precipitation of the Late Cenozoic: implications for paleoenvironment reconstructions, Copernicus Meetings, <a href="https://doi.org/10.5194/egusphere-egu23-1752">https://doi.org/10.5194/egusphere-egu23-1752</a>, 2023.</li>
-                    </ul>
-                </div>
-                
-            </div>
-            <div class="research-point">
-                <div class="research-info">
-                    <h3>2. Atmospheric and Climate Dynamics in the Late Cenozoic</h3>
-                    <img src="./img/naopng.png" alt="Atmospheric and Climate Dynamics" class="research-image">
-                    <p>
-
-                    </p>
-                </div>
-            </div>
-            <div class="research-point">
-                <div class="research-info">
-                    <h3>3. Empirical Statistical Downscaling of Climate Information</h3>
-                    <img src="./img/outline.png" alt="Empirical Statistical Downscaling" class="research-image">
-                    <p>
-                        
-                    </p>
-                </div>
-            </div>
-            <div class="research-point">
-                <div class="research-info">
-                    <h3>4. Scientific Software Projects</h3>
-                    <img src="./img/ghana_model.png" alt="Scientific software" class="research-image">
-                    <p>
-
-                    </p>
-                </div>
-            </div>
-        </section>
-        
-        <section class="container" id="blogs">
-            <div class="blogs">
-                
-                <div class="publications-list"> 
-                    <h4><span>Publications (Under review)</span></h4>
-                    <h5><span>(Under review)</span></h5>
-                    <ul>
-                        <li>
-                            <span> Boateng, D.</span> Aryee, J. N. A., Baidu, M., Arthur, F., and Mutz, S. G.: West African Monsoon dynamics 
-                            and its control on stable oxygen isotopic composition of precipitation in the Late Cenozoic (in JGR Atmosphere) 
-                            <a href="https://doi.org/10.22541/essoar.170560461.19493225/v1"><span>(Preprint)</span></a>
-
-                        </li>
-
-                        <li>
-                            Wilby R. L, Basarin, B, <span> Boateng, D.</span>, Josic, M: A workflow for benchmarking added value by new 
-                            statistical downscaling methods (Journal of Extreme Events)  
-                        </li>
-                    </ul>
-                    <h5><span>(Peer review | published)</span></h5>
-                    <ul>
-                        <li>
-                            <span>Boateng, D.</span> and Mutz, S. G.: pyESDv1. 0.1: An open-source Python framework for
-                            empirical-statistical downscaling of climate information, Geoscientific Model Development (GMD), 
-                            2023. <a href="./pdfs/gmd-2023-67.pdf"><span>(PDF)</span></a>
-                        
-                        </li>
-                        <li>
-                            
-                                <span>Boateng, D.</span>, Mutz, S. G., Ballian, A., Meijers, M. J., Methner, K., Botsyun, S.,
-                                Mulch, A., and Ehlers, T. A.: The effects of diachronous surface uplift of the European Alps on regional climate and the oxygen
-                                isotopic composition of precipitation, Earth System Dynamics (ESD), 2023. <a href="./pdfs/esd-2022-48.pdf">
-                                    <span>(PDF)</span>
-                                </a>
-                        
-                        </li>
-                        <li>
-                            
-                                Botsyun, S., Ehlers, T. A., Koptev, A., Böhme, M., Methner, K., Risi, C., 
-                                Stepanek, C., Mutz, S. G., Werner, M., and <span>Boateng, D.</span> Middle Miocene climate and stable oxygen isotopes in Europe based on 
-                                numerical modeling, Paleoceanography and Paleoclimatology (JGR) 2022. <a href="./pdfs/Paleo_agu2022.pdf"><span>(PDF)</span></a>
-                        
-                        </li>
-                        <!-- Add more publications as needed -->
-                    </ul>
-                </div>
-            
-              <div class="publications-list">
-                <h4><span>Conference Abstracts</h4></span>
-                <ul>
-                    <li>
-
-                    <span>Boateng, D.</span>, Mutz, S. G., and Ehlers, T. A.: How would the eastward propagation 
-                    of surface uplift in the Alps affect regional climate and isotopic composition of precipitation?,
-                     EGU22-843, 2022. <a href="https://doi.org/10.5194/egusphere-egu22-843"><span>(PDF)</span></a>
-
-                    </li>
-                    <li>
-                    <span>Boateng, D.</span>, Mutz, S. G., and Ehlers, T. A.: The influence of 
-                    North Atlantic Oscillation on oxygen and hydrogen stable isotopes in precipitation of the Late Cenozoic: 
-                    implications on paleoenvironment reconstructions, Copernicus Meetings, 2023. <a href="https://doi.org/10.5194/egusphere-egu23-1752">
-                        <span>(PDF)</span>
-                    </a>
+                    </form>
                     
-                    </li>
-                  <li><a href="https://doi.org/10.5194/egusphere-egu23-7470" target="_blank">Mutz, S. G. and <span>Boateng, D.</span>: pyESD: An open-source Python framework for 
-                    empirical-statistical downscaling of climate information, Copernicus Meetings, 2023.
-                </a></li>
-
-                <li><a href="https://doi.org/10.5194/egusphere-egu23-2372" target="_blank">Sedhu-Madhavan, A., Mutz, S. G., <span>Boateng, D.</span>, 
-                    and Ehlers, T. A.: A model-based exploration of mid-Holocene anti-phase climate variations in the Central Andes,
-                     Copernicus Meetings, 2023.
-
-                </a></li>
-
-                <li><a href="https://doi.org/10.5194/egusphere-egu22-864" target="_blank">Mutz, S. G., <span>Boateng, D.</span>, and Mohadjer, S.: 
-                    INTEGRATE: A higher-education teaching package for climate science, EGU22-864, 2022.
-                </a></li>
-
-                <li><a href="https://ui.adsabs.harvard.edu/abs/2022AGUFM.H25A..04A/abstract" target="_blank">Arthur, F., <span>Boateng, D.</span>, and Baidu, M.: 
-                    Prediction of Rainfall Response to the 21st-century Climate Change in Ghana using Machine Learning 
-                    Empirical Statistical Downscaling, 2022, H25A-04, 2022.
-
-                </a></li>
-
-                <li><a href="https://ui.adsabs.harvard.edu/abs/2022AGUFMPP42D1147A/abstract" target="_blank">Arthur, F., <span>Boateng, D.</span>, and Baidu, M.: 
-                    The Evolution of African Monsoons and its Impacts on Precipitation Seasonality in the Cenozoic and future
-                     Climate Change, 2022, PP42D-1147, 2022.
-
-                </a></li>
-
-                  <!-- Add more publications as needed -->
-                </ul>
-              </div>
-            </div>
-
-        </section>
-        <section class="container contact" id="contact">
-            <div class="contact-container">
-                <div class="main-title">
-                    <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
-                </div>
-                <div class="contact-content-con">
-                    <div class="left-contact">
-                        <h4>Contact me here</h4>
-                        <p>
-                            I think am very friendly and nice enough to work with everyone or team. 
-                            I am a problem solver and have passionate about open source software 
-                            development. I mostly reply Emails within 3 hrs. Kindly link up for 
-                            collaboration or information related to any of my projects. 
-                        </p>
-                        <div class="contact-info">
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                    <span>Location</span>
-                                </div>
-                                <p>
-                                    : Tübingen, Germany 
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-envelope"></i>
-                                    <span>Email</span>
-                                </div>
-                                <p>
-                                    <span>: dannboateng@gmail.com</span>
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-user-graduate"></i>
-                                    <span>Education</span>
-                                </div>
-                                <p>
-                                    <span>: Department of Geoscience, University of Tübingen </span>
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-user-graduate"></i>
-                                    <span>Mobile Number</span>
-                                </div>
-                                <p>
-                                    <span>: +491783012296</span>
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-globe-africa"></i>
-                                    <span>Languages</span>
-                                </div>
-                                <p>
-                                    <span>: German (Intermediate), English (Advance), Twi (Advance)</span>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="contact-icons">
-                            <div class="contact-icon">
-                                <a href="https://www.facebook.com/daniel.boateng.9655/" target="_blank">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="https://twitter.com/Dann_boat" target="_blank">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="https://github.com/Dan-Boat" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                                <a href="https://www.linkedin.com/in/daniel-boateng-3892311b4/" target="_blank">
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="right-contact">
-                        <form action="https://getform.io/f/48c9d647-0438-4719-9dae-93d32b7a2215" method="POST">
-                            <div class="input-control i-c-2"> 
-                                <input type="text" required placeholder="YOUR NAME">
-                                <input type="email" required placeholder="YOUR EMAIL">
-                            </div>
-                            <div>
-                                <div class="input-control">
-                                    <input type="text" required placeholder="ENTER SUBJECT">
-                                </div>
-
-                                <div class="input-control">
-                                    <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
-                                </div>
-     
-                            </div>
-                            <div>
-                                <button style="color:black; font: bold; font-size: 25px;"
-                                 type="submit">Submit</button>
-                            </div>
-                            
-                        </form>
-                        
-                    </div>
                 </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
+
     <footer class="copyright">
-        <small>&copy; Boateng Daniel, University of Tubingen, Germany (June 2023): Under development! </small>
+        <small>&copy; Dr. Boateng Daniel, Hannover, Germany (September 2025): Under development! </small>
     </footer>
 
     <div class="controls">
@@ -679,19 +1099,84 @@
         <div class="control" data-id="about">
             <i class="fas fa-user"></i>
         </div>
-        <div class="control" data-id="portfolio">
-            <i class="fas fa-briefcase"></i>
+        <div class="control" data-id="blog">
+            <i class="fas fa-blog"></i>
         </div>
-        <div class="control" data-id="blogs">
+        <div class="control" data-id="publications">
             <i class="far fa-newspaper"></i>
         </div>
         <div class="control" data-id="contact">
             <i class="fas fa-envelope-open"></i>
         </div>
     </div>
+
     <div class="theme-btn">
         <i class="fas fa-adjust"></i>
     </div>
     <script src="app.js"></script>
+    
+    <script>
+        // Main navigation functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const sections = document.querySelectorAll(".container");
+            const sectBtns = document.querySelectorAll(".control");
+            const allSections = document.querySelector(".main-content");
+            
+            function PageTransitions(){
+                // Button click active class
+                for(let i = 0; i < sectBtns.length; i++){
+                    sectBtns[i].addEventListener('click', function(){
+                        let currentBtn = document.querySelectorAll('.active-btn');
+                        currentBtn[0].className = currentBtn[0].className.replace('active-btn', '');
+                        this.className += ' active-btn';
+                    })
+                }
+                
+                // Sections Active class
+                allSections.addEventListener('click', (e) => {
+                    const id = e.target.dataset.id;
+                    if(id){
+                        // Remove active from other buttons
+                        sectBtns.forEach((btn) => {
+                            btn.classList.remove('active')
+                        })
+                        e.target.classList.add('active')
+                        
+                        // Hide other sections
+                        sections.forEach((section) => {
+                            section.classList.remove('active')
+                        })
+                        
+                        const element = document.getElementById(id);
+                        element.classList.add('active');
+                    }
+                })
+            }
+            
+            PageTransitions();
+            
+            // Blog navigation functionality
+            const blogItems = document.querySelectorAll('.blog-list-item');
+            const blogPosts = document.querySelectorAll('.blog-post');
+            
+            blogItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    const target = this.getAttribute('data-target');
+                    
+                    // Update active state for navigation items
+                    blogItems.forEach(i => i.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    // Show the targeted blog post
+                    blogPosts.forEach(post => {
+                        post.classList.remove('active');
+                        if (post.id === target) {
+                            post.classList.add('active');
+                        }
+                    });
+                });
+            });
+        });
+    </script>
 </body>
 </html>

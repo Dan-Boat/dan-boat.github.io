@@ -505,13 +505,20 @@ section {
 }
 .blogs .publications-list ul {
   list-style: square;
+  /* Change link color on hover */
 }
 .blogs .publications-list ul span {
   color: var(--color-secondary);
 }
 .blogs .publications-list ul li {
   margin-bottom: 10px;
-  list-style: decimal;
+  list-style: lower-roman;
+}
+.blogs .publications-list ul a:hover {
+  background-color: var(--color-secondary);
+}
+.blogs .publications-list ul a:hover i {
+  color: var(--color-primary);
 }
 
 .contact-content-con {
