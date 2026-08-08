@@ -16,16 +16,25 @@ permalink: /blog/
         {% include newsletter-form.html %}
     </div>
 
-    {% for post in site.posts %}
-    <article class="blog-card">
-        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-        <span class="blog-meta">
-            Posted on {{ post.date | date: "%B %-d, %Y" }}
-            {% if post.categories %} | {{ post.categories | join: ", " }}{% endif %}
-        </span>
-        {% if post.image %}<img src="{{ post.image | relative_url }}" alt="{{ post.title }}">{% endif %}
-        <p>{{ post.excerpt | strip_html | truncatewords: 55 }}</p>
-        <a class="view-all-link" href="{{ post.url | relative_url }}">Read full post &rarr;</a>
-    </article>
-    {% endfor %}
+    <div class="paginated-list" data-page-size="6">
+        <div data-items>
+            {% for post in site.posts %}
+            <article class="blog-card">
+                <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+                <span class="blog-meta">
+                    Posted on {{ post.date | date: "%B %-d, %Y" }}
+                    {% if post.categories %} | {{ post.categories | join: ", " }}{% endif %}
+                </span>
+                {% if post.image %}<img src="{{ post.image | relative_url }}" alt="{{ post.title }}">{% endif %}
+                <p>{{ post.excerpt | strip_html | truncatewords: 55 }}</p>
+                <a class="view-all-link" href="{{ post.url | relative_url }}">Read full post &rarr;</a>
+            </article>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="pagination-controls">
+        <button class="pg-prev">&laquo; Newer</button>
+        <span class="pg-status"></span>
+        <button class="pg-next">Older &raquo;</button>
+    </div>
 </div>

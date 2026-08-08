@@ -24,15 +24,22 @@ permalink: /news/
         {% include newsletter-form.html %}
     </div>
 
-    <div class="news-grid">
-        {% for item in all_news %}
-        <div class="news-card">
-            <div class="news-card-meta">{{ item.date | date: "%b %-d, %Y" }} &middot; {{ item.source }}</div>
-            <div class="news-tags"><span class="news-tag">{{ item.category }}</span></div>
-            <h3>{{ item.title }}</h3>
-            <p>{{ item.summary }}</p>
-            <a class="news-source-link" href="{{ item.url }}" target="_blank" rel="noopener">Read source &rarr;</a>
+    <div class="paginated-list" data-page-size="9">
+        <div class="news-grid" data-items>
+            {% for item in all_news %}
+            <div class="news-card">
+                <div class="news-card-meta">{{ item.date | date: "%b %-d, %Y" }} &middot; {{ item.source }}</div>
+                <div class="news-tags"><span class="news-tag">{{ item.category }}</span></div>
+                <h3>{{ item.title }}</h3>
+                <p>{{ item.summary }}</p>
+                <a class="news-source-link" href="{{ item.url }}" target="_blank" rel="noopener">Read source &rarr;</a>
+            </div>
+            {% endfor %}
         </div>
-        {% endfor %}
+    </div>
+    <div class="pagination-controls">
+        <button class="pg-prev">&laquo; Newer</button>
+        <span class="pg-status"></span>
+        <button class="pg-next">Older &raquo;</button>
     </div>
 </div>
