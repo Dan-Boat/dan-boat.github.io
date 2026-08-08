@@ -1,0 +1,38 @@
+---
+layout: default
+title: "Industry Updates"
+permalink: /news/
+---
+{% assign all_news = site.data.news | sort: "date" | reverse %}
+<div class="standalone-page">
+    <a class="page-back-link" href="{{ '/' | relative_url }}"><i class="fas fa-arrow-left"></i> Back to home</a>
+
+    <div class="main-title">
+        <h2>Industry <span>Updates</span></h2>
+    </div>
+    <p class="news-intro">
+        Curated news and research on physical climate risk, with a focus on tropical
+        cyclone, severe convective storm, and flood perils relevant to (re)insurance
+        — sourced from scientific journals, catastrophe-risk vendors, and reinsurer
+        publications. See <a href="https://github.com/Dan-Boat/dan-boat.github.io/blob/main/CONTENT-GUIDE.md" target="_blank">CONTENT-GUIDE.md</a>
+        for how this feed is curated and how it will later feed a subscriber newsletter.
+    </p>
+
+    <div class="subscribe-box">
+        <h3>Get industry updates by email</h3>
+        <p>Subscribe to receive these updates as a newsletter (coming soon).</p>
+        {% include newsletter-form.html %}
+    </div>
+
+    <div class="news-grid">
+        {% for item in all_news %}
+        <div class="news-card">
+            <div class="news-card-meta">{{ item.date | date: "%b %-d, %Y" }} &middot; {{ item.source }}</div>
+            <div class="news-tags"><span class="news-tag">{{ item.category }}</span></div>
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.summary }}</p>
+            <a class="news-source-link" href="{{ item.url }}" target="_blank" rel="noopener">Read source &rarr;</a>
+        </div>
+        {% endfor %}
+    </div>
+</div>

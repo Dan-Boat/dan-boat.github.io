@@ -1,0 +1,300 @@
+# Industry / physical-climate-risk news feed shown on /news/.
+# Auto-updated by scripts/fetch_news.py via .github/workflows/fetch-news.yml
+# Feel free to hand-edit; the script only appends new, deduplicated items.
+
+- title: Berkshire Hathaway P&C reinsurance boosted by Tokio Marine deal, as property volumes fall
+  url: https://www.reinsurancene.ws/berkshire-hathaway-pc-reinsurance-boosted-by-tokio-marine-deal-as-property-volumes-fall/
+  source: Reinsurance News
+  date: '2026-08-08'
+  category: General
+  summary: Berkshire Hathaway, the American multinational conglomerate holding company, reported that
+    its recently entered into whole account quota share reinsurance agreement with Tokio Marine boosted
+    premium volumes in the second-quarter, which otherwise would have fallen primarily due to lower property
+    unde
+- title: 'Drivers of flash flood frequency and intensity in the United States: a quantitative analysis
+    of hydrometeorological interactions'
+  url: https://doi.org/10.5194/nhess-26-3667-2026
+  source: Natural Hazards and Earth System Sciences (NHESS)
+  date: '2026-08-07'
+  category: Climate Modelling
+  summary: 'Drivers of flash flood frequency and intensity in the United States: a quantitative analysis
+    of hydrometeorological interactions Ying Hu, Huan Wu, Yiwen Mei, Zhijun Huang, Aihui Wang, Chaoqun
+    Li, and Bing Sui Nat. Hazards Earth Syst. Sci., 26, 3667–3682, https://doi.org/10.5194/nhess-26-3667-2026,
+    2'
+- title: 'Storm surge dynamics in the northern Adriatic Sea: comparing AI emulators with high-resolution
+    numerical simulations'
+  url: https://doi.org/10.5194/nhess-26-3683-2026
+  source: Natural Hazards and Earth System Sciences (NHESS)
+  date: '2026-08-07'
+  category: Climate Modelling
+  summary: 'Storm surge dynamics in the northern Adriatic Sea: comparing AI emulators with high-resolution
+    numerical simulations Rodrigo Campos-Caba, Paula Camus, Andrea Mazzino, Michalis Vousdoukas, Massimo
+    Tondello, Ivan Federico, Salvatore Causio, and Lorenzo Mentaschi Nat. Hazards Earth Syst. Sci., 26,
+    3683'
+- title: Twelve Securis combining cat bond and private ILS management teams, as Schwartz to depart
+  url: https://www.artemis.bm/news/twelve-securis-combining-cat-bond-and-private-ils-management-teams-as-schwartz-to-depart/?utm_source=rss&utm_medium=rss&utm_campaign=twelve-securis-combining-cat-bond-and-private-ils-management-teams-as-schwartz-to-depart
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-08-07'
+  category: Parametric Insurance
+  summary: Twelve Securis is combining its catastrophe bond and private ILS focused investment teams,
+    to consolidate and optimise its approach to managing dedicated strategies and blended portfolios,
+    while at the same time the firm also stated that long-standing senior employee Etienne Schwartz is
+    departing th
+- title: 'ILS and alt capital remains disciplined amid record cat bond market growth: J.P. Morgan'
+  url: https://www.artemis.bm/news/ils-and-alt-capital-remains-disciplined-amid-record-cat-bond-market-growth-j-p-morgan/?utm_source=rss&utm_medium=rss&utm_campaign=ils-and-alt-capital-remains-disciplined-amid-record-cat-bond-market-growth-j-p-morgan
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-08-07'
+  category: Parametric Insurance
+  summary: A new report from analysts at J.P. Morgan has suggested that while the catastrophe bond market
+    has witnessed exceptional growth in 2026, insurance-linked securities (ILS) and alternative capital
+    are looking more disciplined, exhibiting few of the undisciplined behaviours witnessed in the last
+    soft m
+- title: TSR lowers hurricane season forecast as sub-tropical Atlantic looking less favourable
+  url: https://www.artemis.bm/news/tsr-lowers-hurricane-season-forecast-as-sub-tropical-atlantic-looking-less-favourable/?utm_source=rss&utm_medium=rss&utm_campaign=tsr-lowers-hurricane-season-forecast-as-sub-tropical-atlantic-looking-less-favourable
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-08-07'
+  category: Parametric Insurance
+  summary: Tropical Storm Risk (TSR) has now lowered its forecast for the 2026 Atlantic hurricane season
+    at an update today, citing “conditions in the sub-tropical Atlantic looking less favourable than as
+    appeared to be a month ago.” Recall that, in its April forecast, Tropical Storm Risk (TSR) lowered
+    its pre
+- title: Colombia secures parametric insurance for smallholder farmers, assisted by IDF, UNDP, BMZ
+  url: https://www.artemis.bm/news/colombia-secures-parametric-insurance-for-smallholder-farmers-assisted-by-idf-undp-bmz/?utm_source=rss&utm_medium=rss&utm_campaign=colombia-secures-parametric-insurance-for-smallholder-farmers-assisted-by-idf-undp-bmz
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-08-07'
+  category: Parametric Insurance
+  summary: 'The Colombian government has contracted five parametric agricultural insurance policies to
+    provide smallholder farmers with coverage against drought and excess rainfall, utilising a solution
+    developed by the Insurance Development Forum (IDF), UNDP, and Germany’s BMZ via the InsuResilience
+    Solutions '
+- title: 'Munich Re CFO: Retro optional, no current need for cat bonds. We underwrite to keep the risk'
+  url: https://www.artemis.bm/news/munich-re-cfo-retro-optional-no-current-need-for-cat-bonds-we-underwrite-to-keep-the-risk/?utm_source=rss&utm_medium=rss&utm_campaign=munich-re-cfo-retro-optional-no-current-need-for-cat-bonds-we-underwrite-to-keep-the-risk
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-08-07'
+  category: Parametric Insurance
+  summary: Speaking this morning during an earnings call, Munich Re’s CFO Andrew Buchanan gave the clearest
+    explanation for why the global reinsurance company has reduced its retrocessional protection considerably,
+    saying the company puts the effort into underwriting so it can keep the risk and has the financi
+- title: Munich Re pulls-back at July, says prices, T&Cs can be “largely upheld” at Jan 2027 renewals
+  url: https://www.artemis.bm/news/munich-re-pulls-back-at-july-says-prices-tcs-can-be-largely-upheld-at-jan-2027-renewals/?utm_source=rss&utm_medium=rss&utm_campaign=munich-re-pulls-back-at-july-says-prices-tcs-can-be-largely-upheld-at-jan-2027-renewals
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-08-07'
+  category: Parametric Insurance
+  summary: Munich Re, the reinsurance giant, said that it systematically opted not to renew certain business
+    at the mid-year renewals particularly in property excess-of-loss, but the company forecasts favourable
+    prices, as well as terms and conditions, can be “largely upheld” at the next significant renewal ro
+- title: ALIRT reveals contrasting residual property insurance trends across four high-risk US states
+  url: https://www.reinsurancene.ws/alirt-reveals-contrasting-residual-property-insurance-trends-across-four-high-risk-us-states/
+  source: Reinsurance News
+  date: '2026-08-07'
+  category: General
+  summary: ALIRT Insurance Research, a US insurance research and analytics firm focused on the property
+    and casualty sector, has released a new report highlighting widening differences in the performance
+    of residual property insurance markets across California, Florida, Louisiana, and Texas. The company
+    says t
+- title: Octave Specialty grows Q2’26 revenue 51% as underwriting performance improves
+  url: https://www.reinsurancene.ws/octave-specialty-grows-q226-revenue-51-as-underwriting-performance-improves/
+  source: Reinsurance News
+  date: '2026-08-07'
+  category: General
+  summary: Octave Specialty Group, a US-listed global specialty insurance company operating across insurance
+    distribution and specialty property and casualty insurance, reported improved second-quarter 2026
+    results, supported by stronger underwriting performance at its Everspan insurance business and continued
+- title: Amwins Global Risks broadens global renewable energy catastrophe facility and raises capacity
+    to $50m
+  url: https://www.reinsurancene.ws/amwins-global-risks-broadens-global-renewable-energy-catastrophe-facility-and-raises-capacity-to-50m/
+  source: Reinsurance News
+  date: '2026-08-07'
+  category: General
+  summary: Amwins Global Risks, the specialist wholesale insurance broking business of Amwins, has expanded
+    its specialist natural catastrophe facility for renewable energy projects, increasing available capacity
+    to USD $50 million per placement while extending both the range of covered perils and its global a
+- title: HCI Group net income rises 19% to $83m in Q2’26
+  url: https://www.reinsurancene.ws/hci-group-net-income-rises-19-to-83m-in-q226/
+  source: Reinsurance News
+  date: '2026-08-07'
+  category: General
+  summary: HCI Group, Inc., a Tampa-based insurance holding company, has reported net income of $83 million
+    in the second quarter of 2026, up 18.6% from $70 million in the same period a year earlier. In the
+    quarter, the company posted pre-tax income of $111 million, up 18% from $94 million in Q2’25. Net
+    income
+- title: Cytora and Octave partner to strengthen AI-powered operations for MGAs
+  url: https://www.reinsurancene.ws/cytora-and-octave-partner-to-strengthen-ai-powered-operations-for-mgas/
+  source: Reinsurance News
+  date: '2026-08-07'
+  category: General
+  summary: Cytora, a UK insurance technology company that develops digital risk processing software for
+    insurers, brokers and managing general agents (MGAs), has entered into a strategic partnership with
+    Octave Specialty Group, a specialty insurance platform that invests in, acquires and grows MGAs. As
+    part of
+- title: 'SPIN (v1.0): A spontaneous synthetic tropical cyclone model empowered by NeuralGCM for hazard
+    assessment'
+  url: https://doi.org/10.5194/gmd-19-7303-2026
+  source: Geoscientific Model Development (GMD)
+  date: '2026-08-06'
+  category: Climate Modelling
+  summary: 'SPIN (v1.0): A spontaneous synthetic tropical cyclone model empowered by NeuralGCM for hazard
+    assessment Yurong Gao and Dazhi Xi Geosci. Model Dev., 19, 7303–7323, https://doi.org/10.5194/gmd-19-7303-2026,
+    2026 Artificial intelligence offers a new way to assess tropical cyclone hazards. We developed'
+- title: Drought propagation and ecosystem resilience in a peri-urban catchment of Berlin-Brandenburg
+  url: https://doi.org/10.5194/nhess-26-3617-2026
+  source: Natural Hazards and Earth System Sciences (NHESS)
+  date: '2026-08-04'
+  category: Climate Modelling
+  summary: Drought propagation and ecosystem resilience in a peri-urban catchment of Berlin-Brandenburg
+    Polina Franke, Aryan Goswami, and Márk Somogyvári Nat. Hazards Earth Syst. Sci., 26, 3617–3635, https://doi.org/10.5194/nhess-26-3617-2026,
+    2026 Droughts are intensifying due to climate change, impacting wat
+- title: New classes of climate model emulators to  improve paleoclimate reconstructions
+  url: https://doi.org/10.5194/gmd-19-7135-2026
+  source: Geoscientific Model Development (GMD)
+  date: '2026-08-04'
+  category: Climate Modelling
+  summary: New classes of climate model emulators to improve paleoclimate reconstructions Auguste Gaudin
+    and Myriam Khodri Geosci. Model Dev., 19, 7135–7167, https://doi.org/10.5194/gmd-19-7135-2026, 2026
+    Reconstructing past climate variability requires computationally efficient models able to capture
+    the beha
+- title: 'Factcheck: How nuclear, gas, wind and solar power are affected during heatwaves'
+  url: https://www.carbonbrief.org/factcheck-how-nuclear-gas-wind-and-solar-power-are-affected-during-heatwaves
+  source: Carbon Brief
+  date: '2026-08-04'
+  category: Climate Modelling
+  summary: 'Heatwaves are becoming more likely and more intense due to climate change, impacting sources
+    of power generation around the world… The post Factcheck: How nuclear, gas, wind and solar power are
+    affected during heatwaves appeared first on Carbon Brief.'
+- title: Precipitation nowcasting based on convolutional LSTM with spatio-temporal information transformation
+    using multi-meteorological factors
+  url: https://doi.org/10.5194/gmd-19-7089-2026
+  source: Geoscientific Model Development (GMD)
+  date: '2026-08-03'
+  category: Climate Modelling
+  summary: Precipitation nowcasting based on convolutional LSTM with spatio-temporal information transformation
+    using multi-meteorological factors Dufu Liu, Feihu Huang, Peng Zheng, Xiaomeng Huang, Xi Wu, Xia Yuan,
+    Jiafeng Zheng, Xiaojie Li, and Jing Hu Geosci. Model Dev., 19, 7089–7110, https://doi.org/10.519
+- title: Impact of warming on rainfall changes in damaging Philippine typhoons using high-resolution convection-permitting
+    models
+  url: https://doi.org/10.5194/nhess-26-3579-2026
+  source: Natural Hazards and Earth System Sciences (NHESS)
+  date: '2026-07-31'
+  category: Climate Modelling
+  summary: Impact of warming on rainfall changes in damaging Philippine typhoons using high-resolution
+    convection-permitting models Rafaela Jane Delfino, Gerry Bagtasa, Pier Luigi Vidale, and Kevin Hodges
+    Nat. Hazards Earth Syst. Sci., 26, 3579–3595, https://doi.org/10.5194/nhess-26-3579-2026, 2026 High-resolu
+- title: 'RIME-X v1.0: combining simple climate models, Earth  system models, and climate impact models
+    into a unified  statistical emulator for regional climate indicators'
+  url: https://doi.org/10.5194/gmd-19-6797-2026
+  source: Geoscientific Model Development (GMD)
+  date: '2026-07-30'
+  category: Climate Modelling
+  summary: 'RIME-X v1.0: combining simple climate models, Earth system models, and climate impact models
+    into a unified statistical emulator for regional climate indicators Niklas Schwind, Mahé Perrette,
+    Edward Byers, Annika Högner, Quentin Lejeune, Tessa Möller, Zebedee Nicholls, Peter Pfleiderer, Sarah
+    Schöng'
+- title: 'Spectral nudging impacts on precipitation downscaling in the Conformal Cubic Atmospheric Model,
+    version CCAM-2504: insights from summer 2011'
+  url: https://doi.org/10.5194/gmd-19-6991-2026
+  source: Geoscientific Model Development (GMD)
+  date: '2026-07-30'
+  category: Climate Modelling
+  summary: 'Spectral nudging impacts on precipitation downscaling in the Conformal Cubic Atmospheric Model,
+    version CCAM-2504: insights from summer 2011 Son C. H. Truong, Marcus J. Thatcher, Phuong Loan Nguyen,
+    Lisa V. Alexander, and John L. McGregor Geosci. Model Dev., 19, 6991–7011, https://doi.org/10.5194/gm'
+- title: 'GEE-DisALEXI: cloud-based implementation of  the DisALEXI model for evapotranspiration  monitoring
+    using Google Earth Engine'
+  url: https://doi.org/10.5194/gmd-19-6967-2026
+  source: Geoscientific Model Development (GMD)
+  date: '2026-07-30'
+  category: Climate Modelling
+  summary: 'GEE-DisALEXI: cloud-based implementation of the DisALEXI model for evapotranspiration monitoring
+    using Google Earth Engine Yun Yang, Martha Anderson, Charles Morton, Yanghui Kang, Feng Gao, Weina
+    Duan, Hui Liu, John Volk, and Christopher Hain Geosci. Model Dev., 19, 6967–6989, https://doi.org/10.519'
+- title: 'Factcheck: No, Europe is not having its ‘quietest’ year for wildfires'
+  url: https://www.carbonbrief.org/factcheck-no-europe-is-not-having-its-quietest-year-for-wildfires
+  source: Carbon Brief
+  date: '2026-07-30'
+  category: Climate Modelling
+  summary: 'In recent days, prominent climate sceptics and rightwing commentators have shared charts on
+    social media incorrectly implying that Europe is… The post Factcheck: No, Europe is not having its
+    ‘quietest’ year for wildfires appeared first on Carbon Brief.'
+- title: Dynamic and thermal analysis of dust storm processes based on vertical observation data
+  url: https://doi.org/10.5194/nhess-26-3523-2026
+  source: Natural Hazards and Earth System Sciences (NHESS)
+  date: '2026-07-28'
+  category: Climate Modelling
+  summary: Dynamic and thermal analysis of dust storm processes based on vertical observation data Yifei
+    Wang, Wen Huo, Yongqiang Liu, Mayibaier Maihamuti, Fan Yang, Chenglong Zhou, Xinghua Yang, and Ali
+    Mamtimin Nat. Hazards Earth Syst. Sci., 26, 3523–3539, https://doi.org/10.5194/nhess-26-3523-2026,
+    2026 Dus
+- title: 'Use of nonlinear principal components of CHIRPS precipitation data and ocean–atmospheric variables
+    for streamflow forecasting in an area of scarce data – case study: Tocaría river basin – Orinoquia
+    Colombiana'
+  url: https://doi.org/10.5194/nhess-26-3505-2026
+  source: Natural Hazards and Earth System Sciences (NHESS)
+  date: '2026-07-24'
+  category: Climate Modelling
+  summary: 'Use of nonlinear principal components of CHIRPS precipitation data and ocean–atmospheric variables
+    for streamflow forecasting in an area of scarce data – case study: Tocaría river basin – Orinoquia
+    Colombiana Jhon Derly Sarria-Ospina, Camilo Ocampo-Marulanda, Lina Maria Ceron-Aramburo, Teresita
+    Canc'
+- title: 'Factcheck: No, Europe’s heatwaves are not being ‘caused’ by declining air pollution'
+  url: https://www.carbonbrief.org/factcheck-no-europes-heatwaves-are-not-being-caused-by-declining-air-pollution
+  source: Carbon Brief
+  date: '2026-07-24'
+  category: Climate Modelling
+  summary: 'This summer has seen Europe suffer through a series of record-breaking heatwaves. Amid widespread
+    media coverage of the number of… The post Factcheck: No, Europe’s heatwaves are not being ‘caused’
+    by declining air pollution appeared first on Carbon Brief.'
+- title: A multivariate analysis of atmospheric drivers for Western European heatwaves
+  url: https://doi.org/10.5194/esd-17-955-2026
+  source: Earth System Dynamics (ESD)
+  date: '2026-07-13'
+  category: Climate Modelling
+  summary: A multivariate analysis of atmospheric drivers for Western European heatwaves Aytaç Paçal,
+    Birgit Hassler, Katja Weigel, Miguel-Ángel Fernández-Torres, Gustau Camps-Valls, and Veronika Eyring
+    Earth Syst. Dynam., 17, 955–986, https://doi.org/10.5194/esd-17-955-2026, 2026 Heatwaves are among
+    the deadl
+- title: Amplification of ENSO-driven vegetation variability at decadal and longer timescales
+  url: https://doi.org/10.5194/esd-17-987-2026
+  source: Earth System Dynamics (ESD)
+  date: '2026-07-13'
+  category: Climate Modelling
+  summary: Amplification of ENSO-driven vegetation variability at decadal and longer timescales Nora L.
+    S. Fahrenbach and Robert C. J. Wills Earth Syst. Dynam., 17, 987–1006, https://doi.org/10.5194/esd-17-987-2026,
+    2026 The El Niño-Southern Oscillation (ENSO) drives short-term global plant changes, but its in
+- title: Strong intensification of extreme fire weather in Europe under 3 °C compared to 2 °C global warming
+  url: https://doi.org/10.5194/esd-17-929-2026
+  source: Earth System Dynamics (ESD)
+  date: '2026-07-01'
+  category: Climate Modelling
+  summary: Strong intensification of extreme fire weather in Europe under 3 °C compared to 2 °C global
+    warming A. Serkan Bayar, Joaquim G. Pinto, Célia M. Gouveia, and Alexandre M. Ramos Earth Syst. Dynam.,
+    17, 929–954, https://doi.org/10.5194/esd-17-929-2026, 2026 Europe is warming faster than the global
+    aver
+- title: Overshoot and (ir)reversibility to 2300 in two CO2-emissions driven Earth System models
+  url: https://doi.org/10.5194/esd-17-893-2026
+  source: Earth System Dynamics (ESD)
+  date: '2026-06-29'
+  category: Climate Modelling
+  summary: Overshoot and (ir)reversibility to 2300 in two CO2-emissions driven Earth System models Chris
+    Smith, Lennart Ramme, Christopher D. Wells, Ada Gjermundsen, Hongmei Li, Tatiana Ilyina, Adakudlu
+    Muralidhar, Timothée Bourgeois, Jörg Schwinger, Alejandro Romero-Prieto, Chao Li, and Cecilie Mauritzen
+    Eart
+- title: Climate models with moderate climate sensitivity best simulate the magnitude of Earth's energy
+    imbalance
+  url: https://doi.org/10.5194/esd-17-877-2026
+  source: Earth System Dynamics (ESD)
+  date: '2026-06-29'
+  category: Climate Modelling
+  summary: Climate models with moderate climate sensitivity best simulate the magnitude of Earth's energy
+    imbalance Kyriaki Bimpiri, Thomas Hocking, and Thorsten Mauritsen Earth Syst. Dynam., 17, 877–892,
+    https://doi.org/10.5194/esd-17-877-2026, 2026 Observations show an increasing imbalance between how
+    much e
+- title: Regional impacts of irrigation on the  atmospheric and terrestrial water cycle of  the Iberian
+    Peninsula in a climate model
+  url: https://doi.org/10.5194/esd-17-843-2026
+  source: Earth System Dynamics (ESD)
+  date: '2026-06-26'
+  category: Climate Modelling
+  summary: Regional impacts of irrigation on the atmospheric and terrestrial water cycle of the Iberian
+    Peninsula in a climate model Pierre Tiengou, Agnès Ducharne, and Frédérique Cheruy Earth Syst. Dynam.,
+    17, 843–876, https://doi.org/10.5194/esd-17-843-2026, 2026 This study analyses simulations of regional
+    c

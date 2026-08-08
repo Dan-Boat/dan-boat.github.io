@@ -1,0 +1,180 @@
+# All publications, talks, sessions and teaching activities shown on the
+# "Publications" section of the homepage.
+#
+# To add a new publication: copy one list entry (the block starting with "-")
+# to the TOP of the relevant list below, fill in the fields, save, and push.
+# "url" can be "#" if there is no link yet (e.g. a submitted paper).
+
+peer_reviewed:
+  - authors: "Boateng, D. et. al."
+    text: >-
+      Refining paleoelevation estimates of the European Alps by simulating
+      Middle Miocene climate and δ18O responses to diachronous surface uplift
+      scenarios. Global and Planetary Change, 2025.
+    url: "https://www.sciencedirect.com/science/article/pii/S0921818125001171?via%3Dihub"
+
+  - authors: "Boateng, D. et. al."
+    text: >-
+      West African Monsoon Dynamics and Its Control on the Stable Oxygen
+      Isotopic Composition of Precipitation in the Late Cenozoic. JGR
+      Atmospheres, 2024.
+    url: "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024JD040748"
+
+  - authors: "Boateng, D. and Mutz, S. G."
+    text: >-
+      pyESDv1.0.1: An open-source Python framework for empirical-statistical
+      downscaling of climate information, Geoscientific Model Development, 2023.
+    url: "https://gmd.copernicus.org/articles/16/6479/2023/"
+
+  - authors: "Boateng, D. et. al."
+    text: >-
+      The effects of diachronous surface uplift of the European Alps on
+      regional climate and the oxygen isotopic composition of precipitation,
+      Earth System Dynamics, 2023.
+    url: "https://esd.copernicus.org/articles/14/1183/2023/"
+
+  - authors: "Botsyun et. al. (incl. Boateng, D.)"
+    text: >-
+      Middle Miocene climate and stable oxygen isotopes in Europe based on
+      numerical modeling, Paleoceanography and Paleoclimatology, 37,
+      e2022PA004442, 2022.
+    url: "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022PA004442"
+
+submitted:
+  - authors: "Ballian Armelle et al. (incl. Boateng, D.)"
+    text: >-
+      Miocene reconstructed and simulated oxygen isotopic composition of
+      meteoric water (δ18Ow) in Alpine foreland basins.
+    url: "#"
+
+conference_abstracts:
+  - authors: "Ballian Armelle et al. incl. (Boateng, D.)"
+    text: >-
+      Stable isotope paleoaltimetry reveals Early to Middle Miocene
+      along-strike elevation differences of the European Alps, EGU 2024.
+    url: "https://ui.adsabs.harvard.edu/abs/2024EGUGA..2618901B/abstract"
+
+  - authors: "Boateng, D. & Sebastian Mutz"
+    text: >-
+      African monsoon changes in the Late Cenozoic from the climate modelling
+      perspective, EGU 2024.
+    url: "https://ui.adsabs.harvard.edu/abs/2024EGUGA..2610696B/abstract"
+
+  - authors: "Ballian Armelle et al. incl. (Boateng, D.)"
+    text: >-
+      Early to Middle Miocene paleoaltimetry results from the Central and
+      Eastern European Alps, AGU Fall Meeting, 2023.
+    url: "https://ui.adsabs.harvard.edu/abs/2023AGUFM.T51E0159B/abstract"
+
+  - authors: "Boateng, D. & Sebastian Mutz"
+    text: >-
+      Reconstruction of the Late Cenozoic evolution of the West African
+      Monsoon with a high-resolution isotope-tracking climate model, AGU Fall
+      Meeting, 2023.
+    url: "https://ui.adsabs.harvard.edu/abs/2023AGUFMPP43A..02B/abstract"
+
+  - authors: "Boateng, D., Mutz, S. G., and Ehlers, T. A."
+    text: >-
+      Modeling Middle Miocene climate and stable oxygen isotope responses to
+      diachronous surface uplift of the European Alps: implications on
+      paleoaltimetry, AGU Fall Meeting, 2023.
+    url: "https://meetingorganizer.copernicus.org/EGU23/session/46836"
+
+  - authors: "Boateng, D., Mutz, S. G., and Ehlers, T. A."
+    text: >-
+      The influence of North Atlantic Oscillation on oxygen and hydrogen
+      stable isotopes in precipitation of the Late Cenozoic: implications on
+      paleoenvironment reconstructions, EGU, 2023.
+    url: "https://ui.adsabs.harvard.edu/abs/2023EGUGA..25.1752B/abstract"
+
+  - authors: "Mutz, S. G. and Boateng, D."
+    text: >-
+      pyESD: An open-source Python framework for empirical-statistical
+      downscaling of climate information, EGU, 2023.
+    url: "https://ui.adsabs.harvard.edu/abs/2023EGUGA..25.7470M/abstract"
+
+  - authors: "Sedhu-Madhavan, A., Mutz, S. G., Boateng, D., and Ehlers, T. A."
+    text: >-
+      A model-based exploration of mid-Holocene anti-phase climate variations
+      in the Central Andes, EGU, 2023.
+    url: "https://ui.adsabs.harvard.edu/abs/2023EGUGA..25.2372S/abstract"
+
+  - authors: "Mutz, S. G., Boateng, D., and Mohadjer, S."
+    text: >-
+      INTEGRATE: A higher-education teaching package for climate science, EGU,
+      2022.
+    url: "https://ui.adsabs.harvard.edu/abs/2022EGUGA..24..864M/abstract"
+
+  - authors: "Arthur, F., Boateng, D., and Baidu, M."
+    text: >-
+      Prediction of Rainfall Response to the 21st-century Climate Change in
+      Ghana using Machine Learning Empirical Statistical Downscaling, AGU Fall
+      Meeting, 2022.
+    url: "https://ui.adsabs.harvard.edu/abs/2022AGUFM.H25A..04A/abstract"
+
+  - authors: "Arthur, F., Boateng, D., and Baidu, M."
+    text: >-
+      The Evolution of African Monsoons and its Impacts on Precipitation
+      Seasonality in the Cenozoic and future Climate Change, AGU Fall Meeting,
+      2022.
+    url: "https://www.authorea.com/doi/full/10.22541/essoar.167457992.21386879"
+
+  - authors: "Boateng, D., Mutz, S. G., and Ehlers, T. A."
+    text: >-
+      How would the eastward propagation of surface uplift in the Alps affect
+      regional climate and isotopic composition of precipitation?, EGU, 2022.
+    url: "https://ui.adsabs.harvard.edu/abs/2022EGUGA..24..843B/abstract"
+
+invited_talks:
+  - speaker: "Boateng, Daniel"
+    text: >-
+      Integrating Water Isotopes Modelling with Geologic Archives for
+      Reconstructing Paleoclimate Dynamics - Sustainability Seminar, Montclair
+      State University, 01.2025.
+
+  - speaker: "Boateng, Daniel"
+    text: >-
+      Reconstructing Miocene paleoelevation of the Alps: integrating stable
+      isotope paleoaltimetry and paleoclimate modelling - Earth Science
+      Department, University of Glasgow, 03.2024.
+
+  - speaker: "Boateng, Daniel"
+    text: >-
+      Opportunities and challenges of Empirical Statistical Downscaling in
+      Ghana - University of Leeds, 11.2023.
+
+  - speaker: "Boateng, Daniel"
+    text: >-
+      Machine Learning-based Empirical Statistical Downscaling of
+      Precipitation in Ghana - Ghana Meteorological Agency (GMet), 11.2023.
+
+scientific_sessions:
+  - text: >-
+      Boateng, Daniel & Nikita Kaushal: Understanding climate and
+      environmental dynamics: insights from palaeo-data and models, 10th
+      International Climate Change: The Karst Record (KR10) conference, South
+      Africa 2025.
+    url: "https://www.qte-uct.com/scientific-sessions.html"
+
+  - text: >-
+      Andrea Seim | Co-conveners: Daniel Boateng, Jun Hu, Hugo Beltrami,
+      Stefan Bronnimann: Climate of the last two millennia, European
+      Geoscience Union (EGU) General Assembly 2025, Vienna, Austria, 2025.
+    url: "https://meetingorganizer.copernicus.org/EGU25/session/51600"
+
+  - text: >-
+      Andrea Seim | Co-conveners: Daniel Boateng, Jun Hu, Hugo Beltrami,
+      Stefan Bronnimann: Climate of the last two millennia, European
+      Geoscience Union (EGU) General Assembly 2024, Vienna, Austria, 2024.
+    url: "https://meetingorganizer.copernicus.org/EGU24/session/49373"
+
+teaching:
+  - text: >-
+      Lecturer - Summer Semester 2024: Advanced Climate Modelling - Master's
+      in Geoscience, Machine Learning, Physics & Mathematics - University of
+      Tübingen, Germany.
+
+  - text: >-
+      Lecturer - Summer Semester 2024: Climate Dynamics - Master's in
+      Geoscience, Machine Learning, Physics & Mathematics - University of
+      Tübingen, Germany.

@@ -1,2 +1,13 @@
 ./img
 notes.txt
+
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
+.sass-cache/
+
+# fetch_news.py working artifact (used only to build the PR body)
+digest.md

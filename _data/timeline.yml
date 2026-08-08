@@ -1,0 +1,91 @@
+# Career / education timeline shown in the "About" section.
+# Add a new job by copying a block to the TOP of the list (most recent first).
+# icon uses Font Awesome classes, e.g. fas fa-briefcase or fas fa-graduation-cap
+
+- duration: "2025.02 - present"
+  title: "Data Scientist"
+  org: "Hannover Re"
+  icon: "fas fa-briefcase"
+  description: >-
+    Geospatial data analysis, Natural catastrophe modeling, Parametric insurance
+    pricing, Machine learning, Climate risk assessment, and Cloud computing.
+
+- duration: "2024.5 - 2025.01"
+  title: "PostDoc (Lecturer)"
+  org: "Department of Geoscience, University of Tübingen"
+  icon: "fas fa-briefcase"
+  description: >-
+    Teaching Climate Modelling and Climate Dynamics courses to Masters students
+    in Applied and Environmental Geoscience (AEG), Physics, Mathematics and
+    Computer Science departments.
+
+- duration: "2021.04 - 2024.04"
+  title: "Ph.D (Dr. rer. nat. in Computational Geoscience)"
+  org: "Department of Geoscience, University of Tübingen"
+  icon: "fas fa-graduation-cap"
+  description: >-
+    Climate modeling, climate dynamics, machine learning, empirical statistical
+    downscaling, climate and topography interactions and stable isotope
+    modelling.
+
+- duration: "2023.07 - 2024.03"
+  title: "Data Scientist & Engineer"
+  org: "Equitech Futures, Chicago"
+  icon: "fas fa-briefcase"
+  description: >-
+    Platform engineer for analytic solution of atmospheric CO2 emissions for
+    countries and regions using NASA satellite XCO2 measurements.
+
+- duration: "2019 - 2021"
+  title: "Python Software Developer"
+  org: "Environmental Physics Group, University of Tübingen"
+  icon: "fas fa-briefcase"
+  description: >-
+    Developed temperature calibration software on Raspberry Pi environment:
+    flight temperature sensor control, voltage and pressure control into the
+    calibration chamber and data analysis.
+
+- duration: "2018 - 2021"
+  title: "Research Assistant"
+  org: "Earth Surface Process Group, University of Tübingen"
+  icon: "fas fa-briefcase"
+  description: >-
+    Scientific python module development: pyESD (empirical statistical
+    downscaling), pyClimat (visualization tools for climate model output) and
+    running climate simulations on Linux High Performance Computing
+    environment.
+
+- duration: "2019 - 2020"
+  title: "Research Assistant"
+  org: "Max Planck Institute of Development Biology"
+  icon: "fas fa-briefcase"
+  description: >-
+    Running bioelectric reactor to isolate H2-producing bacteria: Analytical
+    chemistry, molecular biology and biotechnology techniques.
+
+- duration: "2017 - 2020"
+  title: "Master of Science in Applied and Environmental Geoscience (AEG)"
+  org: "University of Tübingen"
+  icon: "fas fa-graduation-cap"
+  description: >-
+    Specialization in Hydrogeological and climate modeling. Master thesis:
+    Prediction of precipitation response to 21st century climate change in the
+    Ammer catchment (South-west Germany): Using Machine Learning algorithms.
+    <br /><br /><span class="highlight">Grade:</span> First Class
+
+- duration: "2017 - present"
+  title: "Teaching and Research Assistant"
+  org: "Department of Geological Eng., KNUST-Ghana"
+  icon: "fas fa-briefcase"
+  description: >-
+    Assisting lectures in Geotechnical engineering, Geophysics, Rock Mechanics,
+    Hydrogeology, and computer programming.
+
+- duration: "2017 - present"
+  title: "Bachelors in Geological Engineering"
+  org: "Department of Geological Eng., KNUST-Ghana"
+  icon: "fas fa-graduation-cap"
+  description: >-
+    Bachelor thesis: Mapping of subsurface fracture characteristics using
+    geoelectrics.
+    <br /><br /><span class="highlight">Grade:</span> First Class

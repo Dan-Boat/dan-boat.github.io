@@ -1,0 +1,44 @@
+name: Weekly climate-risk research digest
+
+# Runs weekly: pulls new items from public journal/agency/trade-press RSS
+# feeds (see scripts/fetch_news.py) into _data/news.yml, then opens a pull
+# request with a readable digest as the PR description so you can review
+# before anything is published to /news/. Nothing goes live automatically.
+#
+# Deliberately does not touch LinkedIn — see scripts/fetch_news.py for why.
+on:
+  schedule:
+    - cron: "0 7 * * 1" # every Monday 07:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  research-digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install feedparser pyyaml
+
+      - run: python scripts/fetch_news.py
+
+      - name: Open PR with the digest as description
+        id: pr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore(news): weekly climate-risk research digest"
+          title: "Weekly climate-risk research digest — ${{ github.run_id }}"
+          body-path: digest.md
+          branch: automated/fetch-news
+          add-paths: _data/news.yml
+          delete-branch: true
+
+      - name: Clean up digest artifact
+        run: rm -f digest.md

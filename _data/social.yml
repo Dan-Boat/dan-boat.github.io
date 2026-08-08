@@ -1,0 +1,13 @@
+# Social links used in the header, about section, and footer.
+- name: "GitHub"
+  url: "https://github.com/Dan-Boat"
+  icon: "fab fa-github"
+- name: "LinkedIn"
+  url: "https://www.linkedin.com/in/daniel-boateng-dr-rer-nat-3892311b4/"
+  icon: "fab fa-linkedin"
+- name: "Twitter"
+  url: "https://twitter.com/Dann_boat"
+  icon: "fab fa-twitter"
+- name: "ResearchGate"
+  url: "https://www.researchgate.net/profile/Daniel-Boateng-13?ev=hdr_xprf"
+  icon: "fab fa-researchgate"

@@ -1,0 +1,450 @@
+/* Site-specific component styles (blog, publications, contact, news, buttons, etc.)
+   Kept separate from styles.css (the base template) so it survives template upgrades. */
+
+/* Blog section styles */
+.blog-container {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.blog-nav {
+    flex: 1;
+    max-width: 250px;
+    background: var(--color-grey-5);
+    padding: 1.5rem;
+    border-radius: 15px;
+    height: fit-content;
+    position: sticky;
+    top: 2rem;
+}
+
+.blog-nav h3 {
+    margin-bottom: 1rem;
+    color: var(--color-secondary);
+}
+
+.blog-list {
+    list-style: none;
+}
+
+.blog-list-item {
+    padding: 0.8rem 1rem;
+    margin-bottom: 0.5rem;
+    border-left: 3px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.blog-list-item:hover,
+.blog-list-item.active {
+    background: var(--color-grey-4);
+    border-left: 3px solid var(--color-secondary);
+}
+
+.blog-list-item.active { font-weight: 600; }
+
+.blog-content { flex: 3; }
+
+.blog-card {
+    background: var(--color-grey-5);
+    padding: 2rem;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+}
+
+.blog-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 1rem 0;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.blog-card h2, .blog-card h3 {
+    color: var(--color-white);
+    margin-bottom: 1rem;
+}
+
+.blog-meta {
+    color: var(--color-grey-2);
+    font-style: italic;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.blog-tag {
+    display: inline-block;
+    background: var(--color-grey-4);
+    color: var(--color-secondary);
+    padding: 0.2rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-right: 0.5rem;
+}
+
+.blog-archive-link, .view-all-link {
+    display: inline-block;
+    margin-top: 1rem;
+    color: var(--color-secondary);
+    font-weight: 600;
+}
+
+.blog-archive-link:hover, .view-all-link:hover { text-decoration: underline; }
+
+.subscribe-box {
+    background: var(--color-grey-5);
+    border-radius: 15px;
+    padding: 1.5rem 2rem;
+    margin: 2rem 0;
+}
+
+.subscribe-box h3 {
+    color: var(--color-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.subscribe-form {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.subscribe-form input[type="email"] {
+    flex: 1;
+    min-width: 220px;
+    border-radius: 30px;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    outline: none;
+    background: var(--color-grey-4);
+    color: var(--color-white);
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.subscribe-form button {
+    border-radius: 30px;
+    padding: 0.8rem 1.6rem;
+    border: 1px solid var(--color-secondary);
+    background: var(--color-secondary);
+    color: var(--color-primary);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+pre {
+    background: var(--color-grey-4);
+    padding: 1rem;
+    border-radius: 10px;
+    overflow-x: auto;
+    margin: 1rem 0;
+}
+
+code {
+    font-family: 'Courier New', monospace;
+    color: var(--color-white);
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Publications */
+.publications-list { margin-bottom: 3rem; }
+
+.publications-list h4 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--color-secondary);
+}
+
+.publications-list ul { padding-left: 2rem; }
+
+.publications-list li {
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    border-left: 2px solid var(--color-grey-4);
+}
+
+.publications-list a {
+    color: var(--color-grey-1);
+    transition: all 0.3s ease;
+}
+
+.publications-list a:hover { color: var(--color-white); }
+
+/* News / Industry updates */
+.news-intro { margin-bottom: 2rem; line-height: 1.8rem; }
+
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.news-card {
+    background: var(--color-grey-5);
+    border-radius: 15px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    transition: transform .3s ease;
+}
+
+.news-card:hover { transform: translateY(-4px); }
+
+.news-card .news-card-meta {
+    color: var(--color-grey-2);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.news-card h3 { margin-bottom: 0.6rem; font-size: 1.2rem; }
+
+.news-card p { flex: 1; margin-bottom: 1rem; line-height: 1.7rem; }
+
+.news-card .news-source-link {
+    color: var(--color-secondary);
+    font-weight: 600;
+    align-self: flex-start;
+}
+
+.news-tags { margin-bottom: 0.8rem; }
+
+.news-tag {
+    display: inline-block;
+    background: var(--color-grey-4);
+    color: var(--color-secondary);
+    padding: 0.15rem 0.7rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    margin-right: 0.4rem;
+    margin-bottom: 0.3rem;
+}
+
+.page-back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--color-secondary);
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.standalone-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 6rem 2rem 4rem;
+    min-height: 100vh;
+}
+
+/* Contact */
+.contact-content-con { display: flex; padding-top: 3.5rem; }
+
+.left-contact { flex: 2; }
+
+.left-contact h4 { margin-top: 1rem; font-size: 2rem; text-transform: uppercase; }
+
+.left-contact p { margin: 1rem 0; line-height: 2rem; }
+
+.contact-info .contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-info .contact-item p { margin: 0.3rem 0 !important; padding: 0 !important; }
+
+.contact-info .contact-item .icon {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+}
+
+.contact-info .contact-item .icon i {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.contact-icon {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.contact-icon a {
+    display: flex;
+    align-items: center;
+    color: var(--color-white);
+    background-color: var(--color-grey-5);
+    cursor: pointer;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 0.4rem;
+    transition: all 0.4s ease;
+}
+
+.contact-icon a:hover { background-color: var(--color-secondary); }
+.contact-icon a:hover i { color: var(--color-primary); }
+
+.contact-icon a i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+
+.right-contact { flex: 3; margin-left: 3rem; }
+
+.right-contact .input-control { margin: 1.5rem 0; }
+
+.right-contact .input-control input, .right-contact .input-control textarea {
+    border-radius: 30px;
+    font-weight: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    padding: 0.8rem 1.1rem;
+    outline: none;
+    border: none;
+    background-color: var(--color-grey-5);
+    width: 100%;
+    color: var(--color-white);
+    resize: none;
+}
+
+.right-contact .i-c-2 { display: flex; }
+.right-contact .i-c-2 :last-child { margin-left: 1.5rem; }
+.right-contact .submit-btn { display: flex; justify-content: flex-start; }
+
+/* Buttons */
+.main-btn {
+    border-radius: 30px;
+    color: inherit;
+    font-weight: 600;
+    position: relative;
+    border: 1px solid var(--color-secondary);
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+
+.main-btn .btn-text { padding: 0 2rem; }
+
+.main-btn .btn-icon {
+    background-color: var(--color-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.main-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    transition: all 0.4s ease;
+    z-index: -1;
+}
+
+.main-btn:hover::before {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-secondary);
+    transform: translateX(0);
+}
+
+.btn-con { display: flex; align-self: flex-start; flex-wrap: wrap; gap: 1rem; }
+
+/* Main Title */
+.main-title { text-align: center; }
+
+.main-title h2 {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.main-title h2 span { color: var(--color-secondary); }
+
+.main-title h2 .bg-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: var(--color-grey-5);
+    transition: all 0.4s ease;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    font-weight: 800;
+    font-size: 6.3rem;
+}
+
+/* Image */
+.image {
+    border-radius: 15px;
+    height: 500px;
+    width: 350px;
+    margin-left: 4rem;
+    background-color: var(--color-secondary);
+    transition: all 0.4s ease;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: all 0.4s ease;
+    filter: grayscale(100%);
+}
+
+.image img:hover { filter: grayscale(0); }
+
+/* Footer */
+.copyright {
+    padding: 2rem 0;
+    text-align: center;
+    background-color: var(--color-grey-6);
+    margin-top: 4rem;
+}
+
+.copyright small { color: var(--color-grey-3); font-size: 1.2rem; }
+
+/* ---------------------------------------------------------- */
+/* Mobile / phone responsiveness                               */
+/* ---------------------------------------------------------- */
+@media screen and (max-width: 900px) {
+    .blog-container { flex-direction: column; }
+    .blog-nav { max-width: 100%; position: relative; top: 0; }
+    .news-grid { grid-template-columns: 1fr; }
+}
+
+@media screen and (max-width: 600px) {
+    .standalone-page { padding: 5rem 1.2rem 3rem; }
+    .contact-content-con { flex-direction: column; }
+    .right-contact { margin-left: 0; margin-top: 2.5rem; }
+    .right-contact .i-c-2 { flex-direction: column; }
+    .right-contact .i-c-2 :last-child { margin-left: 0; margin-top: 1.5rem; }
+    .blog-card { padding: 1.2rem; }
+    .blog-card img { max-height: 200px; }
+    .subscribe-form { flex-direction: column; }
+    .subscribe-form input[type="email"] { width: 100%; }
+    .publications-list ul { padding-left: 1rem; }
+    .main-btn .btn-text { padding: 0 1.2rem; font-size: 0.95rem; }
+    .image { width: 220px; height: 300px; margin-left: 0; }
+}
+
+@media screen and (max-width: 400px) {
+    .main-title h2 { font-size: 1.6rem; }
+    .main-title h2 .bg-text { font-size: 1.9rem; }
+    .news-card { padding: 1.1rem; }
+    .blog-tag, .news-tag { font-size: 0.75rem; }
+}

@@ -1,0 +1,111 @@
+# Edit this file to update your homepage bio, headline stats, and skills.
+# Nothing here touches index.html — just save this file and push.
+
+name: "Dr. Daniel Boateng"
+greeting: "Akwaaba!"
+headline: >-
+  My name is Dr. Daniel Boateng, a Geospatial Data Scientist & Climate Risk Expert
+  with adept domain knowledge in Atmospheric Dynamics, AI-based Weather Forecasting,
+  Climate Modelling, Machine Learning, Environmental Science, Natural Catastrophe
+  Modelling, and Weather Index-based & Parametric Insurance.
+photo: "/img/Daniel.jpg"
+cv_pdf: "/pdfs/Boateng_CV.pdf"
+location: "Tübingen, Germany"
+email: "dannboateng@gmail.com"
+phone: "+491783012296"
+languages: "German (Intermediate), English (Advanced), Twi (Advanced)"
+education_short: "Department of Geoscience, University of Tübingen"
+
+intro: >-
+  I bring a unique blend of engineering training and a PhD in climate modeling
+  (computational geoscience), combined with over six years of experience across
+  both industry and research. My expertise lies in applying advanced computational
+  skills—including Earth Observation Data Science, Geospatial Data Engineering,
+  Machine Learning, Artificial Intelligence, Physics-based Numerical Modeling,
+  High-Performance Computing, Cloud Computing Architecture (AWS, Oracle, Azure,
+  GCP, OpenStack), and Time Series Modeling—to solve complex, real-world problems.
+
+  I have delivered impactful solutions in diverse fields such as weather
+  forecasting, geophysics, water resource management, geotechnical engineering,
+  software development, climate and weather risk modeling, and the reinsurance
+  industry. Collaborating with multinational teams has made me highly adaptable,
+  culturally agile, and an effective team player.
+
+  Currently, I apply my multidisciplinary expertise in geospatial analytics and
+  weather and climate risk modeling within the reinsurance industry (Property &
+  Casualty insurance). My focus spans natural catastrophes (e.g., tropical
+  cyclones, flooding), agricultural risks, weather derivatives, and business
+  interruption risks. Additionally, I am developing and maintaining geospatial
+  data infrastructure on AWS to enable remote querying and generative AI
+  analytics of satellite datasets, integrated with Azure DevOps pipelines to
+  drive actionable business insights.
+
+about:
+  experience_line: >-
+    Parametric Reinsurance & Climate Risk Specialist | Geospatial Analytics
+    Solutions Expert | Climate & Weather Data Scientist and Engineer |
+    Environmental Scientist | Geotechnical & Geophysical Engineer | Python
+    Software Developer | AWS Solutions Architect | Generative AI Enthusiast
+  experience_body: >-
+    I have contributed to developing and underwriting parametric and index-based
+    reinsurance solutions and developing software platforms for satellite-based
+    CO2 emissions and wildfire burned area monitoring. Proven expertise in
+    Natural Catastrophe modelling (Tropical Cyclone, Earthquake, Flooding, SCS,
+    Wildfire, etc.), climate risk assessment, and insurance structuring product
+    development, leveraging deep knowledge of the (re)insurance value chain to
+    design scalable, client-focused solutions. Adept at using machine learning,
+    spatial data engineering, satellite and meteorological data processing, and
+    time series analysis to price and innovate climate-linked insurance products.
+
+    Skilled in Python, R, SQL/NoSQL, and cloud platforms (AWS, Azure, GCP) with
+    a passion for building robust tools that drive automation and analytics at
+    scale. Successfully led the deployment of a cloud-based parametric pricing
+    platform and worked cross-functionally with technical and commercial teams
+    to deliver impactful solutions. An exceptional communicator and
+    collaborator, capable of translating complex datasets into actionable
+    insights for clients and stakeholders.
+  research_body: >-
+    Detailed research background will be updated here...loading.
+  hobby_body: >-
+    I love to volunteer for societal-building activities, enjoy playing and
+    watching (Chelsea FC fan for life!) football, am passionate about new
+    technology, and like spending time with my family. I am mostly coding and
+    reading about APIs for new challenges.
+
+stats:
+  - value: "7+"
+    label: "Research & Industry<br /> Projects"
+  - value: "35+"
+    label: "Citations"
+  - value: "6+"
+    label: "Solutions Deployed<br /> AWS & Azure"
+  - value: "6+"
+    label: "Published Papers <br /> in High Impact Journals"
+  - value: "7+"
+    label: "Conference Abstracts <br /> (e.g., EGU, AGU)"
+  - value: "4+"
+    label: "Invited<br /> Talks"
+
+skills:
+  - name: "R"
+    percent: 80
+  - name: "Python"
+    percent: 95
+  - name: "Javascript"
+    percent: 75
+  - name: "FORTRAN"
+    percent: 60
+  - name: "MATLAB"
+    percent: 80
+  - name: "C++"
+    percent: 60
+  - name: "Shell scripting"
+    percent: 80
+  - name: "React"
+    percent: 55
+
+contact_intro: >-
+  I think I am very friendly and nice enough to work with everyone or team. I
+  am a problem solver and passionate about open source software development. I
+  mostly reply to emails within 3 hrs. Kindly link up for collaboration or
+  information related to any of my projects.

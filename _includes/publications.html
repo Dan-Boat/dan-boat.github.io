@@ -1,0 +1,61 @@
+{% assign pub = site.data.publications %}
+<section class="container" id="publications">
+    <div class="main-title">
+        <h2>Publications <span>&amp; Talks</span></h2>
+    </div>
+    <div class="blogs">
+        <div class="publications-list">
+            <h4><span>Publications (Peer reviewed)</span></h4>
+            <ul>
+                {% for item in pub.peer_reviewed %}
+                <li><a href="{{ item.url }}" target="_blank"><span>{{ item.authors }}</span>: {{ item.text }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="publications-list">
+            <h4><span>Publications (Submitted/Under Review)</span></h4>
+            <ul>
+                {% for item in pub.submitted %}
+                <li><a href="{{ item.url }}" target="_blank"><span>{{ item.authors }}</span>: {{ item.text }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="publications-list">
+            <h4><span>Conference Abstracts</span></h4>
+            <ul>
+                {% for item in pub.conference_abstracts %}
+                <li><a href="{{ item.url }}" target="_blank"><span>{{ item.authors }}</span>: {{ item.text }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="publications-list">
+            <h4><span>Invited Talks</span></h4>
+            <ul>
+                {% for item in pub.invited_talks %}
+                <li><span>{{ item.speaker }}</span>: {{ item.text }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="publications-list">
+            <h4><span>Scientific Sessions</span></h4>
+            <ul>
+                {% for item in pub.scientific_sessions %}
+                <li><a href="{{ item.url }}" target="_blank">{{ item.text }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="publications-list">
+            <h4><span>Teaching Activities</span></h4>
+            <ul>
+                {% for item in pub.teaching %}
+                <li>{{ item.text }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</section>

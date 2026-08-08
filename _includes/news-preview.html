@@ -1,0 +1,24 @@
+{% assign recent_news = site.data.news | sort: "date" | reverse | slice: 0, 3 %}
+<section class="container" id="news">
+    <div class="main-title">
+        <h2>Industry <span>Updates</span><span class="bg-text">Climate Risk</span></h2>
+    </div>
+    <p class="news-intro">
+        Curated news and research on physical climate risk, with a focus on tropical
+        cyclone, severe convective storm and flood perils relevant to (re)insurance —
+        pulled from journals, catastrophe risk vendors, and reinsurer publications.
+    </p>
+
+    <div class="news-grid">
+        {% for item in recent_news %}
+        <div class="news-card">
+            <div class="news-card-meta">{{ item.date | date: "%b %-d, %Y" }} &middot; {{ item.source }}</div>
+            <div class="news-tags"><span class="news-tag">{{ item.category }}</span></div>
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.summary }}</p>
+            <a class="news-source-link" href="{{ item.url }}" target="_blank" rel="noopener">Read source &rarr;</a>
+        </div>
+        {% endfor %}
+    </div>
+    <a class="view-all-link" href="{{ '/news/' | relative_url }}">View all industry updates &rarr;</a>
+</section>

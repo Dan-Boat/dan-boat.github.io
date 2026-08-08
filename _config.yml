@@ -1,0 +1,43 @@
+title: Dr. Daniel Boateng
+description: >-
+  Geospatial Data Scientist & Climate Risk Expert — Atmospheric Dynamics, AI-based
+  Weather Forecasting, Climate Modelling, Natural Catastrophe Modelling and
+  Parametric Insurance.
+url: "https://dan-boat.github.io"
+baseurl: ""
+
+author: Daniel Boateng
+email: dannboateng@gmail.com
+
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+collections:
+  news:
+    output: false
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+feed:
+  path: blog/feed.xml
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CONTENT-GUIDE.md
+  - scripts
+  - node_modules

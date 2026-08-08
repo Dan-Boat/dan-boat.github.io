@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="standalone-page">
+    <a class="page-back-link" href="{{ '/blog/' | relative_url }}"><i class="fas fa-arrow-left"></i> All posts</a>
+
+    <article class="blog-card">
+        <h1>{{ page.title }}</h1>
+        <span class="blog-meta">
+            Posted on {{ page.date | date: "%B %-d, %Y" }}
+            {% if page.categories %} | {{ page.categories | join: ", " }}{% endif %}
+        </span>
+        {% if page.image %}<img src="{{ page.image | relative_url }}" alt="{{ page.title }}">{% endif %}
+        {{ content }}
+    </article>
+
+    <div class="subscribe-box">
+        <h3>Get new posts by email</h3>
+        <p>Bi-weekly notes on physical climate modelling, natural catastrophe risk and parametric insurance. No spam.</p>
+        {% include newsletter-form.html %}
+    </div>
+</div>

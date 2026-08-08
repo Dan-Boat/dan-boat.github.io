@@ -1,0 +1,41 @@
+{% assign recent_posts = site.posts | limit: 4 %}
+<section class="container" id="blog">
+    <div class="main-title">
+        <h2><span>My Blog</span></h2>
+    </div>
+
+    <div class="subscribe-box">
+        <h3>Bi-weekly notes, straight to your inbox</h3>
+        <p>Physical climate modelling, natural catastrophe risk, and parametric insurance — roughly every two weeks.</p>
+        {% include newsletter-form.html %}
+    </div>
+
+    <div class="blog-container">
+        <div class="blog-nav">
+            <h3>Recent Posts</h3>
+            <ul class="blog-list">
+                {% for post in recent_posts %}
+                <li class="blog-list-item{% if forloop.first %} active{% endif %}">
+                    <a href="{{ post.url | relative_url }}">{{ post.date | date: "%Y.%m" }} &mdash; {{ post.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+            <a class="blog-archive-link" href="{{ '/blog/' | relative_url }}">View all posts &rarr;</a>
+        </div>
+
+        <div class="blog-content">
+            {% for post in recent_posts %}
+            <article class="blog-card">
+                <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+                <span class="blog-meta">
+                    Posted on {{ post.date | date: "%B %-d, %Y" }}
+                    {% if post.categories %} | {{ post.categories | join: ", " }}{% endif %}
+                </span>
+                {% if post.image %}<img src="{{ post.image | relative_url }}" alt="{{ post.title }}">{% endif %}
+                <p>{{ post.excerpt | strip_html | truncatewords: 55 }}</p>
+                <a class="view-all-link" href="{{ post.url | relative_url }}">Read full post &rarr;</a>
+            </article>
+            {% endfor %}
+        </div>
+    </div>
+</section>
