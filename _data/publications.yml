@@ -6,6 +6,12 @@
 # "url" can be "#" if there is no link yet (e.g. a submitted paper).
 
 peer_reviewed:
+  - authors: "Wilby, R. L., Basarin, B., Boateng, D., and Josić, M."
+    text: >-
+      A Workflow for Benchmarking Added Value by New Statistical Downscaling
+      Methods. Journal of Extreme Events, 11:01n04, 2025.
+    url: "https://doi.org/10.1142/S2345737625400020"
+
   - authors: "Boateng, D. et. al."
     text: >-
       Refining paleoelevation estimates of the European Alps by simulating
@@ -41,6 +47,12 @@ peer_reviewed:
     url: "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022PA004442"
 
 submitted:
+  - authors: "Afful, S. (corresponding), Aryee, J. N. A., Abdul-Salaam, G., Apaw, M. M., Baidu, M., Osei, M. A., Arthur, F., and Boateng, D."
+    text: >-
+      Deep Learning Techniques for Precipitation Nowcasting: Trends,
+      Challenges and Future Directions. Environmental Modelling & Software.
+    url: "#"
+
   - authors: "Ballian Armelle et al. (incl. Boateng, D.)"
     text: >-
       Miocene reconstructed and simulated oxygen isotopic composition of

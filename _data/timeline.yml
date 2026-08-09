@@ -2,7 +2,17 @@
 # Add a new job by copying a block to the TOP of the list (most recent first).
 # icon uses Font Awesome classes, e.g. fas fa-briefcase or fas fa-graduation-cap
 
-- duration: "2025.02 - present"
+- duration: "2026.07 - present"
+  title: "Climate & Meteorological Risk Expert"
+  org: "Munich Re"
+  icon: "fas fa-briefcase"
+  description: >-
+    Physical climate risk modelling and adaptation measures. Responsible for
+    modelling tropical cyclone, extratropical cyclone, and severe convective
+    storm risk to help banks, real estate, and corporates estimate their
+    physical climate risk and build financial resilience.
+
+- duration: "2025.02 - 2026.06"
   title: "Data Scientist"
   org: "Hannover Re"
   icon: "fas fa-briefcase"
