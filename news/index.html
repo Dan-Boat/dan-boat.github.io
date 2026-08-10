@@ -4,6 +4,7 @@ title: "Industry Updates"
 permalink: /news/
 ---
 {% assign all_news = site.data.news | sort: "date" | reverse %}
+{% assign categories = all_news | map: "category" | uniq | sort %}
 <div class="standalone-page">
     <a class="page-back-link" href="{{ '/' | relative_url }}"><i class="fas fa-arrow-left"></i> Back to home</a>
 
@@ -11,10 +12,11 @@ permalink: /news/
         <h2>Industry <span>Updates</span></h2>
     </div>
     <p class="news-intro">
-        Curated news and research on physical climate risk, with a focus on tropical
-        cyclone, severe convective storm, and flood perils relevant to (re)insurance
-        — sourced from scientific journals, catastrophe-risk vendors, and reinsurer
-        publications. See <a href="https://github.com/Dan-Boat/dan-boat.github.io/blob/main/CONTENT-GUIDE.md" target="_blank">CONTENT-GUIDE.md</a>
+        Curated news and research on physical climate risk — tropical cyclone, extratropical
+        cyclone and severe convective storm modelling, NatCat modelling, parametric insurance
+        and reinsurance, physical risk service providers, and climate adaptation & sustainability
+        — sourced from scientific journals, catastrophe-risk vendors, and reinsurer publications.
+        See <a href="https://github.com/Dan-Boat/dan-boat.github.io/blob/main/CONTENT-GUIDE.md" target="_blank">CONTENT-GUIDE.md</a>
         for how this feed is curated and how it will later feed a subscriber newsletter.
     </p>
 
@@ -24,22 +26,37 @@ permalink: /news/
         {% include newsletter-form.html %}
     </div>
 
-    <div class="paginated-list" data-page-size="9">
-        <div class="news-grid" data-items>
-            {% for item in all_news %}
-            <div class="news-card">
-                <div class="news-card-meta">{{ item.date | date: "%b %-d, %Y" }} &middot; {{ item.source }}</div>
-                <div class="news-tags"><span class="news-tag">{{ item.category }}</span></div>
-                <h3>{{ item.title }}</h3>
-                <p>{{ item.summary }}</p>
-                <a class="news-source-link" href="{{ item.url }}" target="_blank" rel="noopener">Read source &rarr;</a>
+    <div class="news-layout">
+        <aside class="news-filter-nav">
+            <h3>Themes</h3>
+            <ul class="filter-list" data-target="#news-paginated">
+                <li class="filter-item active" data-filter="all">All Updates <span class="filter-count">{{ all_news.size }}</span></li>
+                {% for cat in categories %}
+                {% assign cat_count = all_news | where: "category", cat | size %}
+                <li class="filter-item" data-filter="{{ cat }}">{{ cat }} <span class="filter-count">{{ cat_count }}</span></li>
+                {% endfor %}
+            </ul>
+        </aside>
+
+        <div class="news-main">
+            <div class="paginated-list" id="news-paginated" data-page-size="9">
+                <div class="news-grid" data-items>
+                    {% for item in all_news %}
+                    <div class="news-card" data-category="{{ item.category }}">
+                        <div class="news-card-meta">{{ item.date | date: "%b %-d, %Y" }} &middot; {{ item.source }}</div>
+                        <div class="news-tags"><span class="news-tag">{{ item.category }}</span></div>
+                        <h3>{{ item.title }}</h3>
+                        <p>{{ item.summary }}</p>
+                        <a class="news-source-link" href="{{ item.url }}" target="_blank" rel="noopener">Read source &rarr;</a>
+                    </div>
+                    {% endfor %}
+                </div>
             </div>
-            {% endfor %}
+            <div class="pagination-controls">
+                <button class="pg-prev">&laquo; Newer</button>
+                <span class="pg-status"></span>
+                <button class="pg-next">Older &raquo;</button>
+            </div>
         </div>
-    </div>
-    <div class="pagination-controls">
-        <button class="pg-prev">&laquo; Newer</button>
-        <span class="pg-status"></span>
-        <button class="pg-next">Older &raquo;</button>
     </div>
 </div>

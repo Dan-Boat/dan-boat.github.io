@@ -2,11 +2,15 @@
 """Pull physical-climate-risk / storm-peril news into _data/news.yml.
 
 Sources are public RSS/Atom feeds only — scientific journals (Copernicus,
-Nature), agency bulletins (NOAA), and (re)insurance/ILS trade press (Artemis,
-Reinsurance News). This deliberately does NOT touch LinkedIn: LinkedIn's
-Terms of Service prohibit automated scraping/collection, so LinkedIn items
-are out of scope for this script by design — add anything from LinkedIn to
-_data/news.yml by hand instead. See CONTENT-GUIDE.md.
+Nature), agency bulletins (NOAA), (re)insurance/ILS trade press (Artemis,
+Reinsurance News), an official EU adaptation platform (Climate-ADAPT), and
+Google News' public RSS search endpoint for tracking mentions of specific
+physical-risk vendors (Climate X, MSCI, Jupiter Intelligence, Swiss Re,
+Munich Re, Moody's RMS, Verisk) whose own sites don't publish RSS. This
+deliberately does NOT touch LinkedIn: LinkedIn's Terms of Service prohibit
+automated scraping/collection, so LinkedIn items are out of scope for this
+script by design — add anything from LinkedIn to _data/news.yml by hand
+instead. See CONTENT-GUIDE.md.
 
 Usage:
     pip install feedparser pyyaml
@@ -17,8 +21,7 @@ and only appends new, keyword-matched items. It never deletes existing
 entries, so manual edits/curation are preserved. It also writes
 digest.md (a human-readable summary of what it found) which
 .github/workflows/fetch-news.yml uses as the pull request description —
-that PR is the weekly report for you to review before anything is published
-to the site.
+that PR is the review-before-publish report, generated every two days.
 """
 from __future__ import annotations
 
@@ -38,36 +41,81 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 NEWS_FILE = REPO_ROOT / "_data" / "news.yml"
 DIGEST_FILE = REPO_ROOT / "digest.md"
 
-# Public RSS/Atom feeds to poll, grouped by type. Add/remove/prune as you
+
+def google_news(query: str) -> str:
+    """Build a Google News RSS search URL. This is Google's own public,
+    documented RSS endpoint (news.google.com/rss/search) — not scraping a
+    third party's site — used here to track press mentions of vendors that
+    don't publish their own RSS feed."""
+    from urllib.parse import quote
+
+    return f"https://news.google.com/rss/search?q={quote(query)}&hl=en-US&gl=US&ceid=US:en"
+
+
+# Theme shown as a filter tab on /news/. Keep this list and the categories
+# used below in FEEDS in sync — every distinct category becomes a tab.
+THEMES = [
+    "Tropical Cyclone",
+    "Severe Convective Storm",
+    "Flood",
+    "Wildfire",
+    "Climate Modelling",
+    "Physical Risk Service Providers",
+    "Parametric Insurance",
+    "Reinsurance",
+    "Adaptation & Sustainability",
+    "General",
+]
+
+# Public RSS/Atom feeds to poll, grouped by theme. Add/remove/prune as you
 # find sources — a feed that 404s or times out is skipped with a warning,
-# it won't fail the whole run.
+# it won't fail the whole run. "max_items" overrides MAX_PER_FEED per feed.
 FEEDS = [
     # NOAA NHC/SPC operational bulletins (active-storm advisories, severe
     # thunderstorm watches, hourly outlooks) are deliberately NOT included
     # here: they're live warnings that go stale within hours, which doesn't
-    # fit a curated news/publications digest reviewed weekly. If you want a
-    # live storm tracker, that's a separate widget, not this feed. Re-add
-    # them below if you decide you do want raw bulletins in the mix:
+    # fit a curated news digest. If you want a live storm tracker, that's a
+    # separate widget, not this feed. Re-add below if you want raw bulletins:
     #   {"url": "https://www.nhc.noaa.gov/index-at.xml", "source": "NOAA National Hurricane Center", "category": "Tropical Cyclone"},
     #   {"url": "https://www.spc.noaa.gov/products/spcrss.xml", "source": "NOAA Storm Prediction Center", "category": "Severe Convective Storm"},
 
-    # --- Scientific journals (Copernicus EGU journals publish per-article RSS) --
+    # --- Climate Modelling: TC/ETC/SCS and NatCat modelling research -------
     {"url": "https://nhess.copernicus.org/xml/rss2_0.xml", "source": "Natural Hazards and Earth System Sciences (NHESS)", "category": "Climate Modelling"},
     {"url": "https://esd.copernicus.org/xml/rss2_0.xml", "source": "Earth System Dynamics (ESD)", "category": "Climate Modelling"},
     {"url": "https://gmd.copernicus.org/xml/rss2_0.xml", "source": "Geoscientific Model Development (GMD)", "category": "Climate Modelling"},
     {"url": "https://www.nature.com/nclimate.rss", "source": "Nature Climate Change", "category": "Climate Modelling"},
+    {"url": google_news('"catastrophe model" OR "NatCat model" tropical cyclone OR "severe convective storm" research'),
+     "source": "Google News: NatCat modelling research", "category": "Climate Modelling", "max_items": 4, "no_filter": True},
 
     # --- (Re)insurance / ILS / parametric trade press ----------------------
     {"url": "https://www.artemis.bm/feed/", "source": "Artemis.bm (ILS & Parametric)", "category": "Parametric Insurance"},
-    {"url": "https://www.reinsurancene.ws/feed/", "source": "Reinsurance News", "category": "General"},
+    {"url": "https://www.reinsurancene.ws/feed/", "source": "Reinsurance News", "category": "Reinsurance"},
 
-    # --- Climate/science journalism -----------------------------------------
-    {"url": "https://www.carbonbrief.org/feed/", "source": "Carbon Brief", "category": "Climate Modelling"},
+    # --- Physical climate risk service providers (vendor press mentions) ---
+    # These vendors don't publish their own RSS feeds, so we track them via
+    # Google News' public RSS search rather than scraping their sites.
+    {"url": google_news('"Climate X" physical climate risk'), "source": "Google News: Climate X", "category": "Physical Risk Service Providers", "max_items": 3, "no_filter": True},
+    {"url": google_news("MSCI physical climate risk"), "source": "Google News: MSCI", "category": "Physical Risk Service Providers", "max_items": 3, "no_filter": True},
+    {"url": google_news('"Jupiter Intelligence" climate risk'), "source": "Google News: Jupiter Intelligence", "category": "Physical Risk Service Providers", "max_items": 3, "no_filter": True},
+    {"url": google_news('"Swiss Re" climate risk solutions'), "source": "Google News: Swiss Re", "category": "Physical Risk Service Providers", "max_items": 3, "no_filter": True},
+    {"url": google_news('"Munich Re" "Location Risk Intelligence" OR NATHAN climate'), "source": "Google News: Munich Re RMP", "category": "Physical Risk Service Providers", "max_items": 3, "no_filter": True},
+    {"url": google_news("Moody's RMS catastrophe model climate"), "source": "Google News: Moody's RMS", "category": "Physical Risk Service Providers", "max_items": 3, "no_filter": True},
+    {"url": google_news("Verisk catastrophe model climate risk"), "source": "Google News: Verisk", "category": "Physical Risk Service Providers", "max_items": 3, "no_filter": True},
+
+    # --- Adaptation & sustainability ----------------------------------------
+    # Note: climate-adapt.eea.europa.eu's /rss-feed page is a JS-rendered
+    # landing page, not an actual feed endpoint — it 404s/parse-errors for a
+    # script, so it's deliberately not included. Use the Google News queries
+    # below to cover adaptation/resilience news instead.
+    {"url": "https://www.carbonbrief.org/feed/", "source": "Carbon Brief", "category": "Adaptation & Sustainability"},
+    {"url": google_news("climate adaptation finance OR resilience investment"), "source": "Google News: Adaptation & Resilience", "category": "Adaptation & Sustainability", "max_items": 3, "no_filter": True},
+    {"url": google_news("climate adaptation policy OR resilient infrastructure"), "source": "Google News: Adaptation Policy", "category": "Adaptation & Sustainability", "max_items": 3, "no_filter": True},
 ]
 
 # Only keep items whose title/summary mention one of these (case-insensitive).
-# Journal/trade feeds are broad, so this filter keeps the digest focused on
-# physical climate risk & storm perils specifically.
+# Broad journal/trade feeds get filtered so the digest stays focused; feeds
+# already scoped by a targeted search query (marked "no_filter": True above)
+# skip this check since near-everything they return is on-topic by design.
 KEYWORDS = [
     "cyclone", "hurricane", "typhoon", "storm", "flood", "wildfire", "drought",
     "parametric", "reinsurance", "catastrophe", "cat bond", "cat-bond",
@@ -79,7 +127,9 @@ KEYWORD_RE = re.compile("|".join(re.escape(k) for k in KEYWORDS), re.IGNORECASE)
 
 # Agency bulletin feeds are already curated/on-topic by nature — don't
 # keyword-filter them or near everything gets dropped.
-NO_FILTER_SOURCES = {"NOAA National Hurricane Center", "NOAA Storm Prediction Center"}
+NO_FILTER_SOURCES = {"NOAA National Hurricane Center", "NOAA Storm Prediction Center"} | {
+    f["source"] for f in FEEDS if f.get("no_filter")
+}
 
 # Cap how many new items a single feed can contribute per run, so one prolific
 # journal doesn't drown out the rest of the digest.
@@ -138,8 +188,9 @@ def main() -> None:
 
     for feed in FEEDS:
         added_from_feed = 0
+        feed_limit = feed.get("max_items", MAX_PER_FEED)
         for entry in fetch_feed(feed):
-            if added_from_feed >= MAX_PER_FEED:
+            if added_from_feed >= feed_limit:
                 break
             url = entry.get("link")
             if not url or url in known_urls:
@@ -181,28 +232,32 @@ def main() -> None:
 
     combined = new_items + existing
     combined.sort(key=lambda item: item["date"], reverse=True)
+    themes = ", ".join(THEMES)
     NEWS_FILE.write_text(
         "# Industry / physical-climate-risk news feed shown on /news/.\n"
-        "# Auto-updated by scripts/fetch_news.py via .github/workflows/fetch-news.yml\n"
-        "# Feel free to hand-edit; the script only appends new, deduplicated items.\n\n"
+        "# Auto-updated by scripts/fetch_news.py via .github/workflows/fetch-news.yml (runs every 2 days).\n"
+        "# Feel free to hand-edit; the script only appends new, deduplicated items.\n"
+        "#\n"
+        "# category is any free-text theme; each distinct value automatically becomes\n"
+        f"# a filter tab on /news/. Current themes in use: {themes}.\n\n"
         + yaml.dump(combined, sort_keys=False, allow_unicode=True, width=100)
     )
     print(f"Added {len(new_items)} new item(s) to {NEWS_FILE}")
 
 
 def write_digest(new_items: list[dict]) -> None:
-    """Write a human-readable weekly report used as the PR body."""
+    """Write a human-readable report used as the PR body."""
     today = dt.date.today().isoformat()
-    lines = [f"# Weekly climate-risk news digest — {today}", ""]
+    lines = [f"# Climate-risk research digest — {today}", ""]
 
     if not new_items:
-        lines.append("No new items matched this week. Nothing to review.")
+        lines.append("No new items found this run. Nothing to review.")
     else:
         lines.append(
-            f"Found **{len(new_items)}** new item(s) from journals, NOAA bulletins, "
-            "and (re)insurance/ILS trade press. Review below, then edit "
-            "`_data/news.yml` directly in this PR if you want to trim summaries, "
-            "recategorize, or drop an item, before merging.\n"
+            f"Found **{len(new_items)}** new item(s) across journals, (re)insurance/ILS "
+            "trade press, physical-risk vendor mentions, and adaptation & sustainability "
+            "sources. Review below, then edit `_data/news.yml` directly in this PR if "
+            "you want to trim summaries, recategorize, or drop an item, before merging.\n"
         )
         by_category: dict[str, list[dict]] = {}
         for item in new_items:

@@ -49,21 +49,34 @@ Aim for roughly one post every two weeks to keep the cadence promised on the
 site.
 
 ## Industry / physical climate risk news feed (`/news/`)
-This section is meant to spotlight recent news relevant to physical climate
-risk and storm perils (tropical cyclone, severe convective storm, flood) for
-a (re)insurance / parametric audience.
+This section spotlights recent news and research across themes relevant to a
+(re)insurance / parametric audience. `/news/` shows a filter sidebar with one
+tab per distinct `category` value in `_data/news.yml`, automatically —
+themes currently in use:
 
-**Today (manual curation):** edit `_data/news.yml` directly — add an entry at
-the top with `title`, `url`, `source`, `date`, `category`, `summary`.
+- **Tropical Cyclone**, **Severe Convective Storm**, **Flood**, **Wildfire** — hazard-specific news
+- **Climate Modelling** — TC/ETC/SCS and NatCat modelling research (journals + targeted searches)
+- **Physical Risk Service Providers** — press mentions of vendors like Climate X, MSCI, Jupiter Intelligence, Swiss Re, Munich Re RMP, Moody's RMS, Verisk
+- **Parametric Insurance**, **Reinsurance** — (re)insurance/ILS trade press
+- **Adaptation & Sustainability** — climate adaptation & resilience news
+- **General** — anything that doesn't fit the above
+
+Adding any new `category` value in `_data/news.yml` (by hand or via the
+script) automatically creates a new filter tab — no template changes needed.
+
+**Manual curation:** edit `_data/news.yml` directly — add an entry at the top
+with `title`, `url`, `source`, `date`, `category`, `summary`.
 
 **Automated collection:** `scripts/fetch_news.py` polls a list of public
-RSS/Atom feeds (NOAA/NHC, NOAA Storm Prediction Center, ReliefWeb — add more
-in the `FEEDS` list, e.g. any reinsurer newsroom or journal that publishes an
-RSS feed) and appends new, keyword-matched items to `_data/news.yml`. It is
-wired up as a scheduled GitHub Action
-(`.github/workflows/fetch-news.yml`, runs weekly, or trigger manually from
-the Actions tab) that opens a **pull request** with the new entries — nothing
-publishes automatically until you review and merge.
+RSS/Atom feeds — scientific journals (Copernicus), agency/trade press
+(Artemis, Reinsurance News), an official EU platform (Climate-ADAPT), and
+Google News' public RSS search endpoint for vendors that don't publish their
+own feed (Climate X, MSCI, Jupiter Intelligence, Swiss Re, Munich Re, Moody's
+RMS, Verisk) — and appends new, deduplicated items to `_data/news.yml`. It's
+wired up as a scheduled GitHub Action (`.github/workflows/fetch-news.yml`,
+runs **every two days**, or trigger manually from the Actions tab) that opens
+a **pull request** with the new entries — nothing publishes automatically
+until you review and merge.
 
 > **Note on LinkedIn:** LinkedIn's Terms of Service prohibit automated
 > scraping of the platform, so this pipeline does not and should not pull
@@ -71,7 +84,9 @@ publishes automatically until you review and merge.
 > `_data/news.yml` by hand, or manually share posts and reference the public
 > URL.
 
-To add a new feed source, edit the `FEEDS` list in `scripts/fetch_news.py`.
+To add a new feed source or vendor to track, edit the `FEEDS` list in
+`scripts/fetch_news.py` — either a direct RSS URL, or `google_news("your search query")`
+for a source (like the vendors above) that doesn't publish its own feed.
 Run it locally any time with:
 
 ```bash

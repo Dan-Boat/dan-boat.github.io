@@ -1,12 +1,170 @@
 # Industry / physical-climate-risk news feed shown on /news/.
-# Auto-updated by scripts/fetch_news.py via .github/workflows/fetch-news.yml
+# Auto-updated by scripts/fetch_news.py via .github/workflows/fetch-news.yml (runs every 2 days).
 # Feel free to hand-edit; the script only appends new, deduplicated items.
+#
+# category is any free-text theme; each distinct value automatically becomes
+# a filter tab on /news/. Current themes in use: Tropical Cyclone, Severe Convective Storm, Flood, Wildfire, Climate Modelling, Physical Risk Service Providers, Parametric Insurance, Reinsurance, Adaptation & Sustainability, General.
 
+- title: Best of Artemis, week ending August 9th 2026
+  url: https://www.artemis.bm/news/best-of-artemis-week-ending-august-9th-2026/?utm_source=rss&utm_medium=rss&utm_campaign=best-of-artemis-week-ending-august-9th-2026
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-08-10'
+  category: Parametric Insurance
+  summary: Here are the ten most popular news articles, week ending August 9th 2026, covering catastrophe
+    bonds, ILS, reinsurance capital and related risk transfer topics. To ensure you never miss a thing
+    subscribe to the weekly Artemis email newsletter updates or get our email alerts for every article
+    we publ
+- title: Swiss Re appoints Damien Bartlett and Karen Tan to L&H leadership roles
+  url: https://www.reinsurancene.ws/swiss-re-appoints-damien-bartlett-and-karen-tan-to-lh-leadership-roles/
+  source: Reinsurance News
+  date: '2026-08-10'
+  category: Reinsurance
+  summary: Global reinsurer Swiss Re has announced the appointments of Damien Bartlett as Head of Market
+    Unit Life & Health UK and Ireland and Middle East and Africa, and Karen Tan as Chief Underwriting
+    Officer for L&H Re. Effective 1 November 2026, Bartlett will succeed Tamas Bown, who has taken on
+    the role o
+- title: FurtherAI hires Zachary Hirsch as SVP of Sales
+  url: https://www.reinsurancene.ws/furtherai-hires-zachary-hirsch-as-svp-of-sales/
+  source: Reinsurance News
+  date: '2026-08-10'
+  category: Reinsurance
+  summary: 'FurtherAI, an insurance AI platform, has announced the appointment of Zachary Hirsch as Senior
+    Vice President of Sales. The company’s AI agents automate complex workflows across submissions, underwriting,
+    policy administration, audits, and claims, enabling insurance professionals to spend more time '
+- title: Acies MGU expands into marine insurance with launch of TEDmar International
+  url: https://www.reinsurancene.ws/acies-mgu-expands-into-marine-insurance-with-launch-of-tedmar-international/
+  source: Reinsurance News
+  date: '2026-08-10'
+  category: Reinsurance
+  summary: Acies MGU (Acies), a technology and data-driven managing general underwriter (MGU) specialising
+    in the creation and management of niche insurance businesses, has announced its expansion into the
+    marine insurance sector through the launch of TEDmar International (TEDmar), a managing general agent
+    ded
+- title: AXA XL Re appoints two Senior Underwriters to Marine & Energy team
+  url: https://www.reinsurancene.ws/axa-xl-re-appoints-two-senior-underwriters-to-marine-energy-team/
+  source: Reinsurance News
+  date: '2026-08-10'
+  category: Reinsurance
+  summary: AXA XL Reinsurance, part of AXA XL, the property, casualty and specialty risk division of global
+    insurance group AXA, has appointed Stephen Barnard and Callum Higgins as Senior Underwriters in its
+    Marine & Energy Reinsurance team. Barnard officially joined AXA XL Re on 10 August 2026, bringing
+    12 ye
+- title: 'Climate-resilient infrastructure: lessons from Japan - The World Economic Forum'
+  url: https://news.google.com/rss/articles/CBMimAFBVV95cUxQU0FuR2RkRnk0MzFYNDZrNzFGUFJBMWxvbXlVNkJOV2diSTk4OTJtSHZnZERFcnRmeFEzS2NsTFZqcTJEd2RxTlI3TnFJNGFQdHhHNlZzSTVhMU1rRDFLN2RVTEFWcUlnak1DSFZ5bUJObXFlU1ZCS3c3WVRYTVotZUNKeHQ2bU5Wc1Vyc1lfTk9lUmJVMTNvag?oc=5
+  source: 'Google News: Adaptation Policy'
+  date: '2026-08-10'
+  category: Adaptation & Sustainability
+  summary: 'Climate-resilient infrastructure: lessons from Japan The World Economic Forum'
+- title: White Mountains gets $222m capital return from Ark’s Outrigger Re sidecar
+  url: https://www.artemis.bm/news/white-mountains-gets-222m-capital-return-from-arks-outrigger-re-sidecar/?utm_source=rss&utm_medium=rss&utm_campaign=white-mountains-gets-222m-capital-return-from-arks-outrigger-re-sidecar
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-08-10'
+  category: Parametric Insurance
+  summary: 'While White Mountains elected not to invest capital into the Outrigger Re collateralized reinsurance
+    sidecar, which supports its P&C insurance and reinsurance subsidiary Ark, for the 2026 underwriting
+    year, the vehicle continues to serve as a major driver of cash flow, returning substantial capital '
+- title: 'Sidecar evolution driven by asset-side mechanics and valuation discipline: Kroll'
+  url: https://www.artemis.bm/news/sidecar-evolution-driven-by-asset-side-mechanics-and-valuation-discipline-kroll/?utm_source=rss&utm_medium=rss&utm_campaign=sidecar-evolution-driven-by-asset-side-mechanics-and-valuation-discipline-kroll
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-08-10'
+  category: Parametric Insurance
+  summary: As reinsurance sidecars increasingly expand into longer-tailed lines of business, the risk
+    profile of these structures is shifting from traditional underwriting toward asset-side management.
+    According to executives at financial and risk advisory firm Kroll, navigating this momentum requires
+    strict a
+- title: Hiscox Capital Partners hires Spanos as Senior ILS Actuary
+  url: https://www.artemis.bm/news/hiscox-capital-partners-hires-spanos-as-senior-ils-actuary/?utm_source=rss&utm_medium=rss&utm_campaign=hiscox-capital-partners-hires-spanos-as-senior-ils-actuary
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-08-10'
+  category: Parametric Insurance
+  summary: Hiscox Capital Partners, the division of Hiscox Re that encompasses insurance-linked securities
+    (ILS) investments and quota-share partnerships, has appointed Charalambos (Harry) Spanos as a Senior
+    ILS Actuary. Earlier this year, Hiscox Re, the reinsurance division of Hiscox Group launched Hiscox
+    Cap
+- title: Strong July boosts UCITS catastrophe bond fund returns, but 12-month drops below 10%
+  url: https://www.artemis.bm/news/strong-july-boosts-ucits-catastrophe-bond-fund-returns-but-12-month-drops-below-10/?utm_source=rss&utm_medium=rss&utm_campaign=strong-july-boosts-ucits-catastrophe-bond-fund-returns-but-12-month-drops-below-10
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-08-10'
+  category: Parametric Insurance
+  summary: Catastrophe bond fund strategies in the UCITS format saw performance accelerate through recent
+    weeks as seasonality boosted returns, but the 12-month rolling return average across the Plenum CAT
+    Bond UCITS Fund Indices has now declined to just under 10% for the first time this year. The average
+    retu
+- title: 'Reinsurance inflection – Key question is whether irrational competition emerges: AM Best'
+  url: https://www.artemis.bm/news/reinsurance-inflection-key-question-is-whether-irrational-competition-emerges-am-best/?utm_source=rss&utm_medium=rss&utm_campaign=reinsurance-inflection-key-question-is-whether-irrational-competition-emerges-am-best
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-08-10'
+  category: Parametric Insurance
+  summary: The global reinsurance market is at an inflection point after consecutive strong year’s of
+    underwriting returns have driven robust capital generation, while inflows continue to grow the insurance-linked
+    securities market and alternative forms of capacity, which leads AM Best to call this an inflecti
+- title: 'Third-party reinsurance capital projected for 6% growth to $130bn in 2026: AM Best & GC'
+  url: https://www.artemis.bm/news/third-party-reinsurance-capital-projected-for-6-growth-to-130bn-in-2026-am-best-gc/?utm_source=rss&utm_medium=rss&utm_campaign=third-party-reinsurance-capital-projected-for-6-growth-to-130bn-in-2026-am-best-gc
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-08-10'
+  category: Parametric Insurance
+  summary: Third-party capital in reinsurance, deployed through alternative capital vehicles, catastrophe
+    bonds and insurance-linked securities, is projected to grow roughly 6% over the course of this year,
+    to end 2026 around a record $130 billion level, according to the latest data from AM Best and Guy
+    Carpen
+- title: Munich Re CEO says P&C demand will continue to rise as market moves towards balance
+  url: https://www.reinsurancene.ws/munich-re-ceo-says-pc-demand-will-continue-to-rise-as-market-moves-towards-balance/
+  source: Reinsurance News
+  date: '2026-08-10'
+  category: Reinsurance
+  summary: Christoph Jurecka, Chief Executive Officer (CEO) of Munich Re, one of the world’s largest global
+    reinsurance companies, has said he expects demand for property and casualty (P&C) reinsurance to continue
+    growing over the medium to long term, supported by rising levels of uninsured risk, emerging expo
+- title: Canopius appoints Greg Kuchinski as US CUO
+  url: https://www.reinsurancene.ws/canopius-appoints-greg-kuchinski-as-us-cuo/
+  source: Reinsurance News
+  date: '2026-08-10'
+  category: Reinsurance
+  summary: Canopius Group, a global specialty and P&C re/insurer, has announced the appointment of Greg
+    Kuchinski as US Chief Underwriting Officer (CUO), effective 9 September 2026. Based in New York, Kuchinski
+    will report to Sam Harrison, CUO at Canopius Group, and incoming Canopius US CEO Nadine Moore. He
+    wi
+- title: Kestrel Group sees $6.7m total revenues in Q2’26
+  url: https://www.reinsurancene.ws/kestrel-group-sees-6-7m-total-revenues-in-q226/
+  source: Reinsurance News
+  date: '2026-08-10'
+  category: Reinsurance
+  summary: Kestrel Group, a specialty insurance and reinsurance platform, has announced its financial
+    results for the second quarter of 2026, reporting $6.7 million in total revenues despite seeing a
+    net loss of $8.1 million. Q2 2026 revenues were up compared to the $5.5 million reported in Q2 2025.
+    The quarte
+- title: Radian reports 93% revenue hike for Q2’26, Specialty premiums hit $504m
+  url: https://www.reinsurancene.ws/radian-reports-93-revenue-hike-for-q226-specialty-premiums-hit-504m/
+  source: Reinsurance News
+  date: '2026-08-10'
+  category: Reinsurance
+  summary: Radian Group Inc., a global multi-line specialty insurer, has reported a total revenue hike
+    of 93% to USD 575 million for the second quarter of 2026, as net premiums earned rose by USD 100 million
+    to USD 504 million, of which 53%, or USD 267 million came from the Specialty segment following the
+    firm
+- title: Augment Risk names Cripps as group head of growth and broking
+  url: https://www.reinsurancene.ws/augment-risk-names-cripps-as-group-head-of-growth-and-broking/
+  source: Reinsurance News
+  date: '2026-08-10'
+  category: Reinsurance
+  summary: Reinsurance and capital solutions broker Augment Risk has announced the appointment of Kurt
+    Cripps as group head of growth and broking, a newly created role, effective immediately. In his new
+    position, Cripps has been tasked with driving the firm’s commercial strategy by identifying and executing
+    ke
+- title: 'Dedicated reinsurance capital expected to hit record $705bn in 2026: AM Best & Guy Carpenter'
+  url: https://www.reinsurancene.ws/dedicated-reinsurance-capital-expected-to-hit-record-705bn-in-2026-am-best-guy-carpenter/
+  source: Reinsurance News
+  date: '2026-08-10'
+  category: Reinsurance
+  summary: Dedicated reinsurance capital is expected to increase further in 2026, as reinsurers continue
+    to benefit from underwriting profits, investment returns and growing participation from third-party
+    capital, according to AM Best, the global insurance credit rating agency, and reinsurance broker Guy
+    Carpe
 - title: Berkshire Hathaway P&C reinsurance boosted by Tokio Marine deal, as property volumes fall
   url: https://www.reinsurancene.ws/berkshire-hathaway-pc-reinsurance-boosted-by-tokio-marine-deal-as-property-volumes-fall/
   source: Reinsurance News
   date: '2026-08-08'
-  category: General
+  category: Reinsurance
   summary: Berkshire Hathaway, the American multinational conglomerate holding company, reported that
     its recently entered into whole account quota share reinsurance agreement with Tokio Marine boosted
     premium volumes in the second-quarter, which otherwise would have fallen primarily due to lower property
@@ -87,7 +245,7 @@
   url: https://www.reinsurancene.ws/alirt-reveals-contrasting-residual-property-insurance-trends-across-four-high-risk-us-states/
   source: Reinsurance News
   date: '2026-08-07'
-  category: General
+  category: Reinsurance
   summary: ALIRT Insurance Research, a US insurance research and analytics firm focused on the property
     and casualty sector, has released a new report highlighting widening differences in the performance
     of residual property insurance markets across California, Florida, Louisiana, and Texas. The company
@@ -96,7 +254,7 @@
   url: https://www.reinsurancene.ws/octave-specialty-grows-q226-revenue-51-as-underwriting-performance-improves/
   source: Reinsurance News
   date: '2026-08-07'
-  category: General
+  category: Reinsurance
   summary: Octave Specialty Group, a US-listed global specialty insurance company operating across insurance
     distribution and specialty property and casualty insurance, reported improved second-quarter 2026
     results, supported by stronger underwriting performance at its Everspan insurance business and continued
@@ -105,7 +263,7 @@
   url: https://www.reinsurancene.ws/amwins-global-risks-broadens-global-renewable-energy-catastrophe-facility-and-raises-capacity-to-50m/
   source: Reinsurance News
   date: '2026-08-07'
-  category: General
+  category: Reinsurance
   summary: Amwins Global Risks, the specialist wholesale insurance broking business of Amwins, has expanded
     its specialist natural catastrophe facility for renewable energy projects, increasing available capacity
     to USD $50 million per placement while extending both the range of covered perils and its global a
@@ -113,7 +271,7 @@
   url: https://www.reinsurancene.ws/hci-group-net-income-rises-19-to-83m-in-q226/
   source: Reinsurance News
   date: '2026-08-07'
-  category: General
+  category: Reinsurance
   summary: HCI Group, Inc., a Tampa-based insurance holding company, has reported net income of $83 million
     in the second quarter of 2026, up 18.6% from $70 million in the same period a year earlier. In the
     quarter, the company posted pre-tax income of $111 million, up 18% from $94 million in Q2’25. Net
@@ -122,11 +280,17 @@
   url: https://www.reinsurancene.ws/cytora-and-octave-partner-to-strengthen-ai-powered-operations-for-mgas/
   source: Reinsurance News
   date: '2026-08-07'
-  category: General
+  category: Reinsurance
   summary: Cytora, a UK insurance technology company that develops digital risk processing software for
     insurers, brokers and managing general agents (MGAs), has entered into a strategic partnership with
     Octave Specialty Group, a specialty insurance platform that invests in, acquires and grows MGAs. As
     part of
+- title: A Sample Grant Proposal ”Nature-Based Solutions for Urban Climate Adaptation” - fundsforNGOs
+  url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVS14ZDZtQlNmU29JdEJlVU9zUE9jQ2FUUU5pQkJHMExLemxKNnVSaTBLeHdtTWp4WThnQjVTdUd2SmdHbzd0MHlYcjRDUlYydWpLS1BPNmlsV0JIYm1UVE4tUHlOMFZFcDFpTmZSUDUwc1kzTVR1dnJNOTFKVzdQdnpkT3htWUdWMmY4d1h3OGRPbEZ6eEhSRVdzQTZkQ0dRSmp4YjZfYnpORnBqWjIwMURfbURsNFJZVzNr?oc=5
+  source: 'Google News: Adaptation Policy'
+  date: '2026-08-06'
+  category: Adaptation & Sustainability
+  summary: A Sample Grant Proposal ”Nature-Based Solutions for Urban Climate Adaptation” fundsforNGOs
 - title: 'SPIN (v1.0): A spontaneous synthetic tropical cyclone model empowered by NeuralGCM for hazard
     assessment'
   url: https://doi.org/10.5194/gmd-19-7303-2026
@@ -157,10 +321,16 @@
   url: https://www.carbonbrief.org/factcheck-how-nuclear-gas-wind-and-solar-power-are-affected-during-heatwaves
   source: Carbon Brief
   date: '2026-08-04'
-  category: Climate Modelling
+  category: Adaptation & Sustainability
   summary: 'Heatwaves are becoming more likely and more intense due to climate change, impacting sources
     of power generation around the world… The post Factcheck: How nuclear, gas, wind and solar power are
     affected during heatwaves appeared first on Carbon Brief.'
+- title: MSCI Completes First Street Acquisition to Expand Climate Risk Analytics Platform - citybiz
+  url: https://news.google.com/rss/articles/CBMivAFBVV95cUxNRTVBbmJZcGwybk9NWWlvWjI5dDEySWQ2cGdPV0tYdS1uWi1YR2trb3ZCYktyUmNjNllOYzBlSnp6d1pCZjRaSmNfNDI5LXh1bDJjb0xJWFhHeW1sZlRNYWpjOWJacGpRUTM4Y2hrT29DTW9oeThXbDdwbllHY2RsZDJRc3lROWliY2ZHSEdVTW56bmo3XzVVNXY3alJ1Z2JsTndQU28yOXhpSy1DMXJKbG5yR1RYcXlMbDc5NQ?oc=5
+  source: 'Google News: MSCI'
+  date: '2026-08-03'
+  category: Physical Risk Service Providers
+  summary: MSCI Completes First Street Acquisition to Expand Climate Risk Analytics Platform citybiz
 - title: Precipitation nowcasting based on convolutional LSTM with spatio-temporal information transformation
     using multi-meteorological factors
   url: https://doi.org/10.5194/gmd-19-7089-2026
@@ -211,10 +381,26 @@
   url: https://www.carbonbrief.org/factcheck-no-europe-is-not-having-its-quietest-year-for-wildfires
   source: Carbon Brief
   date: '2026-07-30'
-  category: Climate Modelling
+  category: Adaptation & Sustainability
   summary: 'In recent days, prominent climate sceptics and rightwing commentators have shared charts on
     social media incorrectly implying that Europe is… The post Factcheck: No, Europe is not having its
     ‘quietest’ year for wildfires appeared first on Carbon Brief.'
+- title: Health Systems Disruption Analysis – Sokoto Climate Resilient Healthcare Infrastructure Project
+    - Global Center on Adaptation
+  url: https://news.google.com/rss/articles/CBMiugFBVV95cUxOVDE3U2VadnQwYkIwanB3UVoySDU2ejgwQkFxQlI2ZmZBMEZ2MXBDdnROS1BPa00yTVBxTGlHOUZ4c0VlWEJoRlkydVZhbDlxT1c5U2tOTVBNLU53MENpYVA0RkFRNEprbEZIWkMxZmVNRGZjSkk5Q2ZSQk9tV1NmbkFSSmowbjZJUm1ISV9LZ2xRT3M5emdxeGNKbUFHWWxLYVlsMWdwOG1pLUZUV01BV2J1V2FBaXktTFE?oc=5
+  source: 'Google News: Adaptation Policy'
+  date: '2026-07-28'
+  category: Adaptation & Sustainability
+  summary: Health Systems Disruption Analysis – Sokoto Climate Resilient Healthcare Infrastructure Project
+    Global Center on Adaptation
+- title: Why investing in climate adaptation makes economic sense - The London School of Economics and
+    Political Science
+  url: https://news.google.com/rss/articles/CBMiogFBVV95cUxNaXhLV3NPQk1SbkY3VC1id3JxcXR1MGNaTTE0czRxN2d3VjhLRGMzX2E0cFAxaTJfSnV5VC1UbElKZkZqb2dSR0txelJXZ0k0R1Vid3BCWkh2QTk2blBwVnRwOUxvT1dzaGV4XzU2WDlNMXV2aDJlUEpOclRsS0ZlM0Y5cEg2MWJNNVZqZ3h3WUJuQXlLMk1XLU1DS0xQWVY3T0E?oc=5
+  source: 'Google News: Adaptation & Resilience'
+  date: '2026-07-28'
+  category: Adaptation & Sustainability
+  summary: Why investing in climate adaptation makes economic sense The London School of Economics and
+    Political Science
 - title: Dynamic and thermal analysis of dust storm processes based on vertical observation data
   url: https://doi.org/10.5194/nhess-26-3523-2026
   source: Natural Hazards and Earth System Sciences (NHESS)
@@ -239,10 +425,76 @@
   url: https://www.carbonbrief.org/factcheck-no-europes-heatwaves-are-not-being-caused-by-declining-air-pollution
   source: Carbon Brief
   date: '2026-07-24'
-  category: Climate Modelling
+  category: Adaptation & Sustainability
   summary: 'This summer has seen Europe suffer through a series of record-breaking heatwaves. Amid widespread
     media coverage of the number of… The post Factcheck: No, Europe’s heatwaves are not being ‘caused’
     by declining air pollution appeared first on Carbon Brief.'
+- title: Hourly-scale modeling of storm transitions in Southern Brazil with Markov Chains
+  url: https://doi.org/10.5194/nhess-26-3489-2026
+  source: Natural Hazards and Earth System Sciences (NHESS)
+  date: '2026-07-23'
+  category: Climate Modelling
+  summary: Hourly-scale modeling of storm transitions in Southern Brazil with Markov Chains Camilo Ocampo-Marulanda,
+    Jefferson Vieira Santos, Julian David Mera-Franco, Alvaro Avila-Diaz, Tiago Alessandro Espinola Ferreira,
+    David Henriques da Matta, and Antonio Samuel Alves da Silva Nat. Hazards Earth Syst. Sci
+- title: Europe's transport infrastructure is not ready to face climate change
+  url: https://doi.org/10.5194/nhess-26-3345-2026
+  source: Natural Hazards and Earth System Sciences (NHESS)
+  date: '2026-07-22'
+  category: Climate Modelling
+  summary: Europe's transport infrastructure is not ready to face climate change Cristina Deidda, Arpita
+    Asha Khanna, Wolfgang Schade, Chris Smith, and Wim Thiery Nat. Hazards Earth Syst. Sci., 26, 3345–3394,
+    https://doi.org/10.5194/nhess-26-3345-2026, 2026 Climate extremes like floods, heatwaves, droughts,
+    an
+- title: 'Deep Learning Emulation of Multivariate Climate Indices: A Case Study of the Fire Weather Index
+    in the Iberian Peninsula'
+  url: https://doi.org/10.5194/nhess-26-3417-2026
+  source: Natural Hazards and Earth System Sciences (NHESS)
+  date: '2026-07-22'
+  category: Climate Modelling
+  summary: 'Deep Learning Emulation of Multivariate Climate Indices: A Case Study of the Fire Weather
+    Index in the Iberian Peninsula Óscar Mirones, Joaquín Bedia, Pedro M. M. Soares, José M. Gutiérrez,
+    and Jorge Baño-Medina Nat. Hazards Earth Syst. Sci., 26, 3417–3442, https://doi.org/10.5194/nhess-26-3417-2026'
+- title: 'Natural hazard events dataset for the Garrotxa Region (Catalonia, Spain): a foundational step
+    toward multi-hazard risk assessment'
+  url: https://doi.org/10.5194/nhess-26-3327-2026
+  source: Natural Hazards and Earth System Sciences (NHESS)
+  date: '2026-07-21'
+  category: Climate Modelling
+  summary: 'Natural hazard events dataset for the Garrotxa Region (Catalonia, Spain): a foundational step
+    toward multi-hazard risk assessment Arnau Lagresa, Marta López-Saavedra, Iris Schneider-Pérez, Marc
+    Martínez-Sepúlveda, Jordi Mestres-Esteve, Mireia Jiménez-Llobet, Alba Ocaña, Llorenç Planagumà, and
+    Joan M'
+- title: Marine heatwave amplifies extreme multi-hazards of extratropical cyclone Babet
+  url: https://doi.org/10.5194/nhess-26-3213-2026
+  source: Natural Hazards and Earth System Sciences (NHESS)
+  date: '2026-07-21'
+  category: Climate Modelling
+  summary: Marine heatwave amplifies extreme multi-hazards of extratropical cyclone Babet Piyali Goswami,
+    Ségolène Berthou, Theodore G. Shepherd, Ambrogio Volonté, Sana Mahmood, Juan Manuel Castillo, Anne-Christine
+    Péquignet, Yong-June Park, Mark Worsfold, Regina Rodrigues, and Magdalena A. Balmaseda Nat. Haza
+- title: 'Severe convective weather in Italy: Current understanding and Research Priorities in the TIM
+    campaign'
+  url: https://doi.org/10.5194/nhess-26-3395-2026
+  source: Natural Hazards and Earth System Sciences (NHESS)
+  date: '2026-07-21'
+  category: Climate Modelling
+  summary: 'Severe convective weather in Italy: Current understanding and Research Priorities in the TIM
+    campaign Mario Marcello Miglietta, Elenio Avolio, Alessandro Bracci, Massimiliano Burlando, Francesco
+    Cairo, Federico Canepa, Vincenzo Capozzi, Sebastiano Carpentari, Federico Cassola, Alessandro Ceppi,
+    Silv'
+- title: Chemicals Industry Solution | Risk Management Partners - Munich Re
+  url: https://news.google.com/rss/articles/CBMid0FVX3lxTE9xdzZxVGxzX254ZU1hMElCOFV6ZmNCV0E2WHhKaGp0ZFVsSDRiNGw0aHprMzNEM3VEZUhSWnpXcTRvUmtIb2x4VHRSajdqTkNKUjlpaW8xU0tuQlF2NDVvbElfNE1MSl9MeGlYM0JWZjVuTHFRaTY4?oc=5
+  source: 'Google News: Munich Re RMP'
+  date: '2026-07-17'
+  category: Physical Risk Service Providers
+  summary: Chemicals Industry Solution | Risk Management Partners Munich Re
+- title: GEF expands climate adaptation financing across the region - CAF | Banco
+  url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxQcGk3UEs2a0stQkx5c1lzN21pR1ZlUlNoaTFlUWx2YkUtM05RMEFnbXdFMjR1XzdxQlptOE5LVHZQUVFVem1OSE5yYXlnbUJBZkdKM3RsT2I1d0hDM3hDSEtzWkhhUkh6MVlzWDAtdkZoV3NVOHB4bEx3VXcwbktSLUZCWWs1SjIxejhFYWVfTGRHeEZENHZ0bnJtWHZoRFhiR3dPWlRzeUwtc3NJcmwzc2xlWWlmMENXVWp0STIyN2pfc2ZORUNjaFNJZWVhdm1iNmx2WQ?oc=5
+  source: 'Google News: Adaptation & Resilience'
+  date: '2026-07-17'
+  category: Adaptation & Sustainability
+  summary: GEF expands climate adaptation financing across the region CAF | Banco
 - title: A multivariate analysis of atmospheric drivers for Western European heatwaves
   url: https://doi.org/10.5194/esd-17-955-2026
   source: Earth System Dynamics (ESD)
@@ -260,6 +512,34 @@
   summary: Amplification of ENSO-driven vegetation variability at decadal and longer timescales Nora L.
     S. Fahrenbach and Robert C. J. Wills Earth Syst. Dynam., 17, 987–1006, https://doi.org/10.5194/esd-17-987-2026,
     2026 The El Niño-Southern Oscillation (ENSO) drives short-term global plant changes, but its in
+- title: Company Climate Risk Edition | Risk Management Partners - Munich Re
+  url: https://news.google.com/rss/articles/CBMiowFBVV95cUxOOWdGMkhuVmVGTlNoSFpuSENtNGk1QU9nUXFQSk1EUVJBTF91SDFKeWlkdkhZSmhYb21PdTNGN0tCYmxaUXl4YWFIN2FJOVFlY3EyTXZpZUlseHg0aWxqTXUwM0V5cHh2c1RtNWVXTzNGTC1OcHpqbkhrMVN1aGRWTmNXY2hCWmRSNWZsbWJGdDhoQU5oakRVVlJyRG1mYi1maVZr?oc=5
+  source: 'Google News: Munich Re RMP'
+  date: '2026-07-10'
+  category: Physical Risk Service Providers
+  summary: Company Climate Risk Edition | Risk Management Partners Munich Re
+- title: 'Masterclass Handbook for Financial Institutions: Climate Adaptation Finance - Global Center
+    on Adaptation'
+  url: https://news.google.com/rss/articles/CBMiREFVX3lxTE9wZXVGTk1LNjBYc28wNmRyNTgyQzNXYm5sSVRLeEFCQURab0tMYm01QjV0Sjk3ZVZvNm9NN3ZQZE8zVVRO?oc=5
+  source: 'Google News: Adaptation & Resilience'
+  date: '2026-07-07'
+  category: Adaptation & Sustainability
+  summary: 'Masterclass Handbook for Financial Institutions: Climate Adaptation Finance Global Center
+    on Adaptation'
+- title: What counts as climate adaptation finance? Unlocking a multi-billion-dollar opportunity for financial
+    institutions - UNEP Finance Initiative
+  url: https://news.google.com/rss/articles/CBMi8AFBVV95cUxPZERja25GMjVoVnlZSUIwbVdSdFFlam9DNDJMMjk1cU5LbWNxSGJ4Wmx3NzdWbnVRcHc0WE1pMFJ4NDNTeGRVd3ItOVlQb01ZZjRsaEFkOGNlb0E1QXhPeEhUN21COXZkaGlMb3JvdFFZWVJBOExKcWIyM1g5RXduTjVMZGdGejBGdnloNGtyS3MwRmZCZEpIeHY5YVo4RzlyRy1zX3hweTAzWDlVclFiQ3RnY3FGU2RKTjJRUFZ2cWpORzZOeE9EOS0tXzE0eEQyWGNnMEkzUlg2REY0NjBVOGJtdG5QT0xmcDVHWlZBTHA?oc=5
+  source: 'Google News: Adaptation & Resilience'
+  date: '2026-07-07'
+  category: Adaptation & Sustainability
+  summary: What counts as climate adaptation finance? Unlocking a multi-billion-dollar opportunity for
+    financial institutions UNEP Finance Initiative
+- title: Biodiversity and Nature Risk Edition | Risk Management Partners - Munich Re
+  url: https://news.google.com/rss/articles/CBMirgFBVV95cUxOektEOGN1YmctV01ObjM2NHYxLTVoemNsdjdLU3psWmNRZ2FtTVlwb1o0R2ZXOElhZTlxbTRHQVlfS2U3dTFXcjFiWEJGNm91d2liUFh2S2ZxVWxxOVpVeE1JeERMc3hyeDZ4RzNlSWx0VWlMWW5DNlFRVE9uUVVvTnlwdjBOQjE5OExSUnA3V2ktUHlURXRHM1pzQVZ2SnJFdmk5ajBBWDlpNF8yS2c?oc=5
+  source: 'Google News: Munich Re RMP'
+  date: '2026-07-04'
+  category: Physical Risk Service Providers
+  summary: Biodiversity and Nature Risk Edition | Risk Management Partners Munich Re
 - title: Strong intensification of extreme fire weather in Europe under 3 °C compared to 2 °C global warming
   url: https://doi.org/10.5194/esd-17-929-2026
   source: Earth System Dynamics (ESD)
@@ -269,6 +549,12 @@
     warming A. Serkan Bayar, Joaquim G. Pinto, Célia M. Gouveia, and Alexandre M. Ramos Earth Syst. Dynam.,
     17, 929–954, https://doi.org/10.5194/esd-17-929-2026, 2026 Europe is warming faster than the global
     aver
+- title: MSCI acquires First Street to expand physical climate risk modeling - ESG Dive
+  url: https://news.google.com/rss/articles/CBMiowFBVV95cUxOLVkxSFJrbTBGa3ZkZlZJVUtSdUk4ZFNWTjMyZHJuakN3WWZ4Rk1KS2pJX0xTeFVKZjBabmRKc0J4OTdPcjFmUnRsUDMtd2M3Y05TQmdwMzVxb3BNY0hnWVVnTGVxZkZlZWYtUzJiY0R6VlRGczZ1NUZ4Q2RuWUxNclY2cW5SYzZUWTBYNTlxaHpoWW5pZGZBSzJRVHBPTVRyMFVr?oc=5
+  source: 'Google News: MSCI'
+  date: '2026-06-29'
+  category: Physical Risk Service Providers
+  summary: MSCI acquires First Street to expand physical climate risk modeling ESG Dive
 - title: Overshoot and (ir)reversibility to 2300 in two CO2-emissions driven Earth System models
   url: https://doi.org/10.5194/esd-17-893-2026
   source: Earth System Dynamics (ESD)
@@ -298,3 +584,349 @@
     Peninsula in a climate model Pierre Tiengou, Agnès Ducharne, and Frédérique Cheruy Earth Syst. Dynam.,
     17, 843–876, https://doi.org/10.5194/esd-17-843-2026, 2026 This study analyses simulations of regional
     c
+- title: MSCI to Acquire First Street in $120 Million Deal to Expand Physical Climate Risk Analytics -
+    esgnews.com
+  url: https://news.google.com/rss/articles/CBMisAFBVV95cUxQTDUwME5zZ0xDTjloVHpqNVFVZHIwWjFlckY1OElHRmlQNnlnZGtlTF9tbGZoVU9PSXFoc283QWwxZHFsaU5xNHpDVGhFR25zX0F4Z09pcjc0ME5udlE3d3Vqb080Q0Q0VTA4dUg3Wm5sQ1M4UEREbVNfYTBmeXFLX1dZUXBUN1J1dC01YlhTWlFjLVVaSGhQTWMtY3otbDd4XzlTbDhveTMxT3l4dE93VQ?oc=5
+  source: 'Google News: MSCI'
+  date: '2026-06-25'
+  category: Physical Risk Service Providers
+  summary: MSCI to Acquire First Street in $120 Million Deal to Expand Physical Climate Risk Analytics
+    esgnews.com
+- title: Mitie allies with Climate X to help firms mitigate climate change’s toll on their estates - Facilitate
+    Magazine
+  url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWjhyYzI5MFFPWmUwRzFVbFBvU1RnYXFZZ1pDQTB4SjI2Ums5SkMybVVzd0d1TWh3ZW1rNnpQVVJoOHNaZVVSbWZJNnM0RzRuclJpaW1xSmxFc21HdEs2OVJ6MVpXWkxHOFZ1MGVtaEJhVl9yVFZncDFSa0VvZl8wbkRBQXZxNlRBZGJvbzJ3b3JDdUtoNmFlNjg2YjQ0WlBFcC1tTE1NV3hwTU9kekRDalBrTWxMSmdCUUpJVWZFTUppQQ?oc=5
+  source: 'Google News: Climate X'
+  date: '2026-06-25'
+  category: Physical Risk Service Providers
+  summary: Mitie allies with Climate X to help firms mitigate climate change’s toll on their estates Facilitate
+    Magazine
+- title: Climate X and Mitie form partnership focused on physical climate risk - fmj.co.uk
+  url: https://news.google.com/rss/articles/CBMilwFBVV95cUxQdEZPTnZVd0RLMDF2cWJURG15QW9aeDhoRkpDZUJXaFljOFpYSEl3QnNsQ3JYcWdJN3FUdTFBRHpYRDhUUTZ2TndoYTM2YThXYnBpWnVCYk92bmFKZWVzcENQNFFPM05KWGlqSndtenRrNDNOakFWWi1UVkdQLTRBUzZ1YXpKeG5RYTAzLUJpdTlnaWZmN080?oc=5
+  source: 'Google News: Climate X'
+  date: '2026-06-24'
+  category: Physical Risk Service Providers
+  summary: Climate X and Mitie form partnership focused on physical climate risk fmj.co.uk
+- title: MSCI Acquires Climate Risk Data Provider First Street - ESG Today
+  url: https://news.google.com/rss/articles/CBMihgFBVV95cUxQTzlGdjR2enFtdGY5cVUxT1d3VThYVi14UkNtX0d4aDBNTzZZUGV5TEM4Y0JpcU1zejdXeGFBMDVQNnZOSHV0dFJLODJSUlMwNzgzR05MRVNoRHUxLUpLaVo2QzNSVnluQWlmMFhqR0ZCSlZHc0Z2UF9JbUNESFJpajZYZHBpQQ?oc=5
+  source: 'Google News: MSCI'
+  date: '2026-06-24'
+  category: Physical Risk Service Providers
+  summary: MSCI Acquires Climate Risk Data Provider First Street ESG Today
+- title: How AI is transforming natural disaster prediction - Financial Times
+  url: https://news.google.com/rss/articles/CBMihAFBVV95cUxPUUIyQTFmWWFJM3dPTHBGc19LRzVldGhFc0lVNGNHNWdISmpxTWdaTW5Nc3RuY3pQNzIzRW9Kc0FYU1BrT2t6dmFqakxkNnZULTctMUtPOXQ4dldyUTdYY3pCUzVZdWNRZVByRG5LbzQ1OTRUSU9vRTB5cURSMldmYVVIZjA?oc=5
+  source: 'Google News: Verisk'
+  date: '2026-06-24'
+  category: Physical Risk Service Providers
+  summary: How AI is transforming natural disaster prediction Financial Times
+- title: MSCI buys physical climate risk firm ahead of value chain product launch - Responsible Investor
+  url: https://news.google.com/rss/articles/CBMirwFBVV95cUxNMDl4SWR2MVUyZVFxdDEtWTFKMVRHUHZWOWdaR0RPcWNrXzVGYUttdVZJZmJNZzJnVncwSWtDY1lza0FDVXdxendkNUtjU3V1Wl9tMDVHSmRJcnFxWkdFZU9nLTBUd29tYXBOU2k0OUhfdlh5UHFNVEN5bFdORURQeS1CMFFkZWRXSVA2eTgwR0tRV3NCd0pmYkdMQ19FWkZFdHEzUGd3aXd0TzRmR3dv?oc=5
+  source: 'Google News: MSCI'
+  date: '2026-06-24'
+  category: Physical Risk Service Providers
+  summary: MSCI buys physical climate risk firm ahead of value chain product launch Responsible Investor
+- title: Large impact of extreme precipitation on projected blue–green water partitioning
+  url: https://doi.org/10.5194/esd-17-811-2026
+  source: Earth System Dynamics (ESD)
+  date: '2026-06-23'
+  category: Climate Modelling
+  summary: Large impact of extreme precipitation on projected blue–green water partitioning Simon P. Heselschwerdt,
+    Thorsten Wagener, Lan Wang-Erlandsson, Anna M. Ukkola, Yannis Markonis, Yuting Yang, and Peter Greve
+    Earth Syst. Dynam., 17, 811–827, https://doi.org/10.5194/esd-17-811-2026, 2026 Precipitation o
+- title: Assessing the impact of the Human Development Index on historical trends in the INFERNO fire
+    model
+  url: https://doi.org/10.5194/esd-17-739-2026
+  source: Earth System Dynamics (ESD)
+  date: '2026-06-19'
+  category: Climate Modelling
+  summary: Assessing the impact of the Human Development Index on historical trends in the INFERNO fire
+    model João C. M. Teixeira, Chantelle Burton, Douglas I. Kelley, Gerd A. Folberth, Fiona M. O'Connor,
+    Richard A. Betts, and Apostolos Voulgarakis Earth Syst. Dynam., 17, 739–767, https://doi.org/10.5194/esd-1
+- title: 'Deep learning-based chlorophyll prediction:  comparison with a dynamic model and applications
+    to fish catch forecasting'
+  url: https://doi.org/10.5194/esd-17-795-2026
+  source: Earth System Dynamics (ESD)
+  date: '2026-06-19'
+  category: Climate Modelling
+  summary: 'Deep learning-based chlorophyll prediction: comparison with a dynamic model and applications
+    to fish catch forecasting Ji-Sook Park, Jong-Yeon Park, Yoo-Geun Ham, Jeong-Hwan Kim, and Woo Jin
+    Jeon Earth Syst. Dynam., 17, 795–810, https://doi.org/10.5194/esd-17-795-2026, 2026 We developed a
+    deep learn'
+- title: Comparing the seasonal predictability of the Tropical Pacific variability in EC-Earth3 at two
+    horizontal resolutions
+  url: https://doi.org/10.5194/esd-17-717-2026
+  source: Earth System Dynamics (ESD)
+  date: '2026-06-16'
+  category: Climate Modelling
+  summary: Comparing the seasonal predictability of the Tropical Pacific variability in EC-Earth3 at two
+    horizontal resolutions Aude Carréric, Pablo Ortega, Roberto Bilbao, Carlos Delgado-Torres, Vladimir
+    Lapin, Ferran Lopez-Marti, Markus Donat, and Francisco Doblas-Reyes Earth Syst. Dynam., 17, 717–737,
+    https
+- title: Arcadis and Jupiter Intelligence introduce PRICE framework - DredgeWire
+  url: https://news.google.com/rss/articles/CBMiigFBVV95cUxNcmFjT2FTek1ZLUZicDJaZk9UWlRtY1VQa28xcVJheUx0WFpaSk1FVXlfU0FXa251aUdwOTI4d0RMQ3JIbUpaNGoybU9jbzB5RWYtVTk0ZG1vRlVfQWtSV2R4Rk5hWV9xYk04dmhkdHdyM3JEY01mN1pBMFJRb2hyQzBXWm9DWktBN3c?oc=5
+  source: 'Google News: Jupiter Intelligence'
+  date: '2026-06-15'
+  category: Physical Risk Service Providers
+  summary: Arcadis and Jupiter Intelligence introduce PRICE framework DredgeWire
+- title: 'Interactive physical data cubes: A novel perspective for exploring Earth system dynamics'
+  url: https://doi.org/10.5194/esd-17-687-2026
+  source: Earth System Dynamics (ESD)
+  date: '2026-06-10'
+  category: Climate Modelling
+  summary: 'Interactive physical data cubes: A novel perspective for exploring Earth system dynamics Maximilian
+    Söchting and Miguel D. Mahecha Earth Syst. Dynam., 17, 687–693, https://doi.org/10.5194/esd-17-687-2026,
+    2026 As the amount of data collected by satellites and generated by climate models to monitor E'
+- title: Arcadis and Jupiter Intelligence introduce PRICE framework to help organizations close the climate
+    adaptation investment gap - PR Newswire
+  url: https://news.google.com/rss/articles/CBMijAJBVV95cUxQYnhsQkJMSEt2Z09hcVd3bWU0V0gxVlFjQnIzblVTeFN0cnVjcXFROTBJLW9pSDVoeFFGVkdubkJUVVhNOUtmbkdxNUJxbFV1ck9seldBbVpVM01EaUVTS0NzT1ZlN0RIVTc4Y3hvSEk0WktkUEtJMHpFSXJabTNud1pGbW91RDRvTGNPNGx5dmdudDhhVEs1dngtNG9pVThrNEpHdERBSVQzb2FNT3JXRXZLMEpzaWo3UVdtamZhMDNxdzdkTDBUTWlMTldGVDJlakNMV0UxckV3U2dpQldKajJHekJvYXpISUFpQzVEU04xQ0pRUmxqczZiMGlHSUNXZ244OTQ0b0s1RWZX?oc=5
+  source: 'Google News: Jupiter Intelligence'
+  date: '2026-06-10'
+  category: Physical Risk Service Providers
+  summary: Arcadis and Jupiter Intelligence introduce PRICE framework to help organizations close the
+    climate adaptation investment gap PR Newswire
+- title: Attribution of changes in winds over the Southern Ocean from 1950 to 2100
+  url: https://doi.org/10.5194/esd-17-631-2026
+  source: Earth System Dynamics (ESD)
+  date: '2026-06-01'
+  category: Climate Modelling
+  summary: 'Attribution of changes in winds over the Southern Ocean from 1950 to 2100 Tereza Jarníková,
+    Colin Jones, Steven Rumbold, and Corinne Le Quéré Earth Syst. Dynam., 17, 631–649, https://doi.org/10.5194/esd-17-631-2026,
+    2026 Southern Ocean winds drive global climate and have strengthened since 1980 due '
+- title: Inside Verisk's new hurricane model built for today's climate risks - Stock Titan
+  url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbTJiTUxsR3ZXdjNrbmREN0tQaFlGTU11Vk82UERZX1dYc25zaXBCU0swalNJa2JYY2hNYVg4Nlp3RjZ0SjdIU1ZIOEIySnB2T09TeE15czkyM0ZqTTBTQTJuME5zX09SYlZxaFlzaHplenM2QjI4cW13cVR4cXNCTUVWaWhjZ0hleF8zb3lES1NLWjJfQmNJQUs5T045TWVlLXZXZWpuNmJGQnlqR29YNWNQSlZYc3p1?oc=5
+  source: 'Google News: Verisk'
+  date: '2026-06-01'
+  category: Physical Risk Service Providers
+  summary: Inside Verisk's new hurricane model built for today's climate risks Stock Titan
+- title: Improving terrestrial carbon flux simulations with machine learning and global Earth observations
+  url: https://doi.org/10.5194/esd-17-651-2026
+  source: Earth System Dynamics (ESD)
+  date: '2026-06-01'
+  category: Climate Modelling
+  summary: Improving terrestrial carbon flux simulations with machine learning and global Earth observations
+    Christian Seiler Earth Syst. Dynam., 17, 651–671, https://doi.org/10.5194/esd-17-651-2026, 2026 This
+    study shows how machine learning combined with global Earth observations can improve simulations of
+    t
+- title: 'How water can scale climate adaptation investment: Lessons from Southeast Asia - The World Economic
+    Forum'
+  url: https://news.google.com/rss/articles/CBMipwFBVV95cUxQVEp4M2dFd19QejNmNFVLZkdLU2EwckJPTFV4Z3ZqZ1E0anRnZUU4NVBjeTBMSUE4X3lwUmo0eW5VYlpUZ2xzSG83TVM4TklUTnpNYUN1ZHl6VkJmczFSM3ZiRzVPMnRkS2RYTnJPQVY2Y24yRE1TY3pxTDFDQ25uRlpqYVdxMUNScGExRjVKVzEtY0FnVDNpOU9KVzFVVFpKNjMyanlHbw?oc=5
+  source: 'Google News: Adaptation & Resilience'
+  date: '2026-06-01'
+  category: Adaptation & Sustainability
+  summary: 'How water can scale climate adaptation investment: Lessons from Southeast Asia The World Economic
+    Forum'
+- title: KatRisk Announces Agreement to Join Verisk Model Exchange, Advancing Open Access to the Catastrophe
+    Risk Modeling Ecosystem - Verisk
+  url: https://news.google.com/rss/articles/CBMi9gFBVV95cUxPMjFHbDMwY3lfV19CcnpGb0lkVlQ2QkhidE1DM004S2FxV1owbHNHMGNnenFEQTF6bU9NOVRra1ZXY0E2U0tvaVV0eGFKQmYxNGhKLUFNQVh4VEEwUk9CeHdUck9ndmlacllXbUhQMXEzelVtSW5NYUpTUjhzNmVQeS1pdWRhQ21sLTd5YjVlWU5GLU50WUFyUGZOMEZJV2E3ZEdnNkVpTTRrY2RXZVR2YU91RmFsa09ZeW4wd2Ezc21VRzhjZlJOMXBVbHJzRGltNGdVWnBFazFxVk9qWG5JUmxVU1BEN1dQaEZkZEVTNWFGN1ZKb3c?oc=5
+  source: 'Google News: Verisk'
+  date: '2026-05-26'
+  category: Physical Risk Service Providers
+  summary: KatRisk Announces Agreement to Join Verisk Model Exchange, Advancing Open Access to the Catastrophe
+    Risk Modeling Ecosystem Verisk
+- title: 'The ESG Phenomenon: Climate X, Orbis Advisory - Wealth Briefing'
+  url: https://news.google.com/rss/articles/CBMingFBVV95cUxQa1ItU0c5TWlNYzh6TWlPNzF4cS1GTlh2ZFZhbE9ON3p0MEVSbGJpSEZCbzZrOXFZc3JXcUxiYTh6V3NmMXRFV1dpUGR4dC14dWY5LW1TTTlHUFcyMC0ycjU4d3BDWHc4SUpUZXoxdUxNcG9jY01EcVVpclh3X2kzQzVqcTBsdUttb0ozMGp5WEowN3pmRHI2WE9JOG1mdw?oc=5
+  source: 'Google News: Climate X'
+  date: '2026-05-13'
+  category: Physical Risk Service Providers
+  summary: 'The ESG Phenomenon: Climate X, Orbis Advisory Wealth Briefing'
+- title: Real estate’s physical risk challenge - Responsible Investor
+  url: https://news.google.com/rss/articles/CBMif0FVX3lxTE00RXdvdU4wQlgwd2FwZjR1VUhOS0JQZmxxamE4Zmc0QTAxRVRmdDVQZnFWZjN0bUtlSVlJdGxETHdQM0xocWR1Z3J6ckIwTG14a2xXUlJhZDI0X1FuRjJVakZtZFQ3dmpEaWNwemRXOC0xeXE4LWt2TkJqRDhkbjQ?oc=5
+  source: 'Google News: Climate X'
+  date: '2026-05-07'
+  category: Physical Risk Service Providers
+  summary: Real estate’s physical risk challenge Responsible Investor
+- title: 'Catastrophe Exposure Management: Taking More Ownership of the Risk - Verisk'
+  url: https://news.google.com/rss/articles/CBMimgFBVV95cUxNd0tKeUNSR2xJRlJTSXRtOGdZZWRmcnV3OHMyemhhajk5VzVtcjhFZUhLVUE1eXZYd1psY2hpd3lRajFDQUZncHc4NkVtclpwMkpyN3JTQkgxcmJTbnZydTVicnNuZ3AyYjFxenJqV25lOG5VRElQZF9HNmRCRkJEUFVXNHh2VDVWeG13TDBoR1ZaVUNSaWlUN0JR?oc=5
+  source: 'Google News: Verisk'
+  date: '2026-05-06'
+  category: Physical Risk Service Providers
+  summary: 'Catastrophe Exposure Management: Taking More Ownership of the Risk Verisk'
+- title: 'From trends to transformation: Where does natural hazard risk really sit in your portfolio?
+    - Munich Re'
+  url: https://news.google.com/rss/articles/CBMimgFBVV95cUxPRUxyWUNndlY3RURXc2lzdzZTOGZ0MnV3eVpOTXJxd0Zwd1BiVlpwSDFLRGs3a2I3YnNXck5LVUlTYnRaZVNzMWpZUkYzMm9qMWhzZ1F5Y3BzS3gxeDFQWHRCMnpNUi1WQzhfTTFOWGxubk9uaTNoQjk4anlsalI3azhVNkpNVGRXNEpFTW9CRTNHVW53aUNOUEV3?oc=5
+  source: 'Google News: Munich Re RMP'
+  date: '2026-04-24'
+  category: Physical Risk Service Providers
+  summary: 'From trends to transformation: Where does natural hazard risk really sit in your portfolio?
+    Munich Re'
+- title: What if climate risk is already in your portfolio – and you just can't see it? - Munich Re
+  url: https://news.google.com/rss/articles/CBMitAFBVV95cUxQRF90ME0tTkstblR5X1k1ODcyaGF0azg2ekIzM3dVNExhTTJEWGZrSDlndC10NU9YYXY4NHFHMGZHSXNiU3VLc2V1Wk1LQkJnQ0VldEs2Z1JsLTV6aUctclk4WUs5Mk1RSjc3QUExTGd0NHVzRW85cnlLd1pyQmJJT2hmVEk3aXgzNUc2WnV6cjkyU050ZG9GRnhreVNKa2dIOU5yVkh3UWh1V3BuV2lNQTY2a2Q?oc=5
+  source: 'Google News: Munich Re RMP'
+  date: '2026-04-17'
+  category: Physical Risk Service Providers
+  summary: What if climate risk is already in your portfolio – and you just can't see it? Munich Re
+- title: How Deepki embedded climate risk financial insight into a complete sustainability platform -
+    Munich Re
+  url: https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdGZPNGdhb081N0pNZEFOLThYQUNBTmYxZWQ3LWlJM09pWDdNQnR0WlYwTTUzb3FGNVZmcS1iSjlKclJiVVY3LUNNR1UwZXl2RVRMTVowNGxJMFM5amFNTndKbHZXaHdGenUxZnFncjY5eURpUWtrTjVjaXBwcl9EQTl2amxpRzhOQjhTdnhiV1p5bjhTa1F2WU1BVHJvdVlQaUVEUWQtTk1xVmNMMVVuQk1ESFRIR05WTkkxUUYtdzVUM3Y5LXF0dGxjRnp5LXVocjdyY1FGanlXazhSakkyMXBxSTllQkxlUjlzTw?oc=5
+  source: 'Google News: Munich Re RMP'
+  date: '2026-04-14'
+  category: Physical Risk Service Providers
+  summary: How Deepki embedded climate risk financial insight into a complete sustainability platform
+    Munich Re
+- title: Jupiter Intelligence and SEI partner to map climate risk across global mineral, energy and food
+    supply chains - Stockholm Environment Institute
+  url: https://news.google.com/rss/articles/CBMif0FVX3lxTE9Za0RRMjZPX3l1eWVhd2pRcjJYb3l4RExUSHliaDRrdGpja1JHaERGbHVFTGtCTEJiaU9vUmNvbWNucTlrc0RlVnJYbVFNUXJLQkltN0R2cnl6aHM3MThHdGwwUUwySzlsOC11VjJfcl93RFVLNy1mTWI5RnVseG8?oc=5
+  source: 'Google News: Jupiter Intelligence'
+  date: '2026-03-25'
+  category: Physical Risk Service Providers
+  summary: Jupiter Intelligence and SEI partner to map climate risk across global mineral, energy and
+    food supply chains Stockholm Environment Institute
+- title: ERM and Jupiter Intelligence partnership turns climate and weather risk into insights - Consultancy.uk
+  url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxPelF1cDF6QVZaVzdma2NkYWktUC1Ucm9VSnJ2MUZmeng0ZzlkTDhDeXRvMmt3UVhva19tcEF2VVhMUG9OelllVmYtQVYyMFJaSlBMVEJoRTl3NGJfYUtHMmt2a2Vvc1B0RmJfUWM5UnlxTnlLRVJDYzg0ZkhvV2d3U1lrQWtwaDlnVXluWGc2YnZQU1N3UzczTloxb3k0MmlPOVF6M05wTW5TWlp1WENGcE5FTFV3UUxVMjM4LWVyYVHSAcYBQVVfeXFMUDlQbTRuOGVicHpNaE5GU2tWd05xajhzTmFaWWJZeGZLcFVXRS1VcW8xYnNWcmNwLU5fWnhmekhTN095c2dfeFc5YXJYVjlueFhnbXVTRmRzYUZkQkpHejJXNEdhUEtlcjV1N2NXOUJHMVRBWnRic3IxdWFkLWM2NmFkUF9xOTc4ZXVaMzI4VG5VLUZLZFVsbnFwSnlHUFRKT3dxQncwVEdTQmxSSzF5X2gwVFBSVi1xZXNQUl8zcmNTUzNtTGJB?oc=5
+  source: 'Google News: Jupiter Intelligence'
+  date: '2026-02-20'
+  category: Physical Risk Service Providers
+  summary: ERM and Jupiter Intelligence partnership turns climate and weather risk into insights Consultancy.uk
+- title: '2025 Catastrophe Review: Wildfires and severe convective storms dominate global losses - Moody''s'
+  url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNanA1QmJ5RGp4ZTkwMmhWRlhpMmZXNklieU9Ea1JUQkRFMm1hZ05KTkt2WGV5RkNqZlc1ZjRoYnQycmNYbW00RHFiY0ZVQ0RxSkpZQkpHS0d0aVZUVnNQclJXdTZzaElLR2NaT3NCQTFRSUxwcF9WcnNpRm5wczRvSDZ3Xzk3LWlQUUdaWHY1ZFBfcWM1b0pIeG81NnlGbFZGNWVDUGdWM0J5UHlNSVVGeFFkT3gycjd2YU9CV1pBcFlCYU82Rldza0pMVlBCMnlZLUJjdGp0cm1PcUhzWFE?oc=5
+  source: 'Google News: Moody''s RMS'
+  date: '2026-02-18'
+  category: Physical Risk Service Providers
+  summary: '2025 Catastrophe Review: Wildfires and severe convective storms dominate global losses Moody''s'
+- title: S&P Global Energy and Verisk partnership to help bridge climate risk intelligence gaps - Reinsurance
+    News
+  url: https://news.google.com/rss/articles/CBMitgFBVV95cUxPRzZpWjV1aE91QnV6U2FIdTRkcmNvZG8zXzhiaWdoelAwOExzWjBZOG5HQ3VqeGhULWNCYnN4MkhzNUJuTFBIWnFXcV8wTjZtZkE4MHA1WEdVbjVFTklvc2hPWUtWWjlRd01OQjBZN05Fal9ta2VnZVNlcVN3VUN3RlE2cGs5dThZbUtOUzFqZklIckZZeURua0RxX2d1Y1ZmZEk1T040YW1Zbkp2VUM4V3I2M0tmQQ?oc=5
+  source: 'Google News: Verisk'
+  date: '2026-02-17'
+  category: Physical Risk Service Providers
+  summary: S&P Global Energy and Verisk partnership to help bridge climate risk intelligence gaps Reinsurance
+    News
+- title: Verisk and S&P Global Energy Collaborate to Deliver Insurance-Adjusted Climate Risk Intelligence
+    - S&P Global
+  url: https://news.google.com/rss/articles/CBMizwFBVV95cUxOcjBxeEs3LUswOFJJM3hCX0lOWlRsdEUxQy1IVmt6SUxuYTFuZUozc0VuSGlZcHBxNTZsVFNVUlB4T01YaXhfejRZdmU1Y1pWWlV0aFE0bEZGc215Tnk4eVJCVUVhYnB3VWhXc21pd1puTl9UbjV2R05XQXgycnE2d1MtcHZMazVGRi1lOUE5LVpkUmVIbW1xekxNb0YxVi11czc0RDBuQXBoZmxORkl5a1JNS3JocnBMVnluSVVBdGpXQWc2T1BnQ0dhS1ZJbEk?oc=5
+  source: 'Google News: Verisk'
+  date: '2026-02-17'
+  category: Physical Risk Service Providers
+  summary: Verisk and S&P Global Energy Collaborate to Deliver Insurance-Adjusted Climate Risk Intelligence
+    S&P Global
+- title: The Macroeconomic Side of Physical Risk - MSCI
+  url: https://news.google.com/rss/articles/CBMilwFBVV95cUxPcXh6OUdRVmJ2anJycExUZEFfb015SVJOZnFVZF9IZkFSYnEzbjBqT0hpNU1SaFBfYzQ0MjdyNWVxdThPeFViVFJ3NjZGS3BKTVd5bzhraVU3dUtHWm0xT2RkUzVNcTZNQXZNS1VWY0NqUGFLMGY0eEl5UlY1SU8xSW9ENHFDZDFDZjNnMWFpa2tyRE50aVNF?oc=5
+  source: 'Google News: MSCI'
+  date: '2026-02-09'
+  category: Physical Risk Service Providers
+  summary: The Macroeconomic Side of Physical Risk MSCI
+- title: EU needs to invest €70 billion per year in climate adaptation up to 2050 - climate.ec.europa.eu
+  url: https://news.google.com/rss/articles/CBMivwFBVV95cUxONUtMeUNNUnlmTHlFMmJPY0dpcEJSRVRKRXV5V1V5REphT19NM2J3NFdKSy1Vd2VobHZ2bVVvODluNlZqZURWZVlhS3lyQzVtemtMS2Z4UXJBMnRjTFdmS0d2Yl9vb3VjOHAtSmgtQkF0MGVwRi1zdl8za1piUDBDRHRoNHBRSENSYzNIRVpZWXhkZHVQTFFJaEdZY2RkTzBqZi1jSzFvRzdmVWJRQ3djcFFwdERlUXoxMGJoQ0otYw?oc=5
+  source: 'Google News: Adaptation & Resilience'
+  date: '2026-01-23'
+  category: Adaptation & Sustainability
+  summary: EU needs to invest €70 billion per year in climate adaptation up to 2050 climate.ec.europa.eu
+- title: 'South and Southeast Asia floods: A wake-up call for the region? - Moody''s'
+  url: https://news.google.com/rss/articles/CBMitwFBVV95cUxPOFVOaEdWQ1ZMSUJKUDVlcUQ0WWRocEN3WTBFSWQ0RldFc20zWHI2ZkhzTE1CT2ZRRl9hbi1pNFY1VzdoQllyY21lQUc4WnE5UUdYSXJwQkRWVkozSG9pNTIzQnZ6TUwtTFJVXzBvNGtqbzBnaVpPdmh1WVM4dWRjZ3BmamdvXzBLWXRXTFRIVTY0bTU2aXFadmVJY1NYZ0JBWldWOGtDTnBiVjlpQkNkTlNlZzMxMFE?oc=5
+  source: 'Google News: Moody''s RMS'
+  date: '2025-12-08'
+  category: Physical Risk Service Providers
+  summary: 'South and Southeast Asia floods: A wake-up call for the region? Moody''s'
+- title: Private markets grapple with physical climate risk data - New Private Markets
+  url: https://news.google.com/rss/articles/CBMilAFBVV95cUxOcTV1SnNaYnV6R0UzVVBzMGl1LVBmcTNRTW44RjRjR2J2Z1l0RlFLU1JkeVRFQ2xma2RPVF9ZYzJuZU1QaWR6cmZUX1UtRzN3OTdBaFZPSG4wRGxiOUNzQktOZEphMnp2Zk84MjFxQlZ1QmFQcFhHc0xmZWZRSVI3SlZqM1ZpUjZCNnZwcGxOU1Z2QlVK?oc=5
+  source: 'Google News: Climate X'
+  date: '2025-11-27'
+  category: Physical Risk Service Providers
+  summary: Private markets grapple with physical climate risk data New Private Markets
+- title: 'A risk resilience partnership: Fostering research on systemic risk - Swiss Re'
+  url: https://news.google.com/rss/articles/CBMijAFBVV95cUxPZXp6LUxLM1VmaEI3S3lleTdEb1Y1YnRDRFBZTi1IWWFPTFdmU2xxZ3B6ZWNqWGpBVGRPNW8ycnUzc1NPeFNUbDFjRzBMRldCaWIzcExIckhrb2RNeGc2Qm0yaFByZ1kySzdfd2NDTmVtSzlmRUlwMmJwcnV2emtpS3Vyb1RWX183ZERxeg?oc=5
+  source: 'Google News: Swiss Re'
+  date: '2025-11-24'
+  category: Physical Risk Service Providers
+  summary: 'A risk resilience partnership: Fostering research on systemic risk Swiss Re'
+- title: Arcadis and Jupiter Intelligence partner to accelerate global climate resilience solutions -
+    Arcadis
+  url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVGxQUUhwU0wwUlZMTEdWWTBHMWk4d21yanFoRW1JS0I5TkxUbk8tMS1TRU40WU14UzJKZjAySnBzNjZMQnRJMDhVbUhSMXN2LXVlSElQTjBhWXVSX0NOaFEwRk92cDlhM0tUNC1JRldOZXJQTGw5SjVWc3Q1MWtXRU94ejUzU09INU5Fd0MxVnkwVEU4aWEySndway1UUlh1WDk3MlZkWk5WcGxOWXJzN0hYc19Hb3Zjc1ZRX1o5MzVYNEhWY01KN1E3bzJLR3pw?oc=5
+  source: 'Google News: Jupiter Intelligence'
+  date: '2025-11-11'
+  category: Physical Risk Service Providers
+  summary: Arcadis and Jupiter Intelligence partner to accelerate global climate resilience solutions
+    Arcadis
+- title: New study values the benefits of mangroves for reducing property damages in recent hurricanes
+    - UC Santa Cruz - News
+  url: https://news.google.com/rss/articles/CBMibEFVX3lxTE9QR0thSVRHdWgzSmp5Z3E0dHo3ZmpiOFF6bkRTUXVteUd3eWY0emZLWl9OSHNjVzJVSVUwZ1FzOWFUeW5BZXV0QkpLWnJTN1BFRHEtLXUwSkQtY1dpTENkcTlKN2hqWDRmTTMteQ?oc=5
+  source: 'Google News: Moody''s RMS'
+  date: '2025-10-14'
+  category: Physical Risk Service Providers
+  summary: New study values the benefits of mangroves for reducing property damages in recent hurricanes
+    UC Santa Cruz - News
+- title: Moody’s warns of $41trn climate risk hit to global economy by 2050 - Global Reinsurance
+  url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdzJZM0pwMGxoVlpDcklpa2ZRRzJ0S3ZCMUxhcDlJT0xmNHUwMkN3cXNSSmlZSGx5YVNReFRCLXI4bkxSQi1fV2NVZlNSMFFDYUZYN2Y3R3JaOEdKSTRMOVZYYkVNOHNKTnVlUk94MFNZSHhPZmVOamFDTHpueml0Q1lzOFo0S0o1Q2ttUkJUMGFBRG9mNXVPUDJVczFqYlpRT0xzbUxrTDlXZ1FfQVp4bHZxVXdJeWJ6NC1z?oc=5
+  source: 'Google News: Moody''s RMS'
+  date: '2025-10-01'
+  category: Physical Risk Service Providers
+  summary: Moody’s warns of $41trn climate risk hit to global economy by 2050 Global Reinsurance
+- title: Climate X and 4most team up to tackle climate risk for Middle East banks - Consultancy-me.com
+  url: https://news.google.com/rss/articles/CBMitAFBVV95cUxOZ0luZUlESWJCRzNKRW5ycWdSbjlGTGtTTlZkdVFTOTJnOHlTMlJrclExdUlHOE95cHd2UTZTSVRUVTdOLVFra1cxM254dVJCWnpITWVzeEdzLXFFNm9LWTNYd05UUmVuMHMySm56STdpTTBUM1FRTkxrVnZIcGVGNFY2T3BqLVI2a1RZamxlNzdsR21xTVBRRmtETzlyUVRRT2Z2NE14UFExb05VVVlRWEN1dTLSAboBQVVfeXFMTUd4MzRiNExkakhGdkVWM0ZEbWRzS2FMRUNza2tvdVVBZVJvRDZmNVlScWZEYV9VamxiNTJKazc4X0F2TkQ5VmxOVGwtX1phOHVDNEJYeTdvaVRsU3ZaX1kyZ0ZNU2tWSm1OVGxJcF8wZ3lFVUM5bUpOcTJvUDdJb0NQb3lQbTNwekUwQk5pV09FejJfNG1xMDdzTWN0TVhRVGNIY1phWkczelFTNU1LU3p5YkFzMDdOT2F3?oc=5
+  source: 'Google News: Climate X'
+  date: '2025-09-26'
+  category: Physical Risk Service Providers
+  summary: Climate X and 4most team up to tackle climate risk for Middle East banks Consultancy-me.com
+- title: How climate modeling tools are empowering insurers and brokers - Insurance Business
+  url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQUXpfNVIyTkN2dWg5THZMRmRIT0dlWjQ2TTNKQmJRSzdlRFlVQW9tMW5adi1FQWtDcUJMMGdNSnZjUmVBc1kyRVZPMS1HdHVrNlE2TTJCM0preUdTMlQwSWV2UHEwU21jbVlrWDlQTElrZ2VDbU05UDEtSVlmSHlCSUdlOWxpN0JtWWNRbEZZTG5MbU56OXBkd3pJeGVJald2YkdXdjR1RWp2VExoYjlCaUdkYVJYcl9aeGNaOGtNNDAwdFltQ3loLTVUVDhmdw?oc=5
+  source: 'Google News: Swiss Re'
+  date: '2025-09-19'
+  category: Physical Risk Service Providers
+  summary: How climate modeling tools are empowering insurers and brokers Insurance Business
+- title: 'France: Moody’s helps MAIF enhance its understanding of climate risks - PreventionWeb.net'
+  url: https://news.google.com/rss/articles/CBMilwFBVV95cUxQT3ZJUzRGaGUyNk91OUZoTnhxek1IeVpfdVRoZHd1N0R0V01lX2d4RjdETTZURHFkWnFKelo0R21CaW5lTU5DaVFVOHp6YVFRUE9yVnlCWGhTWWJVOExaaWY0X3VXbERUZTFXSlU3N0E4RGRlS213V2Nld3hwSzBFQ0RWSS1fSGRZR1JGVDIxcDJJX2tjMmF3?oc=5
+  source: 'Google News: Moody''s RMS'
+  date: '2025-03-28'
+  category: Physical Risk Service Providers
+  summary: 'France: Moody’s helps MAIF enhance its understanding of climate risks PreventionWeb.net'
+- title: MSCI, Swiss Re Partner to Help Financial Sector Assess and Manage Climate Risk - ESG Today
+  url: https://news.google.com/rss/articles/CBMipgFBVV95cUxNUHZnNGluZURZZHh5OXJnZFExVkhpUGZDNTloV0ZPMWJ3NTJNTUFMTXdpbmpNYTl6MS10SG9FQXAwb3RQMVcxelpkQ1hySlRVaV9aM2s0V1JQd3dfODY5NEpJSUVyWk5pNHlEbWNsTUVINktyYUF1enJUclo4VTcxWDVqLV9qSlVBTWJDY1R0dVkwckphN3lVTnlyalplNHpBRTNqa2FB?oc=5
+  source: 'Google News: Swiss Re'
+  date: '2025-02-20'
+  category: Physical Risk Service Providers
+  summary: MSCI, Swiss Re Partner to Help Financial Sector Assess and Manage Climate Risk ESG Today
+- title: Extreme weather, catastrophe modelling and the (re)insurance industry - Royal Meteorological
+    Society
+  url: https://news.google.com/rss/articles/CBMimwFBVV95cUxPdl9xdzNmdWt0QnZ4RGxuRkxkcEJsdXpBQkJZWk54TVpBVFJULWtRT3UydUpyUnlaX0RjQmIyZ1QwTC1WQjhVT0JLZi0xZzJCblE5QUc2XzFmVl9lSGlpYWd5YmtyREZmaHh1ZHdnU0xqZi1pYmxYbHJ6b2NKdGxDVkpUUGJlTVZmckhtUWdWMmE0OW9VdGNSMjVmNA?oc=5
+  source: 'Google News: NatCat modelling research'
+  date: '2024-12-05'
+  category: Climate Modelling
+  summary: Extreme weather, catastrophe modelling and the (re)insurance industry Royal Meteorological
+    Society
+- title: Using MSCI GeoSpatial as a Proxy for Climate-Related Insurance Underwriting - MSCI
+  url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVUJEUUIyNVc0dEJvb2Y0dGdBZVU3MkNVVFczNE5qU2lSWkctajd1S0lQcjNVMXJpV1R5Uk81T2NXWm50VkRSYUowRkV4UF9wT0tSUjdPWUxwVEtwSGpQMEEwYVAwYWtSU2FLQ3FjemFhWVFTM3RnRElpbjlOYTIyZXYwNFNrdUlEMndxakdhd3R0ZDBLMXFLNGdDUmh4M3FFWUZ4LWQzS2w4SEVQM1Y1cC14Qk96eXdnMm9hcTNqODlFZlg3elFDYw?oc=5
+  source: 'Google News: NatCat modelling research'
+  date: '2024-09-05'
+  category: Climate Modelling
+  summary: Using MSCI GeoSpatial as a Proxy for Climate-Related Insurance Underwriting MSCI
+- title: Aon renews climate risk research partnership with Columbia University - Reinsurance News
+  url: https://news.google.com/rss/articles/CBMioAFBVV95cUxPT21CZ3BPd3pmMmo1VXBQOVBuRU5iazdlSkstcVIxcWJTaDgzLUoydnVRdTdGRFlJSGFYdHZhN3Nnall4QmV3aXdEZktodExWUUNzaC0xZXhGVnRwMUI1d3FhXzNSRTd1NnNKVEJVTVRLbDVzMDhoV2t2eGFWVWpMb3pqemduOVNBYnpRNkRmbjkyZW1jNVVpaEdxYkZNS09E?oc=5
+  source: 'Google News: NatCat modelling research'
+  date: '2024-08-07'
+  category: Climate Modelling
+  summary: Aon renews climate risk research partnership with Columbia University Reinsurance News
+- title: Putting insurance at the centre of resilience needs - Swiss Re
+  url: https://news.google.com/rss/articles/CBMirAFBVV95cUxPRG1WU29qVVBSZ3NpdEYtR3AtRHkyMVBFdDQxOEFxMkdqM05wTWQ0V2NVR1ZCdS1mc1d5M1ZmWTNFaWZsRDNqWnRTVDJWR1RnUkt6X24zQ1I0clJYRG5TdTgwd0tlUThqOVFkeWo1U0pZOHY0T2E1VzBmcmVoUThld2VVR1N0S0hnZ3dxNkdVOEZRYjJGdVZQbTN6QWx2ak9TYlZfQlEzeHk4Zm9j?oc=5
+  source: 'Google News: Swiss Re'
+  date: '2024-05-22'
+  category: Physical Risk Service Providers
+  summary: Putting insurance at the centre of resilience needs Swiss Re
+- title: Do we rely too much on catastrophe modeling for insurance? - Insurance Business
+  url: https://news.google.com/rss/articles/CBMixAFBVV95cUxORkQ0VHRlTEI4bnozbjdlSEtIeEhjZjdBSDJqaURGalpweExDT19zcVd6OWF4SC1PdV9YMzlCbG4wajg4N1lTM2hJUDVwT1lPMHZSaWgzSDVBWTNBcndWNmg4WHF6a3FiWmRRQS1BMVBnYWYwV0JTTHFGc3NHOHVPazFjTG9OQUR4NlhJcUVZRUk5MFZUUmI4dkI4ZFpQSG9HeTc1QU1YUGpVZXdjckxmczNNcjVnSHZ5bnRqZWMyZkRBeWZw?oc=5
+  source: 'Google News: Moody''s RMS'
+  date: '2024-04-12'
+  category: Physical Risk Service Providers
+  summary: Do we rely too much on catastrophe modeling for insurance? Insurance Business
+- title: JLL collaborates with Jupiter Intelligence to deliver AI-powered climate risk analytics - jll.com
+  url: https://news.google.com/rss/articles/CBMivwFBVV95cUxNT1NEbkVTaURwbWprRUFLNTBxZDQ4MVpyYlhVTUNOTmRweURSMzRfS0lROW1pWkpBX0taSVhHZVNPYnJkVjdGUHNMcVpiUjJSaDFhWjlFV1ZmUkwzOU94UE5Obm1LWnVkNVowV2J4YjhiWndySXMwVmpvbUN1MmZSQUtEWmhFY3J4T2dWUDVUX0t6QmpIYmNXcldGVUpSRzZjVG1mU3ZHYnNxUmdOYnZDSDQwM0docDJtaXQ3TEI5NA?oc=5
+  source: 'Google News: Jupiter Intelligence'
+  date: '2024-03-13'
+  category: Physical Risk Service Providers
+  summary: JLL collaborates with Jupiter Intelligence to deliver AI-powered climate risk analytics jll.com
+- title: The blind spots in climate-adjusted catastrophe modelling - theinsurer.com
+  url: https://news.google.com/rss/articles/CBMinwFBVV95cUxOWHluVVJMb1doelJicG4xRncxLTk3VEUyYUpqOVB1RXRsSTc3QTByS3lSZGtJM2w2dUtmV19SN05zUDJtZ1E0YUNnWmR3UFJXSkhhTHc1VW5rckZHMEdvcUZDRjhZaXhnYkNHamVjYTB4TjA1VUNGYWNMQnV6X0p6OVpfRWFEbERNM0t3dkJQLXVlcWo2VGRtTXNkZmFUbUE?oc=5
+  source: 'Google News: NatCat modelling research'
+  date: '2023-11-24'
+  category: Climate Modelling
+  summary: The blind spots in climate-adjusted catastrophe modelling theinsurer.com
+- title: 'Climate Risk Scores: Informed property-portfolio steering decisions - Swiss Re'
+  url: https://news.google.com/rss/articles/CBMieEFVX3lxTE5IdG5RZmJwQzlGX0djZVdHM2s2bjE1bXZzUGVaeV82VUpjVExvMXZMa1RfQ05MQ3ljeUNjeFlwVThCZlZMNGxIckJyZlNuMWpQSWd0eC1BYmRrV25tcW1VaTczLXZZbXlnaUptTVRhRmt2N1FsMVpfNA?oc=5
+  source: 'Google News: Swiss Re'
+  date: '2023-11-16'
+  category: Physical Risk Service Providers
+  summary: 'Climate Risk Scores: Informed property-portfolio steering decisions Swiss Re'
+- title: Building climate resilience in Africa - Swiss Re
+  url: https://news.google.com/rss/articles/CBMisgFBVV95cUxPU0R0M3RneTdMbGw5dmVNU3RlTklZclZyc1BUM1h2RUh3UGx2NVZDUG1vSkowQkQzQ2VGZnlDUU1uYlBuX0VTWDRaZ0FZcUNqTG5EWUFoVDBaVkRXaUl5SUY4TmFzNEhsclJzNWRZN19YU05ZeFRfaFkwaDg3NUZYYkdtUzAzTC0tcVRhaFdGS0c3U3RrY2pmbG5VeEgwbTZ4eG5IaUF3b0FFaG1VeEtoWEFB?oc=5
+  source: 'Google News: Swiss Re'
+  date: '2022-10-31'
+  category: Physical Risk Service Providers
+  summary: Building climate resilience in Africa Swiss Re
