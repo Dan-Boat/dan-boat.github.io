@@ -135,6 +135,12 @@ NO_FILTER_SOURCES = {"NOAA National Hurricane Center", "NOAA Storm Prediction Ce
 # journal doesn't drown out the rest of the digest.
 MAX_PER_FEED = 6
 
+# Only keep items published this month or later — recomputed on every run, so
+# it always means "the current month," not a fixed cutoff date. Journal
+# feeds and Google News searches often surface older backlog items; this
+# keeps the digest current rather than accumulating years of history.
+MIN_DATE = dt.date.today().replace(day=1)
+
 
 def load_existing() -> list[dict]:
     if not NEWS_FILE.exists():
@@ -199,11 +205,11 @@ def main() -> None:
                 continue
 
             published = entry.get("published_parsed") or entry.get("updated_parsed")
-            date = (
-                dt.date(*published[:3]).isoformat()
-                if published
-                else dt.date.today().isoformat()
-            )
+            entry_date = dt.date(*published[:3]) if published else dt.date.today()
+            if entry_date < MIN_DATE:
+                continue
+            date = entry_date.isoformat()
+
             summary = re.sub("<[^<]+?>", "", entry.get("summary", ""))
             summary = html.unescape(summary)
             summary = re.sub(r"\s+", " ", summary).strip()

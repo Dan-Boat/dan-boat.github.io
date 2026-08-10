@@ -57,7 +57,7 @@
                 if (page > 0) {
                     page -= 1;
                     render();
-                    list.scrollIntoView({ behavior: "smooth", block: "start" });
+                    if (list.scrollIntoView) list.scrollIntoView({ behavior: "smooth", block: "start" });
                 }
             });
         }
@@ -66,7 +66,7 @@
                 if (page < totalPages() - 1) {
                     page += 1;
                     render();
-                    list.scrollIntoView({ behavior: "smooth", block: "start" });
+                    if (list.scrollIntoView) list.scrollIntoView({ behavior: "smooth", block: "start" });
                 }
             });
         }
@@ -86,6 +86,8 @@
 
 // Theme filter sidebar on /news/ — clicking a theme narrows the paginated
 // list above via list.applyFilter (set up by the pagination block above).
+// A link elsewhere on the site (e.g. the theme chips in the homepage news
+// preview) can deep-link straight into a filtered view with ?theme=Name.
 (function () {
     document.querySelectorAll(".filter-list").forEach(function (navList) {
         var targetSelector = navList.dataset.target;
@@ -93,12 +95,25 @@
         if (!target || typeof target.applyFilter !== "function") return;
 
         var items = navList.querySelectorAll(".filter-item");
+        function activate(btn) {
+            items.forEach(function (b) { b.classList.remove("active"); });
+            btn.classList.add("active");
+            target.applyFilter(btn.dataset.filter);
+        }
+
         items.forEach(function (btn) {
-            btn.addEventListener("click", function () {
-                items.forEach(function (b) { b.classList.remove("active"); });
-                btn.classList.add("active");
-                target.applyFilter(btn.dataset.filter);
-            });
+            btn.addEventListener("click", function () { activate(btn); });
         });
+
+        var requestedTheme = new URLSearchParams(window.location.search).get("theme");
+        if (requestedTheme) {
+            var match = Array.prototype.find.call(items, function (btn) {
+                return btn.dataset.filter === requestedTheme;
+            });
+            if (match) {
+                activate(match);
+                if (navList.scrollIntoView) navList.scrollIntoView({ behavior: "smooth", block: "start" });
+            }
+        }
     });
 })();

@@ -1,4 +1,5 @@
 {% assign recent_news = site.data.news | sort: "date" | reverse | slice: 0, 3 %}
+{% assign preview_categories = site.data.news | map: "category" | uniq | sort %}
 <section class="container" id="news">
     <div class="main-title">
         <h2>Industry <span>Updates</span><span class="bg-text">Climate Risk</span></h2>
@@ -8,6 +9,12 @@
         cyclone, severe convective storm and flood perils relevant to (re)insurance —
         pulled from journals, catastrophe risk vendors, and reinsurer publications.
     </p>
+
+    <div class="theme-chip-row">
+        {% for cat in preview_categories %}
+        <a class="theme-chip" href="{{ '/news/' | relative_url }}?theme={{ cat | url_encode }}">{{ cat }}</a>
+        {% endfor %}
+    </div>
 
     <div class="news-grid">
         {% for item in recent_news %}

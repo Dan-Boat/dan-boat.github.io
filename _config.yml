@@ -39,5 +39,5 @@ exclude:
   - Gemfile.lock
   - README.md
   - CONTENT-GUIDE.md
-  - scripts
+  - scripts/fetch_news.py
   - node_modules
