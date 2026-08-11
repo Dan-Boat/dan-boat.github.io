@@ -1,11 +1,92 @@
 # Industry / physical-climate-risk news feed shown on /news/.
 # Auto-updated by scripts/fetch_news.py via .github/workflows/fetch-news.yml (runs every 2 days).
 # Feel free to hand-edit; the script only appends new, deduplicated items.
-# Only items from the current month onward are kept (see MIN_DATE in the script).
 #
 # category is any free-text theme; each distinct value automatically becomes
 # a filter tab on /news/. Current themes in use: Tropical Cyclone, Severe Convective Storm, Flood, Wildfire, Climate Modelling, Physical Risk Service Providers, Parametric Insurance, Reinsurance, Adaptation & Sustainability, General.
 
+- title: 'Artemis London 2026: More expert speakers. Please register soon if you want to attend'
+  url: https://www.artemis.bm/news/artemis-london-2026-more-expert-speakers-please-register-soon-if-you-want-to-attend/?utm_source=rss&utm_medium=rss&utm_campaign=artemis-london-2026-more-expert-speakers-please-register-soon-if-you-want-to-attend
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-08-11'
+  category: Parametric Insurance
+  summary: With just a few weeks until our next catastrophe bond and insurance-linked securities (ILS)
+    market conference, we have added three more expert speakers to the Artemis London 2026 website today.
+    You must register soon to attend and join us on September 1st, for a full-day of in-depth ILS market
+    discu
+- title: 'Catastrophe bond seasonal spread tightening gains momentum in July: Plenum'
+  url: https://www.artemis.bm/news/catastrophe-bond-seasonal-spread-tightening-gains-momentum-in-july-plenum/?utm_source=rss&utm_medium=rss&utm_campaign=catastrophe-bond-seasonal-spread-tightening-gains-momentum-in-july-plenum
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-08-11'
+  category: Parametric Insurance
+  summary: Seasonal tightening of catastrophe bond spreads accelerated in the month of July 2026, resulting
+    in the catastrophe bond market yield or coupon available to investors declining to 9.29% by the end
+    of the month, according to the latest data on cat bond yields from Plenum Investments. A month ago,
+    sea
+- title: MS First Capital begins reinsurance operations from India’s GIFT City
+  url: https://www.reinsurancene.ws/ms-first-capital-begins-reinsurance-operations-from-indias-gift-city/
+  source: Reinsurance News
+  date: '2026-08-11'
+  category: Reinsurance
+  summary: Singapore headquartered non-life insurer, MS First Capital Insurance Limited, commenced reinsurance
+    operations from its new office in India’s Gujarat International Finance Tec-City (GIFT City) on July
+    29th, 2026. Founded more than 75 years ago as The Public Insurance Company Limited, the insurer has
+- title: Christopher O’Connor named Head of Professional Liability and Cyber, North America at AIG
+  url: https://www.reinsurancene.ws/christopher-oconnor-named-head-of-professional-liability-and-cyber-north-america-at-aig/
+  source: Reinsurance News
+  date: '2026-08-11'
+  category: Reinsurance
+  summary: 'Christopher O’Connor has been appointed Head of Professional Liability and Cyber, North America
+    at AIG. As Reinsurance News understands, this is an internal promotion, with O’Connor having been
+    with AIG for over 15 years. He joined AIG in November 2010 as an Underwriting Analyst, before going
+    on to '
+- title: Nicklin succeeds Lees as Chubb’s Head of Major Accounts Division for UK&I
+  url: https://www.reinsurancene.ws/nicklin-succeeds-lees-as-chubbs-head-of-major-accounts-division-for-uki/
+  source: Reinsurance News
+  date: '2026-08-11'
+  category: Reinsurance
+  summary: 'Global property and casualty insurer Chubb has announced the appointment of Ed Nicklin as
+    Head of Major Accounts Division for UK and Ireland (UK&I), succeeding Nick Lee. Having joined Chubb
+    following a decade with ACE European Group, Lee led the Major Accounts Division for UK&I, for over
+    six years, '
+- title: 'Climate-driven SCS to reshape how insurers price risk: First Street'
+  url: https://www.reinsurancene.ws/climate-driven-scs-to-reshape-how-insurers-price-risk-first-street/
+  source: Reinsurance News
+  date: '2026-08-11'
+  category: Reinsurance
+  summary: Severe convective storms (hail, damaging wind, and tornadoes) have become the costliest insured
+    peril of the 21st century, reshaping how insurers, investors, and asset owners price risk, new First
+    Street analysis reveals. In 2025, SCS generated approximately $82 billion in global economic losses,
+    wh
+- title: Swiss Re appoints Andreas Schäfli as Head Multiline
+  url: https://www.reinsurancene.ws/swiss-re-appoints-andreas-schafli-as-head-multiline/
+  source: Reinsurance News
+  date: '2026-08-11'
+  category: Reinsurance
+  summary: Swiss Re, one of the world’s largest reinsurance companies, has named Andreas Schäfli, who
+    most recently served as Head of P&C Legacy, as Head of Multiline. Schäfli joined Swiss Re in 2007
+    and has since held various roles, ranging from pricing L&H treaties for the Middle East and P&C commutations
+    fo
+- title: Mintoo calls for long-term financing to tackle climate impacts - Bangladesh Sangbad Sangstha
+    (BSS)
+  url: https://news.google.com/rss/articles/CBMiS0FVX3lxTE9SMi1IV21TdVVsaUlJU2pwQXEzVTRqbGRTTHB0emtfa1d4d3ZLbnBlV2M1aVd3NEc5a3dQbFptSmNiMlZlRExWcVNDMA?oc=5
+  source: 'Google News: Adaptation Policy'
+  date: '2026-08-10'
+  category: Adaptation & Sustainability
+  summary: Mintoo calls for long-term financing to tackle climate impacts Bangladesh Sangbad Sangstha
+    (BSS)
+- title: Nigeria Seeks Private Investment, Partnerships to Close Climate Adaptation Gap - thisdaylive.com
+  url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNmQ4eVBxckZHWUZkblJEcnI2M3dVX3E5dzRrNU9LZTRYM0R1SFY3dV9HTXo3ZU9jLTMzeW4tNnFLVUdQYlRoTjl5Q09YQUowQkcySlpaZkp4M092SzJRZjV1XzJyY1AtbGJlcWl0VHNlcE5Qc05MSUhqUHR5RE1TVU1manNuSFNsaS1xT2RmN0U3UjY5RGx3R1NoMS1FWmUyMXFNRGlzODNLRlEzX2NmaHhOMlRQckxO?oc=5
+  source: 'Google News: Adaptation Policy'
+  date: '2026-08-10'
+  category: Adaptation & Sustainability
+  summary: Nigeria Seeks Private Investment, Partnerships to Close Climate Adaptation Gap thisdaylive.com
+- title: Federal Govt Seeks New Financing To Close Nigeria’s Climate Adaptation Gap - LEADERSHIP Newspapers
+  url: https://news.google.com/rss/articles/CBMinAFBVV95cUxQczJDSEJucFJXdmh3anNaWHYyN212LUpBYlJhRF8tMjI3QzZFZW5WR0pCRXAwaU91U1pPVkd0OUhmRWUyTDJ4ekRWZlJXa2FEMXdZU2lUOG9mbzhTRndJUTR0UXktNGVwZ2xmUjFBd2ZUajJIQUQ0SXpoemp3SXcwMjA1V1ZLUW5sTU9GSlk4VUlaRF9nbXg0ZFNFbnA?oc=5
+  source: 'Google News: Adaptation Policy'
+  date: '2026-08-10'
+  category: Adaptation & Sustainability
+  summary: Federal Govt Seeks New Financing To Close Nigeria’s Climate Adaptation Gap LEADERSHIP Newspapers
 - title: Best of Artemis, week ending August 9th 2026
   url: https://www.artemis.bm/news/best-of-artemis-week-ending-august-9th-2026/?utm_source=rss&utm_medium=rss&utm_campaign=best-of-artemis-week-ending-august-9th-2026
   source: Artemis.bm (ILS & Parametric)
@@ -388,6 +469,20 @@
   summary: 'Heatwaves are becoming more likely and more intense due to climate change, impacting sources
     of power generation around the world… The post Factcheck: How nuclear, gas, wind and solar power are
     affected during heatwaves appeared first on Carbon Brief.'
+- title: First Street's Climate Data Covers More Than 2.4B Structures - Stock Titan
+  url: https://news.google.com/rss/articles/CBMilAFBVV95cUxQOHlTTXNaRUR4STdRZjFNWThmbVJMeTZlN0R0UHBJajlSTWpBZHp2VVl1M1RUVmM0LWw1azNteUQ1UW5QdWZFWHUtTzZlaUw2Ukl5VlM1bDVxRmpoZEVmaVBEeVEtQlBoaWtKTlpmMHVKaXlfc2Y0dXBqQktVaVN2Tmxwa0VUVDFlRVFqTi1yWkZmT1du?oc=5
+  source: 'Google News: MSCI'
+  date: '2026-08-03'
+  category: Physical Risk Service Providers
+  summary: First Street's Climate Data Covers More Than 2.4B Structures Stock Titan
+- title: MSCI completes acquisition of climate risk data firm First Street By Investing.com - Investing.com
+    Canada
+  url: https://news.google.com/rss/articles/CBMixAFBVV95cUxOOHJuVUF4RHNqTUJVNWgwd3lfbU00aWpGOGoxTkpHamtHbVlZNHc5emtCSFJoalJ2MV9wcWZTNlBLQnVtaVNrd3BKQnA0OE94YUVlUEh2b0l6RFhrNndkdVc3WmYxdnZYTG5LRlZ5aEdfc21tSlZqVE84NzFLSGE1WGNSQjU5cWRpSWp4b01pRTlKWXNPM1pNcm1udnhNQzR5d214RENObDZnRElPUjJhazFzQk51UWs0cC14VGo2RUEyX2hL?oc=5
+  source: 'Google News: MSCI'
+  date: '2026-08-03'
+  category: Physical Risk Service Providers
+  summary: MSCI completes acquisition of climate risk data firm First Street By Investing.com Investing.com
+    Canada
 - title: MSCI Completes First Street Acquisition to Expand Climate Risk Analytics Platform - citybiz
   url: https://news.google.com/rss/articles/CBMivAFBVV95cUxNRTVBbmJZcGwybk9NWWlvWjI5dDEySWQ2cGdPV0tYdS1uWi1YR2trb3ZCYktyUmNjNllOYzBlSnp6d1pCZjRaSmNfNDI5LXh1bDJjb0xJWFhHeW1sZlRNYWpjOWJacGpRUTM4Y2hrT29DTW9oeThXbDdwbllHY2RsZDJRc3lROWliY2ZHSEdVTW56bmo3XzVVNXY3alJ1Z2JsTndQU28yOXhpSy1DMXJKbG5yR1RYcXlMbDc5NQ?oc=5
   source: 'Google News: MSCI'
