@@ -5,6 +5,128 @@
 # category is any free-text theme; each distinct value automatically becomes
 # a filter tab on /news/. Current themes in use: Tropical Cyclone, Severe Convective Storm, Flood, Wildfire, Climate Modelling, Physical Risk Service Providers, Parametric Insurance, Reinsurance, Adaptation & Sustainability, General.
 
+- title: 'Implementation of predicted rime mass in the bin microphysics scheme DESCAM 3D: evaluation for
+    an idealized squall line system and a heavy snowfall event during ICE-POP 2018'
+  url: https://doi.org/10.5194/gmd-19-8025-2026
+  source: Geoscientific Model Development (GMD)
+  date: '2026-09-01'
+  category: Climate Modelling
+  summary: 'Implementation of predicted rime mass in the bin microphysics scheme DESCAM 3D: evaluation
+    for an idealized squall line system and a heavy snowfall event during ICE-POP 2018 Pierre Grzegorczyk,
+    Wolfram Wobrock, Antoine Canzi, Frédéric Tridon, Sun-Young Park, Gyuwon Lee, Kwonil Kim, Kyo-Sun Lim,
+    and '
+- title: 'CMIP7 Data Request: co-created guidance for the production of CMIP7 data [v1.2.2.5]'
+  url: https://doi.org/10.5194/gmd-19-8053-2026
+  source: Geoscientific Model Development (GMD)
+  date: '2026-09-01'
+  category: Climate Modelling
+  summary: 'CMIP7 Data Request: co-created guidance for the production of CMIP7 data [v1.2.2.5] Chloe
+    Mackallah, Martin Juckes, James Anstey, Beth Dingley, Charlotte Pascoe, Gaëlle Rigoudy, Marie-Pierre
+    Moine, Tomas Lovato, Alison Pamment, Martin Schupfner, Michio Kawamiya, Tommi Bergman, Charles Koven,
+    Eleanor'
+- title: 'ILS continues to grow despite softer and more competitive reinsurance market: Moody’s Ratings'
+  url: https://www.artemis.bm/news/ils-continues-to-grow-despite-softer-and-more-competitive-reinsurance-market-moodys-ratings/?utm_source=rss&utm_medium=rss&utm_campaign=ils-continues-to-grow-despite-softer-and-more-competitive-reinsurance-market-moodys-ratings
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-09-01'
+  category: Parametric Insurance
+  summary: Strong investor demand and record catastrophe bond issuance, underpinned by increased participation
+    by both insurers and reinsurers, is supporting the continued expansion of the insurance-linked securities
+    (ILS) market, as Moody’s Ratings reports that carriers are using ILS more strategically in the
+- title: 'Alternative capital rose 9% in H1’26 to record $147bn: Gallagher Re'
+  url: https://www.artemis.bm/news/alternative-capital-rose-9-in-h126-to-record-147bn-gallagher-re/?utm_source=rss&utm_medium=rss&utm_campaign=alternative-capital-rose-9-in-h126-to-record-147bn-gallagher-re
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-09-01'
+  category: Parametric Insurance
+  summary: Global non-life alternative reinsurance capital increased by 9%, or USD 12 billion in the first
+    half of 2026 to a record USD 147 billion, driven by favourable returns and net inflows of capital,
+    as total reinsurance capital rose by 5% in the period to a high of USD 688 billion, according to reinsura
+- title: AM Best maintains stable outlook on ‘fundamentally strong’ global reinsurance segment
+  url: https://www.artemis.bm/news/am-best-maintains-stable-outlook-on-fundamentally-strong-global-reinsurance-segment/?utm_source=rss&utm_medium=rss&utm_campaign=am-best-maintains-stable-outlook-on-fundamentally-strong-global-reinsurance-segment
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-09-01'
+  category: Parametric Insurance
+  summary: Global credit rating agency AM Best has maintained its stable outlook on the global non-life
+    reinsurance segment, assessing that the market “remains fundamentally strong” despite clear softening
+    in property, challenges in certain classes of casualty in the US, and an overall competitive landscape.
+    B
+- title: 'ILS fund performance continues to rise in 2026, average July return hit 1.05%: ILS Advisers'
+  url: https://www.artemis.bm/news/ils-fund-performance-continues-to-rise-in-2026-average-july-return-hit-1-05-ils-advisers/?utm_source=rss&utm_medium=rss&utm_campaign=ils-fund-performance-continues-to-rise-in-2026-average-july-return-hit-1-05-ils-advisers
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-09-01'
+  category: Parametric Insurance
+  summary: The performance of insurance-linked securities investment fund strategies, across catastrophe
+    bonds and private ILS, has continued to rise through July 2026 with the month delivering the best
+    returns of the year so far for the asset class, as measured by the ILS Advisers Fund Index. For July
+    2026, I
+- title: Bamboo Insurance files S-1 for proposed NYSE IPO
+  url: https://www.reinsurancene.ws/bamboo-insurance-files-s-1-for-proposed-nyse-ipo/
+  source: Reinsurance News
+  date: '2026-09-01'
+  category: Reinsurance
+  summary: 'Bamboo Insurance Services, Inc., an AI and technology-enabled, underwriting-first and capital-light
+    homeowners insurance Managing General Underwriter (MGU), has filed a registration statement on Form
+    S-1 with the U.S. Securities and Exchange Commission relating to a proposed initial public offering '
+- title: Howden Re establishes Portugal presence with Filipe Duarte appointment
+  url: https://www.reinsurancene.ws/howden-re-establishes-portugal-presence-with-filipe-duarte-appointment/
+  source: Reinsurance News
+  date: '2026-09-01'
+  category: Reinsurance
+  summary: Howden Re, the reinsurance, capital markets and strategic advisory business of Howden Group,
+    has expanded its presence in Iberia with the appointment of Filipe Duarte as Head of Howden Re Portugal.
+    Duarte took up the newly created role on 2 August 2026 and is based in Lisbon. His appointment gives
+    H
+- title: 'Global insurers must prepare to absorb $171bn in insured cat losses each year: Verisk'
+  url: https://www.reinsurancene.ws/global-insurers-must-prepare-to-absorb-171bn-in-insured-cat-losses-each-year-verisk/
+  source: Reinsurance News
+  date: '2026-09-01'
+  category: Reinsurance
+  summary: Increasing catastrophes, inflation and construction costs are driving the continued rise in
+    insured losses, Verisk’s 2026 Global Modelled Catastrophe Losses Report finds. According to the annual
+    report, the insurance industry should be prepared to withstand $171 billion in insured catastrophe
+    losses
+- title: Starr names Liliane Wehbe as Head of Casualty, MENA
+  url: https://www.reinsurancene.ws/starr-names-liliane-wehbe-as-head-of-casualty-mena/
+  source: Reinsurance News
+  date: '2026-09-01'
+  category: Reinsurance
+  summary: Starr, an insurance and investment organisation, has appointed Liliane Wehbe as Head of Casualty,
+    the Middle East and North Africa (MENA). In her new role, Wehbe will be based in Dubai and lead the
+    development of the insurer’s regional specialty casualty offering, drive growth, and further broaden
+    t
+- title: 'Reinsurance buyers expect further property rate declines: Moody’s'
+  url: https://www.reinsurancene.ws/reinsurance-buyers-expect-further-property-rate-declines-moodys/
+  source: Reinsurance News
+  date: '2026-09-01'
+  category: Reinsurance
+  summary: Reinsurance buyers expect property prices to continue declining into 2027, as abundant traditional
+    reinsurance capacity and fewer severe catastrophe losses drive continued competition, according to
+    Moody’s Ratings. In its annual survey of reinsurance buyers, Moody’s noted that market conditions
+    rema
+- title: Tokio Marine HCC’s CPLG names Brian Alva as SVP of Underwriting
+  url: https://www.reinsurancene.ws/tokio-marine-hccs-cplg-names-brian-alva-as-svp-of-underwriting/
+  source: Reinsurance News
+  date: '2026-09-01'
+  category: Reinsurance
+  summary: Cyber & Professional Lines Group (CPLG), part of the Tokio Marine HCC group of companies and
+    headquartered in Houston, Texas, has appointed Brian Alva as Senior Vice President of Underwriting,
+    where he will take responsibility for the group’s cyber and technology underwriting. The appointment
+    is int
+- title: Verisk Reports Record $171 Billion Global Insured Catastrophe Loss Benchmark in 2026 Study -
+    Quiver Quantitative
+  url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSDlvbXZQQ2d2M285V1pPVjgxenF3ZGhQbHJQWEdreUQwb1hMOTVFSEhsWU1LNU55bnMzcllNOXJKQlJDUVpNY2FoYV80WkVkY2dIbnVwaUdQWGt2dmktM0JFeTljZGZwc0l5OVFoS3poTHNzSDB3aHRiOE01eG0wZTNlWTZkc0pUdkVsbVZjYUQwaDVGT0gzNkJ1aGZuT01MYlo2WGtoSE0zdGo2ajN6cTA2OUJ4cWdKTHUtQWxOczdrQkk?oc=5
+  source: 'Google News: Verisk'
+  date: '2026-09-01'
+  category: Physical Risk Service Providers
+  summary: Verisk Reports Record $171 Billion Global Insured Catastrophe Loss Benchmark in 2026 Study
+    Quiver Quantitative
+- title: Verisk Reports Record $171 Billion Global Insured Catastrophe Loss Benchmark in 2026 Global Modeled
+    Catastrophe Losses Report - Quiver Quantitative
+  url: https://news.google.com/rss/articles/CBMi8gFBVV95cUxObzBCZ2FBeXcxYlozaVhxVW1KUjFlc0x6NXBZVGpEcldGRk16TXBNYk5uZ2lFUnRtR0dBWlUxVldVM2ItQzg3VnZIYm5ERGhrU3J2RFFnMTJQMUxQSWdEeHZFY194V0ZtaTAwR1hKbHNBaU1QQkNvcU9UVG9QN3RHVzNlcWpvRVlxSWNxdm9HbHZpdWcxV3dUbGh5R1J1akp1SXFka2lmWXlyMzhhRkdHTkM5ald4VUtJVmNmWjNqQkhONldfcmNNdTFub3BnREhtWVlvMzZDWHg2T3lwdFA2S3AxUFZEZHlDYk1TYnplVzAxZw?oc=5
+  source: 'Google News: Verisk'
+  date: '2026-09-01'
+  category: Physical Risk Service Providers
+  summary: Verisk Reports Record $171 Billion Global Insured Catastrophe Loss Benchmark in 2026 Global
+    Modeled Catastrophe Losses Report Quiver Quantitative
 - title: 'Unveiling the link between extreme precipitation events and flood disasters in China: from a
     3D perspective'
   url: https://doi.org/10.5194/nhess-26-4153-2026
