@@ -5,6 +5,83 @@
 # category is any free-text theme; each distinct value automatically becomes
 # a filter tab on /news/. Current themes in use: Tropical Cyclone, Severe Convective Storm, Flood, Wildfire, Climate Modelling, Physical Risk Service Providers, Parametric Insurance, Reinsurance, Adaptation & Sustainability, General.
 
+- title: A deep learning framework for gridding daily climate variables from a sparse station network
+  url: https://doi.org/10.5194/gmd-19-8895-2026
+  source: Geoscientific Model Development (GMD)
+  date: '2026-09-21'
+  category: Climate Modelling
+  summary: A deep learning framework for gridding daily climate variables from a sparse station network
+    Alexandru Dumitrescu Geosci. Model Dev., 19, 8895–8913, https://doi.org/10.5194/gmd-19-8895-2026,
+    2026 Accurate daily climate maps are essential for environmental monitoring, yet many regions lack
+    dense weat
+- title: Flash energy droughts strain grids
+  url: https://www.nature.com/articles/s41558-026-02760-4
+  source: Nature Climate Change
+  date: '2026-09-21'
+  category: Climate Modelling
+  summary: 'Nature Climate Change, Published online: 21 September 2026; doi:10.1038/s41558-026-02760-4Rapid
+    declines in wind or solar generation may leave electricity systems little time to respond. Now a study
+    maps these events globally and projects that their duration may increase under climate change.'
+- title: Flash energy droughts in solar and wind resources under climate change
+  url: https://www.nature.com/articles/s41558-026-02753-3
+  source: Nature Climate Change
+  date: '2026-09-21'
+  category: Climate Modelling
+  summary: 'Nature Climate Change, Published online: 21 September 2026; doi:10.1038/s41558-026-02753-3Flash
+    energy droughts, rapid drops followed by sustained low wind and solar production, could pose potential
+    challenges to power system operations. Here researchers find that climate change may intensify such
+    e'
+- title: 'ILS complementary for transferring, funding risks of large infrastructure projects: Singapore’s
+    MAS'
+  url: https://www.artemis.bm/news/ils-complementary-for-transferring-funding-risks-of-large-infrastructure-projects-singapores-mas/?utm_source=rss&utm_medium=rss&utm_campaign=ils-complementary-for-transferring-funding-risks-of-large-infrastructure-projects-singapores-mas
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-09-21'
+  category: Parametric Insurance
+  summary: Insurance-linked securities such as catastrophe bonds are seen as a complementary mechanism
+    to help provide the necessary capital to transfer and fund the risks of large infrastructure projects
+    in Asia, according to Lim Cheng Khai of the Monetary Authority of Singapore (MAS). Speaking at Internation
+- title: 'Deploying ILS capital into cyber, AI, data centres requires right fund structures: Albertini,
+    Leadenhall'
+  url: https://www.artemis.bm/news/deploying-ils-capital-into-cyber-ai-data-centres-requires-right-fund-structures-albertini-leadenhall/?utm_source=rss&utm_medium=rss&utm_campaign=deploying-ils-capital-into-cyber-ai-data-centres-requires-right-fund-structures-albertini-leadenhall
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-09-21'
+  category: Parametric Insurance
+  summary: As cyber, data centres and artificial intelligence (AI) generate new material cumulations of
+    risk, matching ILS capital to these emerging exposures requires the right fund structures to unlock
+    investor capacity without compromising core portfolio value, Leadenhall Capital Partners CEO Luca
+    Albertini
+- title: Tower grows first-event catastrophe reinsurance limit to NZ $970m at reduced cost
+  url: https://www.artemis.bm/news/tower-grows-first-event-catastrophe-reinsurance-limit-to-nz-970m-at-reduced-cost/?utm_source=rss&utm_medium=rss&utm_campaign=tower-grows-first-event-catastrophe-reinsurance-limit-to-nz-970m-at-reduced-cost
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-09-21'
+  category: Parametric Insurance
+  summary: Tower Insurance, the Auckland, New Zealand-headquartered general insurer, has capitalised on
+    favourable reinsurance market conditions to expand its catastrophe coverage again, buying first-event
+    limit of up to NZ $970 million at its renewal, while experiencing improved pricing for the second
+    year in
+- title: Best of Artemis, week ending September 20th 2026
+  url: https://www.artemis.bm/news/best-of-artemis-week-ending-september-20th-2026/?utm_source=rss&utm_medium=rss&utm_campaign=best-of-artemis-week-ending-september-20th-2026
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-09-21'
+  category: Parametric Insurance
+  summary: 'Here are the ten most popular news articles, week ending September 20th 2026, covering catastrophe
+    bonds, ILS, reinsurance capital and related risk transfer topics. To ensure you never miss a thing
+    subscribe to the weekly Artemis email newsletter updates or get our email alerts for every article
+    we '
+- title: MSCI warns company disclosures leaving incomplete picture of climate risks - BusinessGreen
+  url: https://news.google.com/rss/articles/CBMitAFBVV95cUxObWVmbUlyenBFcHdQTmNaMWlTLTRXZk5xX3ZGb1BmOGdJMnVBYTlRODJuZEZPeGczSWI5UV9JWXBWUWo3SXJYWFZJRF80ZTlrXzFlZlVGUHRMSXBlRkMySHFtY1JTakx2bkFVWktnX2VDQmdiSXhVeml6ZmJNR0tzcXl1MGRLQm9JV3ZPU09RczRFMDZsVE5YNlE2VE00eDhocnZsX2JVUGlIZmt4TFhRXzZVUEk?oc=5
+  source: 'Google News: MSCI'
+  date: '2026-09-21'
+  category: Physical Risk Service Providers
+  summary: MSCI warns company disclosures leaving incomplete picture of climate risks BusinessGreen
+- title: A repeat of Miami’s 1926 hurricane could cost over $280 billion. That's more than Hurricane Katrina.
+    - Yale Climate Connections
+  url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxQXzViNHB5TWh1RHlLN1VRaGt2YUFpdXVTRDk4UXBxUEdia2FWV21WOHc1U2dVakVrd3I1dlZqMTJFWTZXbWZlZ1FoRDlyLVBxWkNXanp0Nzkzazd3WUY2MktTRGZtelRYdW5jbUxCelh2R0NlUjJoUmhqLXZKZHM5dkRCQUZjZlBzSGxjNFpwTkxnY2d5ZFJjdnU0V21LVmJXV29Qajg1cnlxVmVRbzN0Mk5wdDFqN1JpSi1uSEpXY2lJQ2lYQmlDZUpwOGprVXozOUlkc2N3?oc=5
+  source: 'Google News: Verisk'
+  date: '2026-09-19'
+  category: Physical Risk Service Providers
+  summary: A repeat of Miami’s 1926 hurricane could cost over $280 billion. That's more than Hurricane
+    Katrina. Yale Climate Connections
 - title: Nature4Resilience (N4R), Nature-based Solutions for Climate Resilience Investment - International
     Union for Conservation of Nature
   url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPU3BYcXN1TTBWUnd0N2ZQbmxIRG9VY253RDl5TGNyanVyQmdoSkRYc0Q2d0k0ZjZLNTBnTl9lV3c0MmVoOVBfSUN5WlVDRUlEQ3MzcGo4VVo4VTBaSWFFVGVPTkpUZWhYdFo3S0pqQ1JlampmcG1sRnhwcU9taENoRDN2X084QmNHRHVNOHhIN0cwbzk4dmd0eFpjeHJDYWdzTXRnQVdrWGwzZEhLNHc?oc=5
@@ -13,6 +90,12 @@
   category: Adaptation & Sustainability
   summary: Nature4Resilience (N4R), Nature-based Solutions for Climate Resilience Investment International
     Union for Conservation of Nature
+- title: 'From climate risk to financial return: Why resilience is an investment strategy - wsp.com'
+  url: https://news.google.com/rss/articles/CBMifEFVX3lxTFBEYlNvMUpSdHM5ZVhqcDFadzVPbHlYNXNxY2NUUzM3UVA1VWx6cmlwZHBHZ1pUVzJsTVd1bjg3RU5LVGI0RVNRQVhlUF9UMktxSkFWRllJSUhlcmt5RlRtUlpMUmdLZVpRaWhMX3l0a3JzTGR2RHJ1U216UUo?oc=5
+  source: 'Google News: Adaptation & Resilience'
+  date: '2026-09-18'
+  category: Adaptation & Sustainability
+  summary: 'From climate risk to financial return: Why resilience is an investment strategy wsp.com'
 - title: The Cloud Feedback Model Intercomparison Project (CFMIP) contribution to CMIP7
   url: https://doi.org/10.5194/gmd-19-8693-2026
   source: Geoscientific Model Development (GMD)
@@ -134,6 +217,42 @@
   date: '2026-09-18'
   category: Adaptation & Sustainability
   summary: 'Climate adaptation and resilience need its own investment language: MAS Eco-Business'
+- title: Climate X Partners With Aroundtown on Climate Risk Reporting for Real Estate - TipRanks
+  url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcnFnaDR0QXZJdDBlVE9hdzhRMXlDMjZacGZGY0drQnNiUDBvamNlZjJmdkJpb1VWYklmcWdjcFhoeS1aV0lxYTNzemE2czE1Vnc1YzVFMFoza1NKRTJ3MjlsVmlLa3pwZmEwb2xNUjBjdnh4SlVBd01rbHA1aXRJYTVhcGxVZnBWR0FFc1lnR0pzcGtoZEZUaEZkTnlaTlJCYmsyTDJCNEtjTXBjanFBVUdsei10NEpINm4zUUdkcF92UQ?oc=5
+  source: 'Google News: Climate X'
+  date: '2026-09-17'
+  category: Physical Risk Service Providers
+  summary: Climate X Partners With Aroundtown on Climate Risk Reporting for Real Estate TipRanks
+- title: 'Only 22% of Singapore-listed companies make physical climate risk disclosures in detail: MSCI
+    - The Business Times'
+  url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxOekwxZzJ0WV82RFNqMS1lNnhWODU5NVpMOUM4UkhPZy01cnZPTk83UG1EUUM5ODJtdnJxa21zWUNKemZwOHd5SFJldHU3V1pRTnZ5WXdSMWZHOGNQM1lPc3RWd2FDRW1HbVB2UjEwell5akMxT2R6UElSRFFKb0hWVURqVlE4emdxTEVSSWxna2k1a3hENkc3Ti1DOWFLMl9EdXFJdHJoaU9Lb1dQZnVSbEJUZUJjTFo2S0hKVGpURjNGRmljNzRRYXpPN0E1Umptenc?oc=5
+  source: 'Google News: MSCI'
+  date: '2026-09-17'
+  category: Physical Risk Service Providers
+  summary: 'Only 22% of Singapore-listed companies make physical climate risk disclosures in detail: MSCI
+    The Business Times'
+- title: Majority of SG-listed firms flag physical climate risk in annual reports - Singapore Business
+    Review
+  url: https://news.google.com/rss/articles/CBMimAFBVV95cUxQdWpVaGVZMzVKTV9PdUJyZGItN1l3dy1INlk0ZkszNHdQSnFrV01iNDRkRUxJcXJGRnY0TzlsbVlpcWFLVEZGeldMeTNFZ2MwZjk3aUxRZi1FdkwxMk9BaG5wV2tLaVgxMXQ4ajduMlRmdjJTWU1QdC1sNUk1al9YWGl1ZE90elk4YzNfZ1hCd2F2WU03ME8yOA?oc=5
+  source: 'Google News: MSCI'
+  date: '2026-09-17'
+  category: Physical Risk Service Providers
+  summary: Majority of SG-listed firms flag physical climate risk in annual reports Singapore Business
+    Review
+- title: AIIB to issue new climate adaptation bond in 2027 - Green Central Banking
+  url: https://news.google.com/rss/articles/CBMimAFBVV95cUxOX3Y4QUhDS2ItaU1pbmMwTGw1NGpMMmFscS10ZFpUbFZEb1lNRTFpMHpqelVuTkVoU0loaUpPUHktSTA4YklYbFVFVkJhQ2wyUk9OQVBDMTBncGgwM01ZQzdsa25zQlBtY1RKaUNOZ3VOWmNTcXJzNks1VW5oWjJqR2VfSHUyWXR5M3phTndDc2VEUXVINHZTMw?oc=5
+  source: 'Google News: Adaptation & Resilience'
+  date: '2026-09-17'
+  category: Adaptation & Sustainability
+  summary: AIIB to issue new climate adaptation bond in 2027 Green Central Banking
+- title: Economic opportunities from investing in climate resilience in the UK - The London School of
+    Economics and Political Science
+  url: https://news.google.com/rss/articles/CBMivwFBVV95cUxNWEhBWGFvcUcyOVlxNnNqbFBDYnJRXzVBdl9rOVlNbUIzVUJoZmpLT2VuMXRVbFdLVUR4UEJLbjV2bVU1bTd5UEFiV1d5bkJsX1FxVGVXU2NyR3NrUk42VzhYRE9ZN29CT1o1NTVqSURnQ0ptZ3BlMHFhRi0yZWhJMHFQbHJBdUJJQ0pDZWx0bjlmVXNhQU1RdmFfSlQ2eFdxS2xleExqM2hjNjFRdnZfbHZJaFRYdEV2VDFHNHpiWQ?oc=5
+  source: 'Google News: Adaptation & Resilience'
+  date: '2026-09-17'
+  category: Adaptation & Sustainability
+  summary: Economic opportunities from investing in climate resilience in the UK The London School of
+    Economics and Political Science
 - title: 'An online spectral nudging-based correction system: improving physical model forecasts by incorporating
     large-scale  circulations derived from machine learning models'
   url: https://doi.org/10.5194/gmd-19-8673-2026
@@ -756,6 +875,12 @@
   date: '2026-09-07'
   category: Adaptation & Sustainability
   summary: Africa gets only 23% of the climate finance it needs — and pays too much for it Down To Earth
+- title: Vanua Levu road project focuses on climate-resilient infrastructure - FBC News
+  url: https://news.google.com/rss/articles/CBMiogFBVV95cUxNeEdOdlNHSXpfQXQ1T3V1V1RnTzl3Znp5U3kwM1NqS00tUFFlRm5mMk41UnBPUE1FNmlDbm95RWdfanV1bWRxU0JDS0I2c2x2cUw3ZWpoeUp4c183N2dkejF5czZ2Tm1OYlAyOTFkM3JSR2pFamo0VXNGeDd6b2Y1Y0M0NDhXX2R1a3ZrY3NoNTFFdGF2QTNVaFkybzlhc0ctWnc?oc=5
+  source: 'Google News: Adaptation Policy'
+  date: '2026-09-06'
+  category: Adaptation & Sustainability
+  summary: Vanua Levu road project focuses on climate-resilient infrastructure FBC News
 - title: 'Verisk: Global modelled losses – a clear benchmark in a shifting risk transfer market - theinsurer.com'
   url: https://news.google.com/rss/articles/CBMixgFBVV95cUxNa0hmcDZhRGJ1T0pSLVoyVUtGT2NLN3IzSTB5TFc5WUM0MVNGY3JaYUxQNWpoUVVSZUphNlBOb0xFOUxrOUpmaXdKU2c1QW8zQ3JUWUlQZlZOTU9zSWVUV1BwYS1qbDJXMzJwcUtEZ2M0TDFZdlJXRUFXYmh6OE4yaTROZHNaOG1fWVQzOTU5VHk4UGVwOGJ5RHpOalctbEZHel91UTJBak1iZ3ZJR3d1RHp6dVdCQW1Sd24yY0hXQ2J1eFFvVWc?oc=5
   source: 'Google News: Verisk'
