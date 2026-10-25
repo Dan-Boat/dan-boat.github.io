@@ -6,6 +6,13 @@
 # "url" can be "#" if there is no link yet (e.g. a submitted paper).
 
 peer_reviewed:
+  - authors: "Ballian Armelle et al. (incl. Boateng, D.)"
+    text: >-
+      Miocene reconstructed and simulated oxygen isotopic composition of
+      meteoric water (δ18Ow) in Alpine foreland basins. Geochemistry,
+      Geophysics, Geosystems, 2025.
+    url: "https://doi.org/10.1029/2025GC012854"
+
   - authors: "Wilby, R. L., Basarin, B., Boateng, D., and Josić, M."
     text: >-
       A Workflow for Benchmarking Added Value by New Statistical Downscaling
@@ -51,12 +58,6 @@ submitted:
     text: >-
       Deep Learning Techniques for Precipitation Nowcasting: Trends,
       Challenges and Future Directions. Environmental Modelling & Software.
-    url: "#"
-
-  - authors: "Ballian Armelle et al. (incl. Boateng, D.)"
-    text: >-
-      Miocene reconstructed and simulated oxygen isotopic composition of
-      meteoric water (δ18Ow) in Alpine foreland basins.
     url: "#"
 
 conference_abstracts:

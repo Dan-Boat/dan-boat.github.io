@@ -3,7 +3,7 @@
         button.addEventListener("click", function() {
             document.querySelector(".active-btn").classList.remove("active-btn");
             this.classList.add("active-btn");
-            document.querySelector(".active").classList.remove("active");
+            document.querySelector(".container.active").classList.remove("active");
             document.getElementById(button.dataset.id).classList.add("active");
         })
     });
