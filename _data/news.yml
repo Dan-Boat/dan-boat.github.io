@@ -5,6 +5,214 @@
 # category is any free-text theme; each distinct value automatically becomes
 # a filter tab on /news/. Current themes in use: Tropical Cyclone, Severe Convective Storm, Flood, Wildfire, Climate Modelling, Physical Risk Service Providers, Parametric Insurance, Reinsurance, Adaptation & Sustainability, General.
 
+- title: Composition, frequency, and severity of future rain-on-snow floods in Germany
+  url: https://doi.org/10.5194/nhess-26-5609-2026
+  source: Natural Hazards and Earth System Sciences (NHESS)
+  date: '2026-11-05'
+  category: Climate Modelling
+  summary: Composition, frequency, and severity of future rain-on-snow floods in Germany Christian Czakay,
+    Larisa Tarasova, and Bodo Ahrens Nat. Hazards Earth Syst. Sci., 26, 5609–5631, https://doi.org/10.5194/nhess-26-5609-2026,
+    2026 In this study, we simulated streamflow in German river catchments for climat
+- title: 'From forecast to alert: an open-data AI flood early warning system with reservoir monitoring
+    for the White Volta Basin'
+  url: https://doi.org/10.5194/nhess-26-5667-2026
+  source: Natural Hazards and Earth System Sciences (NHESS)
+  date: '2026-11-05'
+  category: Climate Modelling
+  summary: 'From forecast to alert: an open-data AI flood early warning system with reservoir monitoring
+    for the White Volta Basin Joseph Junior Obeng, Hongyong Yuan, Tao Chen, and Lida Huang Nat. Hazards
+    Earth Syst. Sci., 26, 5667–5689, https://doi.org/10.5194/nhess-26-5667-2026, 2026 Flooding in Northern
+    Ghan'
+- title: Towards improved integration of hydrological uncertainty and hydraulic model sensitivity in flood
+    hazard mapping
+  url: https://doi.org/10.5194/nhess-26-5647-2026
+  source: Natural Hazards and Earth System Sciences (NHESS)
+  date: '2026-11-05'
+  category: Climate Modelling
+  summary: 'Towards improved integration of hydrological uncertainty and hydraulic model sensitivity in
+    flood hazard mapping Simon Rusjan, Jasna Donevska, and Matjaž Mikoš Nat. Hazards Earth Syst. Sci.,
+    26, 5647–5665, https://doi.org/10.5194/nhess-26-5647-2026, 2026 Flood hazard maps often show a single
+    "line" '
+- title: 'A deep-atmosphere extension in a nonhydrostatic dynamical core: formulation and idealized tests'
+  url: https://doi.org/10.5194/gmd-19-10533-2026
+  source: Geoscientific Model Development (GMD)
+  date: '2026-11-05'
+  category: Climate Modelling
+  summary: 'A deep-atmosphere extension in a nonhydrostatic dynamical core: formulation and idealized
+    tests Qitao Cui, Li Dong, and Bin Wang Geosci. Model Dev., 19, 10533–10550, https://doi.org/10.5194/gmd-19-10533-2026,
+    2026 Many atmospheric models use shallow approximation that work well when the model top is'
+- title: 'Cat bond risk spreads fall to lowest level since 2017, as tightening continued in October: Plenum'
+  url: https://www.artemis.bm/news/cat-bond-risk-spreads-fall-to-lowest-level-since-2017-as-tightening-continued-in-october-plenum/?utm_source=rss&utm_medium=rss&utm_campaign=cat-bond-risk-spreads-fall-to-lowest-level-since-2017-as-tightening-continued-in-october-plenum
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-11-05'
+  category: Parametric Insurance
+  summary: Catastrophe bond insurance risk spreads declined further in October 2026, as seasonal tightening
+    continued to affect the overall yield of the cat bond market. Cat bond risk spreads now stand at their
+    lowest since 2017 and while the tightening trend will end soon, it remains to be seen how lower spre
+- title: 'Insurers urged to adapt reinsurance structures as secondary peril losses climb: Marsh Re'
+  url: https://www.artemis.bm/news/insurers-urged-to-adapt-reinsurance-structures-as-secondary-peril-losses-climb-marsh-re/?utm_source=rss&utm_medium=rss&utm_campaign=insurers-urged-to-adapt-reinsurance-structures-as-secondary-peril-losses-climb-marsh-re
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-11-05'
+  category: Parametric Insurance
+  summary: As insured losses arising from secondary perils, such as severe convective storms, wildfire,
+    winter storms and flood, continue to be a major contributor to insured catastrophe losses in North
+    America, reinsurance broker Marsh Re has outlined that this shift is placing greater pressure on insurers
+    to
+- title: MS Amlin syndicate targets $100m aggregate retro with Kanata Re 2026-1 cat bond
+  url: https://www.artemis.bm/news/ms-amlin-syndicate-targets-100m-aggregate-retro-with-kanata-re-2026-1-cat-bond/?utm_source=rss&utm_medium=rss&utm_campaign=ms-amlin-syndicate-targets-100m-aggregate-retro-with-kanata-re-2026-1-cat-bond
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-11-05'
+  category: Parametric Insurance
+  summary: Lloyd’s syndicate 2001, which is aligned with Mitsui Sumitomo underwriting entity MS Amlin,
+    is seeking its first catastrophe bond protection, with a $100 million target for multi-peril and multi-regional
+    retrocession from an Arthur Re Ltd. – Kanata Re 2026-1 cat bond sponsorship, Artemis has learned
+- title: Selective returns for catastrophe bond renewal, with $300m High Point Re 2027-1
+  url: https://www.artemis.bm/news/selective-returns-for-catastrophe-bond-renewal-with-300m-high-point-re-2027-1/?utm_source=rss&utm_medium=rss&utm_campaign=selective-returns-for-catastrophe-bond-renewal-with-300m-high-point-re-2027-1
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-11-05'
+  category: Parametric Insurance
+  summary: Selective Insurance Company is back in the catastrophe bond market for is second sponsorship,
+    seeking $300 million or more in multi-peril collateralized reinsurance from a High Point Re Ltd. (Series
+    2027-1) issuance that will renew and expand coverage from its soon to mature first deal, sources have
+- title: Swiss Re’s P&C reinsurance result delivers, despite competitive market weighing
+  url: https://www.artemis.bm/news/swiss-res-pc-reinsurance-result-delivers-despite-competitive-market-weighing/?utm_source=rss&utm_medium=rss&utm_campaign=swiss-res-pc-reinsurance-result-delivers-despite-competitive-market-weighing
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-11-05'
+  category: Parametric Insurance
+  summary: Swiss Re has reported on-target results for its property and casualty (P&C) reinsurance division
+    for the first nine months of this year, as lower than anticipated natural catastrophe losses and strong
+    underwriting performance both served to offset the effects of the competitive and softened market
+    e
+- title: Gallagher names James Whittingham as COO, UK & Ireland
+  url: https://www.reinsurancene.ws/gallagher-names-james-whittingham-as-coo-uk-ireland/
+  source: Reinsurance News
+  date: '2026-11-05'
+  category: Reinsurance
+  summary: Gallagher Re, an international reinsurance broking and advisory business, has appointed James
+    Whittingham as Chief Operating Officer (COO) of its UK & Ireland business, effective April 2027, subject
+    ot regulatory approval. In the role, he succeeds Charles Crawford, who is retiring at the end of 2027
+- title: Lemonade posts record gross profit of $118.1m in Q3’26 as growth accelerates
+  url: https://www.reinsurancene.ws/lemonade-posts-record-gross-profit-of-118-1m-in-q326-as-growth-accelerates/
+  source: Reinsurance News
+  date: '2026-11-05'
+  category: Reinsurance
+  summary: AI-driven insurance company Lemonade has reported a record quarterly gross profit of $118.1
+    million for Q3 2026, up 48% from $79.9 million a year earlier. The insurtech said the result reflected
+    a 73% jump in revenue to $336.1 million, helped by growth in gross earned premium and a higher premium
+    re
+- title: 'Global InsurTech funding fell 44.6% to $1.36bn in Q3’26: Gallagher Re'
+  url: https://www.reinsurancene.ws/global-insurtech-funding-fell-44-6-to-1-36bn-in-q326-gallagher-re/
+  source: Reinsurance News
+  date: '2026-11-05'
+  category: Reinsurance
+  summary: Reinsurance broker Gallagher Re’s latest Global InsurTech Report found that global InsurTech
+    funding fell 44.6% to $1.36 billion in Q3 2026 compared with the previous quarter, driven by a reduction
+    in mega-round fundraising activity. According to the report, $100 million+ mega-round funding declined
+- title: Canada Life Re achieves 17% rise in base earnings to CAD 309m for Q3’26
+  url: https://www.reinsurancene.ws/canada-life-re-achieves-17-rise-in-base-earnings-to-cad-309m-for-q326/
+  source: Reinsurance News
+  date: '2026-11-05'
+  category: Reinsurance
+  summary: Canada Life Re, Great-West Lifeco’s Capital and Risk Solutions reinsurance operation, delivered
+    a 17% year-on-year increase in base earnings to CAD 309 million in the third quarter of 2026, mainly
+    driven by strong new business growth in Capital Solutions. The global provider of risk and capital
+    opti
+- title: RiverStone International enters into $325m LPT with Clear Spring
+  url: https://www.reinsurancene.ws/riverstone-international-enters-into-325m-lpt-with-clear-spring/
+  source: Reinsurance News
+  date: '2026-11-05'
+  category: Reinsurance
+  summary: 'Global legacy acquirer RiverStone International has entered into a loss portfolio transfer
+    (LPT) with Clear Spring Property and Casualty Company, a subsidiary of Delaware Life Insurance, covering
+    approximately $325 million in net reserves. This announcement comes days after RiverStone International '
+- title: 'US cyber pricing stabilising, but tech risks and privacy claims loom: Howden Re'
+  url: https://www.reinsurancene.ws/us-cyber-pricing-stabilising-but-tech-risks-and-privacy-claims-loom-howden-re/
+  source: Reinsurance News
+  date: '2026-11-05'
+  category: Reinsurance
+  summary: Pricing for US cyber insurance is stabilising after dropping for several years; however, claims
+    from the 2023 underwriting year are still developing, while vulnerabilities are being discovered and
+    exploited faster, Howden Re analysts highlight in a recent report. Rate softening has now entered
+    its f
+- title: Climate Adaptation Is Rising on Investors’ Agendas - Mexico Business News
+  url: https://news.google.com/rss/articles/CBMilgFBVV95cUxObHViSWJxMWZUWGhDTDNpblhRaGU3WWNnUnB0d0JWbzltdkZXN05jYnBmZjJLMllGczZYZFpjM1FDOXlNanoyaDM5Vk9hZmtiTXFsUkxwTjNiYlBrckU0anVRZVlSREtrUFN0Szd1bW10X1VRRzVkUEFXOEFfYnNtd3dZaDd1QTdVQkpKeWlUTy15SW9iM3c?oc=5
+  source: 'Google News: Adaptation & Resilience'
+  date: '2026-11-05'
+  category: Adaptation & Sustainability
+  summary: Climate Adaptation Is Rising on Investors’ Agendas Mexico Business News
+- title: Unreported mass movement cascades and future Glacial Lake Outburst Flood (GLOF) hazard in Jammu
+    and Kashmir, Western Himalaya
+  url: https://doi.org/10.5194/nhess-26-5587-2026
+  source: Natural Hazards and Earth System Sciences (NHESS)
+  date: '2026-11-04'
+  category: Climate Modelling
+  summary: Unreported mass movement cascades and future Glacial Lake Outburst Flood (GLOF) hazard in Jammu
+    and Kashmir, Western Himalaya Ashim Sattar, Shashi Kant Rai, Abhinav Alangadan, Adam Emmer, Sunil
+    Dhar, Umesh Haritashya, and M. Farooq Azam Nat. Hazards Earth Syst. Sci., 26, 5587–5607, https://doi.org/1
+- title: 'AIG “a little worried” about MGA – insurer alignment. Sees reinsurance opportunities: CEO Andersen'
+  url: https://www.artemis.bm/news/aig-a-little-worried-about-mga-insurer-alignment-sees-reinsurance-opportunities-ceo-andersen/?utm_source=rss&utm_medium=rss&utm_campaign=aig-a-little-worried-about-mga-insurer-alignment-sees-reinsurance-opportunities-ceo-andersen
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-11-04'
+  category: Parametric Insurance
+  summary: As the excess and surplus (E&S) lines segment of commercial insurance becomes increasingly
+    competitive with sidecars and non-traditional players bringing new sources of capital, AIG CEO Eric
+    Andersen explained today that his company is “a little bit worried” about the alignment of MGA and
+    insurer pa
+- title: 'The billion dollar climate adaptation gap: a material risk and opportunity for the finance industry
+    - United Nations Environment Programme Finance Initiative (UNEP FI)'
+  url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSEpaMThmNjM2QUp0SHZpbjhmZDlMSkpOaVQ5ZHpDRC1vNGlMUFhMcTlCLUEyWHMtX2N6eldGSjltaXNnUW5vU0xXazNiY3hVUXB6VzdhQkhFWVR3VzF1ano2NWJ4UHF2cnAtRmlhRXIybW5CNVd6ZF9mME96Mzc3RkIyRGtyWGFCLU9NUzNWOHVGTGtYaDRYRzg1bVVleWhiUFpIazNCNVRVWEUzTlRpVy1JSkNuU1laS1JNM1kyMjVzai1XR1RnSzl1M250MG1r?oc=5
+  source: 'Google News: Adaptation & Resilience'
+  date: '2026-11-04'
+  category: Adaptation & Sustainability
+  summary: 'The billion dollar climate adaptation gap: a material risk and opportunity for the finance
+    industry United Nations Environment Programme Finance Initiative (UNEP FI)'
+- title: UNEP warns climate adaptation finance falls ‘far short’ of needs - Sustainable Views
+  url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxOd3cwNjR1czk4NFNCc1hjZDQ2VlZTeHF5d0tTM3VUX2ZsOWVZVnM5VHRjT2tDY2RQNEpwQzRrd1Myd09JRHIyTi1IbVNjOF9RbVRkY1dwbGFoR2d3WC04Q05MZDl3c0FMS21ndG9Yamh5VFBSaXl3MUNOVXRZcXBEUkNDM3FyX2lTckdUUGtMekREOUc2OUpCQnZXTlFWMk4zdU5zRUY4Tmg?oc=5
+  source: 'Google News: Adaptation & Resilience'
+  date: '2026-11-04'
+  category: Adaptation & Sustainability
+  summary: UNEP warns climate adaptation finance falls ‘far short’ of needs Sustainable Views
+- title: Four African countries unlock $675 million for energy, water and climate-resilient infrastructure
+    expected to protect 4.5 million people - Business Insider Africa
+  url: https://news.google.com/rss/articles/CBMizgFBVV95cUxPRGtZbmVGTEdYX1gwakxBUEVLQnFqMThvd1BGWVJWalFBZ1ZtVWdCel9EeFNIMkRMT2s5UTRoOXg3cUFnalgwWHJWWUJqNlVNVkRHa0VwQzNkNzdtTjVNVjUzc3RZWENLM29xaUlHSWJKU3k3Wjc5S0Mzam1sRnVyaVFOaklxTmQtT2RlTkZpZHZZRFFJZnR5b2dYUjRhVVIwY0t2YUE4SW4xU3Zxa2FfdGFXTFo2WVgwb1cxWVd3cU1LUjNveG9qVEVFZ2JWdw?oc=5
+  source: 'Google News: Adaptation Policy'
+  date: '2026-11-04'
+  category: Adaptation & Sustainability
+  summary: Four African countries unlock $675 million for energy, water and climate-resilient infrastructure
+    expected to protect 4.5 million people Business Insider Africa
+- title: Global-scale meteorological-to-groundwater drought propagation and the drivers and patterns of
+    multi-year groundwater drought
+  url: https://doi.org/10.5194/esd-17-1609-2026
+  source: Earth System Dynamics (ESD)
+  date: '2026-11-03'
+  category: Climate Modelling
+  summary: Global-scale meteorological-to-groundwater drought propagation and the drivers and patterns
+    of multi-year groundwater drought Saskia Salwey, Sandra Hauswirth, Denise Ruijsch, Barry van Jaarsveld,
+    Jonna van Mourik, and Niko Wanders Earth Syst. Dynam., 17, 1609–1627, https://doi.org/10.5194/esd-17-160
+- title: Brazil’s data-driven plan for climate-resilient healthcare
+  url: https://www.nature.com/articles/s41558-026-02779-7
+  source: Nature Climate Change
+  date: '2026-11-03'
+  category: Climate Modelling
+  summary: 'Nature Climate Change, Published online: 03 November 2026; doi:10.1038/s41558-026-02779-7By
+    integrating climate risk into health planning, Brazil is redesigning healthcare to withstand floods,
+    heatwaves and other climate shocks.'
+- title: Africa Finance Corp., Green Climate Fund Launch Effort to Advance Low-Carbon Infrastructure on
+    Continent - POWER Magazine
+  url: https://news.google.com/rss/articles/CBMixwFBVV95cUxOY0I0czEyT1l3eFJKWllhd2xMclFnWkd0UXdNT3d5NDM0MUhEZy1UWU1lcUszZno1M2wtUnJHbnhhZjZFQWVmUkFoWE9tQnZKVU5YWm1Oek1oWGpjTUJKeXVOQl8yTWxIRGZvR3laVTNlQ2RKaldSaHI1X2NRS3FtUVgxMEczc1E2OHBVVDVDNy1qUzlhc1RiYTI2aWVqSVRTTl9TOERIV2VLbUxleHI0WFRnbWt3MDNNWTRYdmdBakM3MXlFWGRV?oc=5
+  source: 'Google News: Adaptation Policy'
+  date: '2026-11-03'
+  category: Adaptation & Sustainability
+  summary: Africa Finance Corp., Green Climate Fund Launch Effort to Advance Low-Carbon Infrastructure
+    on Continent POWER Magazine
+- title: AFC, GLC launch $690 million climate facility to deepen climate-resilient development in Africa
+    - Peoples Gazette Nigeria
+  url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxNalpGVDlfYVRDYVo0MjZRWWxKbVB0aUpjdnBsbmhsV0syTWlCM2szMXR4Y0dPOFN1eFIwRDFxUk54aDNUYTdSRFZHM3UtU0ktV01QcjhHXzJJd2FxTkRhanpFNGUwWTNBV2w2Y3YzcEFYZUR2bXRILS1rbXZlWFRkaEh5TW9pWFh2QmhrUmRFV2gyZEg1V3FPZkNhM0R1dUlnb2tHMTc2T3VlRDVDbW5sUWZlcF9fRDcz?oc=5
+  source: 'Google News: Adaptation Policy'
+  date: '2026-11-03'
+  category: Adaptation & Sustainability
+  summary: AFC, GLC launch $690 million climate facility to deepen climate-resilient development in Africa
+    Peoples Gazette Nigeria
 - title: Persistence of scour at bridges using stochastic simulations
   url: https://doi.org/10.5194/nhess-26-5573-2026
   source: Natural Hazards and Earth System Sciences (NHESS)
