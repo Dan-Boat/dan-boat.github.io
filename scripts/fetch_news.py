@@ -87,6 +87,18 @@ FEEDS = [
     {"url": google_news('"catastrophe model" OR "NatCat model" tropical cyclone OR "severe convective storm" research'),
      "source": "Google News: NatCat modelling research", "category": "Climate Modelling", "max_items": 4, "no_filter": True},
 
+    # --- Applied physical climate risk modelling: hazard / vulnerability /
+    # exposure / financial-loss model development, as used by the physical
+    # climate risk industry (vs. pure academic climate science above). ------
+    {"url": google_news('climate hazard model OR flood hazard model OR wildfire hazard model physical climate risk'),
+     "source": "Google News: Hazard modelling", "category": "Climate Modelling", "max_items": 4, "no_filter": True},
+    {"url": google_news('climate vulnerability model OR "fragility curve" OR "damage function" physical climate risk'),
+     "source": "Google News: Vulnerability modelling", "category": "Climate Modelling", "max_items": 4, "no_filter": True},
+    {"url": google_news('"exposure model" OR "asset-level" climate risk OR "portfolio exposure" climate'),
+     "source": "Google News: Exposure modelling", "category": "Climate Modelling", "max_items": 4, "no_filter": True},
+    {"url": google_news('"climate value at risk" OR "climate VaR" OR "financial impact" physical climate risk model'),
+     "source": "Google News: Financial impact modelling", "category": "Climate Modelling", "max_items": 4, "no_filter": True},
+
     # --- (Re)insurance / ILS / parametric trade press ----------------------
     {"url": "https://www.artemis.bm/feed/", "source": "Artemis.bm (ILS & Parametric)", "category": "Parametric Insurance"},
     {"url": "https://www.reinsurancene.ws/feed/", "source": "Reinsurance News", "category": "Reinsurance"},
@@ -100,7 +112,16 @@ FEEDS = [
     {"url": google_news('"Swiss Re" climate risk solutions'), "source": "Google News: Swiss Re", "category": "Physical Risk Service Providers", "max_items": 3, "no_filter": True},
     {"url": google_news('"Munich Re" "Location Risk Intelligence" OR NATHAN climate'), "source": "Google News: Munich Re RMP", "category": "Physical Risk Service Providers", "max_items": 3, "no_filter": True},
     {"url": google_news("Moody's RMS catastrophe model climate"), "source": "Google News: Moody's RMS", "category": "Physical Risk Service Providers", "max_items": 3, "no_filter": True},
-    {"url": google_news("Verisk catastrophe model climate risk"), "source": "Google News: Verisk", "category": "Physical Risk Service Providers", "max_items": 3, "no_filter": True},
+    {"url": google_news('Verisk catastrophe model climate risk OR "Verisk Weather" OR Windstorm model'), "source": "Google News: Verisk", "category": "Physical Risk Service Providers", "max_items": 3, "no_filter": True},
+    {"url": google_news("Cotality physical climate risk"), "source": "Google News: Cotality", "category": "Physical Risk Service Providers", "max_items": 3, "no_filter": True},
+    {"url": google_news("Fathom flood model climate risk"), "source": "Google News: Fathom", "category": "Physical Risk Service Providers", "max_items": 3, "no_filter": True},
+    {"url": google_news('"First Street" climate risk model'), "source": "Google News: First Street", "category": "Physical Risk Service Providers", "max_items": 3, "no_filter": True},
+    {"url": google_news('"S&P Global Sustainable1" OR "S&P Global" physical climate risk'), "source": "Google News: S&P Global Sustainable1", "category": "Physical Risk Service Providers", "max_items": 3, "no_filter": True},
+    {"url": google_news('"Carbon Delta" climate risk'), "source": "Google News: Carbon Delta", "category": "Physical Risk Service Providers", "max_items": 3, "no_filter": True},
+    {"url": google_news("Oasis Loss Modelling Framework climate risk"), "source": "Google News: Oasis Loss Modelling Framework", "category": "Physical Risk Service Providers", "max_items": 3, "no_filter": True},
+    {"url": google_news('"Zurich Resilience Solutions" climate risk'), "source": "Google News: Zurich Resilience Solutions", "category": "Physical Risk Service Providers", "max_items": 3, "no_filter": True},
+    {"url": google_news("RiskThinking.AI climate risk"), "source": "Google News: RiskThinking.AI", "category": "Physical Risk Service Providers", "max_items": 3, "no_filter": True},
+    {"url": google_news("XDI Cross Dependency Initiative climate risk"), "source": "Google News: XDI", "category": "Physical Risk Service Providers", "max_items": 3, "no_filter": True},
 
     # --- Adaptation & sustainability ----------------------------------------
     # Note: climate-adapt.eea.europa.eu's /rss-feed page is a JS-rendered
@@ -121,6 +142,14 @@ KEYWORDS = [
     "parametric", "reinsurance", "catastrophe", "cat bond", "cat-bond",
     "climate risk", "severe weather", "climate model", "extreme weather",
     "sea level", "heatwave", "heat wave", "precipitation", "monsoon",
+    # Applied physical climate risk modelling: hazard / vulnerability /
+    # exposure / financial-loss terms, so the digest also surfaces model
+    # development used by the physical climate risk industry, not just
+    # pure academic climate science.
+    "hazard model", "vulnerability model", "exposure model", "damage function",
+    "fragility curve", "physical risk model", "climate value at risk",
+    "climate var", "asset-level risk", "portfolio risk", "insured loss",
+    "economic loss", "climate scenario analysis", "physical climate risk",
 ]
 
 KEYWORD_RE = re.compile("|".join(re.escape(k) for k in KEYWORDS), re.IGNORECASE)
