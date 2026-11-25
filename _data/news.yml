@@ -5,6 +5,226 @@
 # category is any free-text theme; each distinct value automatically becomes
 # a filter tab on /news/. Current themes in use: Tropical Cyclone, Severe Convective Storm, Flood, Wildfire, Climate Modelling, Physical Risk Service Providers, Parametric Insurance, Reinsurance, Adaptation & Sustainability, General.
 
+- title: A differentiable framework for general circulation  model precipitation bias correction
+  url: https://doi.org/10.5194/gmd-19-11225-2026
+  source: Geoscientific Model Development (GMD)
+  date: '2026-11-25'
+  category: Climate Modelling
+  summary: A differentiable framework for general circulation model precipitation bias correction Kamlesh
+    Sawadekar, Seth McGinnis, Peijun Li, Kathryn Lawson, and Chaopeng Shen Geosci. Model Dev., 19, 11225–11242,
+    https://doi.org/10.5194/gmd-19-11225-2026, 2026 Global climate models are essential for planning,
+- title: 'Hannover Re Capital Partners seeing “quite huge interest” from investors: Sehm'
+  url: https://www.artemis.bm/news/hannover-re-capital-partners-seeing-quite-huge-interest-from-investors-sehm/?utm_source=rss&utm_medium=rss&utm_campaign=hannover-re-capital-partners-seeing-quite-huge-interest-from-investors-sehm
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-11-25'
+  category: Parametric Insurance
+  summary: Speaking at Hannover Re’s investor day in London today, board member Silke Sehm explained that
+    investor interest in ILS management unit Hannover Re Capital Partners is significant, while fellow-board
+    member Sven Althoff explained why the reinsurer has so far not ventured into casualty ILS or other
+    l
+- title: 'ILS NYC 2027 conference: More than 100 organisations registered. Tickets selling fast'
+  url: https://www.artemis.bm/news/ils-nyc-2027-conference-more-than-100-organisations-registered-tickets-selling-fast/?utm_source=rss&utm_medium=rss&utm_campaign=ils-nyc-2027-conference-more-than-100-organisations-registered-tickets-selling-fast
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-11-25'
+  category: Parametric Insurance
+  summary: We now have attendees from more than 100 organisations registered for our next catastrophe
+    bond and insurance-linked securities (ILS) market conference. As the market rapidly moves towards
+    year-end our Artemis ILS NYC 2027 conference will come around fast, so please reserve your place now
+    and take a
+- title: 'Reinsurance renewals running later than usual, focus remains largely on price: Althoff, Hannover
+    Re'
+  url: https://www.artemis.bm/news/reinsurance-renewals-running-later-than-usual-focus-remains-largely-on-price-althoff-hannover-re/?utm_source=rss&utm_medium=rss&utm_campaign=reinsurance-renewals-running-later-than-usual-focus-remains-largely-on-price-althoff-hannover-re
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-11-25'
+  category: Parametric Insurance
+  summary: 'Sven Althoff, Member of the Executive Board for Property & Casualty at Hannover Re, explained
+    this morning that the reinsurance renewals are running later than usual in many areas and while rate
+    adequacy is expected for many parts of the portfolio, he acknowledged there may be a need to start
+    cycle '
+- title: Twelve Securis hires Tse as Head of Singapore and Greater China
+  url: https://www.artemis.bm/news/twelve-securis-hires-tse-as-head-of-singapore-and-greater-china/?utm_source=rss&utm_medium=rss&utm_campaign=twelve-securis-hires-tse-as-head-of-singapore-and-greater-china
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-11-25'
+  category: Parametric Insurance
+  summary: Twelve Securis, the specialist catastrophe bond and insurance-linked securities (ILS) investment
+    manager, is continuing its expansion into Asian markets and has hired Bonny Tse as its first Head
+    of Singapore and Greater China. Twelve Securis has been increasing its focus on the Asia Pacific region
+    i
+- title: WFP plans launch of first food security catastrophe bond for 2027
+  url: https://www.artemis.bm/news/wfp-plans-launch-of-first-food-security-catastrophe-bond-for-2027/?utm_source=rss&utm_medium=rss&utm_campaign=wfp-plans-launch-of-first-food-security-catastrophe-bond-for-2027
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-11-25'
+  category: Parametric Insurance
+  summary: The United Nations World Food Programme (WFP) is continuing to work towards the issuance of
+    the first food security catastrophe bond, hoping that the initiative can provide up to $100 million
+    in pre-arranged disaster risk financing to boost drought resilience in Sub-Saharan Africa. We first
+    reported
+- title: AM Best upgrades Beazley subsidiaries credit ratings following Zurich acquisition
+  url: https://www.reinsurancene.ws/am-best-upgrades-beazley-subsidiaries-credit-ratings-following-zurich-acquisition/
+  source: Reinsurance News
+  date: '2026-11-25'
+  category: Reinsurance
+  summary: AM Best has upgraded the credit ratings of five core Beazley insurance subsidiaries and removed
+    them from under review with positive implications, following the completion of Beazley’s acquisition
+    by Zurich Insurance Group Limited (Zurich). The rating agency raised the Financial Strength Rating
+    (FSR
+- title: Ocean Re names Sherley Garcia as Chief People Officer
+  url: https://www.reinsurancene.ws/ocean-re-names-sherley-garcia-as-chief-people-officer/
+  source: Reinsurance News
+  date: '2026-11-25'
+  category: Reinsurance
+  summary: International reinsurance group Ocean Re has appointed Sherley Garcia as Chief People Officer
+    to oversee its workforce strategy and support the next stage of its international expansion. Garcia
+    will assume responsibility for talent acquisition, employee development, remuneration and leadership
+    succe
+- title: Price Forbes launches dedicated Healthcare & Life Sciences division, appoints Henry as CEO
+  url: https://www.reinsurancene.ws/price-forbes-launches-dedicated-healthcare-life-sciences-division-appoints-henry-as-ceo/
+  source: Reinsurance News
+  date: '2026-11-25'
+  category: Reinsurance
+  summary: Specialist insurance broking firm Price Forbes has announced the launch of Healthcare & Life
+    Sciences as a standalone specialist division, with Dominic Henry as CEO. Formerly part of the Casualty
+    division, this new structure consolidates Price Forbes’ healthcare and life sciences expertise into
+    dedi
+- title: Cedar Trace receives Lloyd’s Permission to Underwrite for Syndicate 1503
+  url: https://www.reinsurancene.ws/cedar-trace-receives-lloyds-permission-to-underwrite-for-syndicate-1503/
+  source: Reinsurance News
+  date: '2026-11-25'
+  category: Reinsurance
+  summary: Cedar Trace Underwriting has received Permission to Underwrite from Lloyd’s to write business
+    for the 2027 Year of Account. The announcement follows Cedar Trace Underwriting’s entry into the Lloyd’s
+    market with a new $300 million syndicate, which was approved in principle by Lloyd’s in September
+    202
+- title: Oliver Wyman names Netherton as Global Head & Moloney as Executive Chair, Insurance & Asset Management
+  url: https://www.reinsurancene.ws/oliver-wyman-names-netherton-as-global-head-moloney-as-executive-chair-insurance-asset-management/
+  source: Reinsurance News
+  date: '2026-11-25'
+  category: Reinsurance
+  summary: Oliver Wyman, a global management consulting firm and a Marsh business, has promoted George
+    Netherton as Global Head of Insurance and Asset Management (IAM), effective immediately. He succeeds
+    Michael Moloney, who will transition to Executive Chair of Insurance and Asset Management while maintaining
+- title: AI set to reshape insurance jobs, skills and workforce strategies, Oxbow Partners and LMG reports
+  url: https://www.reinsurancene.ws/ai-set-to-reshape-insurance-jobs-skills-and-workforce-strategies-oxbow-partners-and-lmg-reports/
+  source: Reinsurance News
+  date: '2026-11-25'
+  category: Reinsurance
+  summary: Oxbow Partners, a specialist management consultancy serving the insurance industry, has joined
+    forces with the London Market Group (LMG), which represents London’s commercial insurance and reinsurance
+    market, to produce a report assessing the implications of artificial intelligence (AI) for employme
+- title: 'Transformational Finance for Climate: From theory of change to implementation - UNEP Finance
+    Initiative'
+  url: https://news.google.com/rss/articles/CBMimAFBVV95cUxPVmN5Z2VOa3QwOEJtU1NjMXhXSnByZEVCNVNEdzlQa2pnMk5fRGNQckl0S2JPaFNQNmhmVW9jR0VFZjdMUWRaMmtoRklaZkJ6dUJwd044Z1ZKQW9fdEpQR25SdjRUdXhGblN1ZE5OMnB6b3Iyclg2WXJmVFFRUUlob24ybzJyUFRGWGxIeTl6LUpSV1BuLVo3cA?oc=5
+  source: 'Google News: Adaptation & Resilience'
+  date: '2026-11-25'
+  category: Adaptation & Sustainability
+  summary: 'Transformational Finance for Climate: From theory of change to implementation UNEP Finance
+    Initiative'
+- title: Drivers of reduced permafrost cooling efficacy of equatorial stratospheric aerosol injection
+    in the Eastern Arctic compared to a moderate emission pathway
+  url: https://doi.org/10.5194/esd-17-1779-2026
+  source: Earth System Dynamics (ESD)
+  date: '2026-11-24'
+  category: Climate Modelling
+  summary: Drivers of reduced permafrost cooling efficacy of equatorial stratospheric aerosol injection
+    in the Eastern Arctic compared to a moderate emission pathway Isaline Businger, Rhonda C. Müller,
+    Raleigh Grysko, Jacqueline Oehri, Jin-Soo Kim, and Gabriela Schaepman-Strub Earth Syst. Dynam., 17,
+    1779–1798
+- title: Idealised framework to prescribe sea surface temperatures to investigate the atmospheric circulation
+    response
+  url: https://doi.org/10.5194/gmd-19-11209-2026
+  source: Geoscientific Model Development (GMD)
+  date: '2026-11-24'
+  category: Climate Modelling
+  summary: Idealised framework to prescribe sea surface temperatures to investigate the atmospheric circulation
+    response Fumiaki Ogawa, Andrea Marcheggiani, Hisashi Nakamura, and Thomas Spengler Geosci. Model Dev.,
+    19, 11209–11224, https://doi.org/10.5194/gmd-19-11209-2026, 2026 We propose an idealised framewo
+- title: Central Bank Points to New Climate-Based Lending Model That Could Change How Financial Risks
+    Are Assessed - Curaçao Chronicle
+  url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxNVTFzU3QyVWVDVHU0dndDVHV2aEdheEM3Q2VWME40eVhDc2gxRXNrQkx2dWUzYlJXdmZPUzZHRm9pVXlDRDBBWjVhMjV5eU5yS05RdDMtZVFhR285TGIxbjdVa3haYWgwQ2pZRzRrZlR0Vi1HUnJDNmJDbGlXbzlFV29OZE92TUI2YzBjb0lTMjJjdDFCWF95MFVxNUlTRXMtTmU1QjdyU3BOc3FTVUJwRFJjSlljYmc4YkN6MHU3RDI4ZHhmd1BuY3pxeGZWYjkzcmluMEFJY01XNThsenRRZGJSUQ?oc=5
+  source: 'Google News: Vulnerability modelling'
+  date: '2026-11-24'
+  category: Climate Modelling
+  summary: Central Bank Points to New Climate-Based Lending Model That Could Change How Financial Risks
+    Are Assessed Curaçao Chronicle
+- title: Allied World secures upsized $375m 2001 CAT Re 2026-1 cat bond at reduced pricing
+  url: https://www.artemis.bm/news/allied-world-secures-upsized-375m-2001-cat-re-2026-1-cat-bond-at-reduced-pricing/?utm_source=rss&utm_medium=rss&utm_campaign=allied-world-secures-upsized-375m-2001-cat-re-2026-1-cat-bond-at-reduced-pricing
+  source: Artemis.bm (ILS & Parametric)
+  date: '2026-11-24'
+  category: Parametric Insurance
+  summary: Allied World Assurance Company (AWAC) has now successfully finalised its third and largest
+    catastrophe bond to secure an upsized $375 million of annual aggregate retrocession from the new 2001
+    CAT Re Ltd. (Series 2026-1) deal, pricing the capital markets coverage well-below initial guidance,
+    Artemis
+- title: 'Climate Resilience CFO Priority: Financial Planning Guide - World Economic Forum'
+  url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNnFRRkZTNzdDOTM3WWxjZENLaUFUcDVzZ1BvZWRfWHNxajVNQ2E3RWh4c3hrR3NYa3VHMzBhVUdvY29YR2UwdEtlbXpQSVRPNlA1dzAwM0ZkXzZGdUtZVlZjYW9OZElkajV5VXBrbk5aRWVvaE9xOXZqc2hnU1UwTFZPb2NSQkFjcXlrVkViMkZkblBQWVVURUxhSy1SN3BzRWUyWi1iZ3lmcnozUDZ5ZGRraHNtN01f?oc=5
+  source: 'Google News: Adaptation & Resilience'
+  date: '2026-11-24'
+  category: Adaptation & Sustainability
+  summary: 'Climate Resilience CFO Priority: Financial Planning Guide World Economic Forum'
+- title: Characterizing orographic clouds and precipitation in Qilian Mountains, northwestern China
+  url: https://doi.org/10.5194/nhess-26-6031-2026
+  source: Natural Hazards and Earth System Sciences (NHESS)
+  date: '2026-11-23'
+  category: Climate Modelling
+  summary: Characterizing orographic clouds and precipitation in Qilian Mountains, northwestern China
+    Jing Ren, Xiaoyan Wang, Wenqian Mao, Lingbin Kong, Zhenping Shao, and Wenyu Zhang Nat. Hazards Earth
+    Syst. Sci., 26, 6031–6053, https://doi.org/10.5194/nhess-26-6031-2026, 2026 We studied how mountains
+    generat
+- title: 'Forecasting the flame: simulating future wildfire regimes in the Northeast Mediterranean'
+  url: https://doi.org/10.5194/nhess-26-6003-2026
+  source: Natural Hazards and Earth System Sciences (NHESS)
+  date: '2026-11-23'
+  category: Climate Modelling
+  summary: 'Forecasting the flame: simulating future wildfire regimes in the Northeast Mediterranean Bikem
+    Ekberzade Nat. Hazards Earth Syst. Sci., 26, 6003–6029, https://doi.org/10.5194/nhess-26-6003-2026,
+    2026 Will climate change simply bring more wildfires across the Eastern Mediterranean, or fundamentally
+    r'
+- title: Present and future responses of near-surface wind speed to different land-use and land-cover
+    types in China
+  url: https://doi.org/10.5194/esd-17-1765-2026
+  source: Earth System Dynamics (ESD)
+  date: '2026-11-23'
+  category: Climate Modelling
+  summary: Present and future responses of near-surface wind speed to different land-use and land-cover
+    types in China Hui-Shuang Yuan, Yang Xu, Zhi-Da Sun, Zi-Han Wang, Youli Chang, and Cheng Shen Earth
+    Syst. Dynam., 17, 1765–1778, https://doi.org/10.5194/esd-17-1765-2026, 2026 Near-surface wind speed
+    matters
+- title: 'From Climate Commitments to Investment: Four Takeaways from COP31 - MSCI'
+  url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZkt0MzVKa0l0bFF5WmlWV0lPdEFDbEwwVzRxYi1UdXV3SjFmM0FNeThZWUc3RWJOb3RmcVc5WFBRRGd0SGNJYUNRdFVrZFNJOWw3eXV2ZDcwdVNLWDU1LVZtQTI3VVBuRTk4dHJyeTdCTEtuRnRfTlZZUHhwNFVZZF9HRFl4MFhlVEwzdnRjMEhFaEpmSG1sQVpaNW5IMjJCNjd1OG4wUHlFNmZSYWRXS2hOU0thanhS?oc=5
+  source: 'Google News: MSCI'
+  date: '2026-11-23'
+  category: Physical Risk Service Providers
+  summary: 'From Climate Commitments to Investment: Four Takeaways from COP31 MSCI'
+- title: 'Bay Area flood risk maps: See which areas face the greatest dangers - San Francisco Chronicle'
+  url: https://news.google.com/rss/articles/CBMihwFBVV95cUxORTh0ZzZ1TlhZaEdWUjFkR0lzSUlLQ0RvbF9vLUtoQ3k1SEpWSVNrbVRHY2xubDV3YVZpOEN5aER3emNHS2xHY0dhcU96VjdlajE2MlFKUHlXN1IzbWNkYWljR2tYUDlvcnJRT0Nza19pb0R0T3luNXF6TEVQVXN5cDNHaC1vQ2s?oc=5
+  source: 'Google News: First Street'
+  date: '2026-11-23'
+  category: Physical Risk Service Providers
+  summary: 'Bay Area flood risk maps: See which areas face the greatest dangers San Francisco Chronicle'
+- title: UNECE engagements at COP31 support efforts to strengthen climate action across all levels of
+    government and society - UNECE
+  url: https://news.google.com/rss/articles/CBMitgFBVV95cUxOeU5SMW9sTV9rcjFSV0FTTWptSm40eW1oZWNMUzczTkxfekVYRVV5SzFjSUdlQVY0ZDR1Z3FRSHlnQzBKU1ZNSUJ1RWM5aV9JZDExRmR5WUE3c2ZmTTZzRzBjQlNrTGwzRklFVm1PZzRBZm8wQXlxRnlVTWxpT0hoQnhGazkxSjBqM0l1dWJuY2IyRE1yd1JERW5NQTBDRDJtTEMydlpBWElCOW80dlMtV0loQ0J3QQ?oc=5
+  source: 'Google News: Adaptation & Resilience'
+  date: '2026-11-23'
+  category: Adaptation & Sustainability
+  summary: UNECE engagements at COP31 support efforts to strengthen climate action across all levels of
+    government and society UNECE
+- title: Concurrent atmospheric phenomena amplify precipitation extremes under anthropogenic climate change
+  url: https://www.nature.com/articles/s41558-026-02805-8
+  source: Nature Climate Change
+  date: '2026-11-20'
+  category: Climate Modelling
+  summary: 'Nature Climate Change, Published online: 20 November 2026; doi:10.1038/s41558-026-02805-8Extreme
+    precipitation events are increasing in many regions. Here the authors discuss how the increasing concurrence
+    of atmospheric phenomena could contribute to these trends under anthropogenic warming.'
+- title: Insights from the 2026 Climate Risk Returns - Office of the Superintendent of Financial Institutions
+    (OSFI)
+  url: https://news.google.com/rss/articles/CBMingFBVV95cUxQNzE5ZU1DdnppTGMteFZoTi1pNXBkVGs3TDlnMzZGVXlGZHRwcXc3VndnTktYWnVyYWdRMWx4cjlQc0Jod3h0TDZQT2t5NkxaNnV0RGdDNUU2dEVNc085N2lObE5JckJCdlZwN3J6SlBzbmpEVjAwT2FZVE1XSVMtZzBxUnZPT1pORXF0SGFIaGpNUjRWQy1VejF4dUJlZw?oc=5
+  source: 'Google News: Hazard modelling'
+  date: '2026-11-19'
+  category: Climate Modelling
+  summary: Insights from the 2026 Climate Risk Returns Office of the Superintendent of Financial Institutions
+    (OSFI)
 - title: Retreating glaciers and snow cover are amplifying summer droughts in the upper Adige River Basin
     (Italy)
   url: https://doi.org/10.5194/nhess-26-5941-2026
@@ -147,6 +367,12 @@
   category: Adaptation & Sustainability
   summary: Africa Day at COP31 calls for water security, climate resilience and accessible finance to
     advance Agenda 2063 African Development Bank Group
+- title: Kazakhstan chosen for global initiative to strengthen climate-resilient infrastructure - Qazinform
+  url: https://news.google.com/rss/articles/CBMivAFBVV95cUxQY1FITGhKNmQtbzd5WG1vZ3ROVWVrUUE5MWwxM2hMZkY3MkJHVFctdDMzWS13TWJFNEhxRFNSYkVDdlFXOFl3N3ZGMmFVWVBUNU8td2g2QlpBTS1pam1DNm5tZ3lMU0tGQzgxRGYwSmd2S1kzbmc4WlJUQ1V4MVF5dTc0YTBjQ1ZPNHR4OGxXWVhmd2pRZlZ5YVVRSHE0MlRPUGlFSHpjRVFWR3FCSTlRal90MXBxM204d0ZRb9IBvAFBVV95cUxQU1RGcWFoTDRVV1FjV0FMWFRtYVV0bFZtMWJCTEF6RlJJckQxOWY2b244ZWVRSVQ5UXhMRG00bkgwNjZhWVpzbWZVRWVhVDh5bldqTzJseEtVUnBXWHppZ1ZUUzFUYk5JV0d2RmsxS2FJVktLM2J6R0dTRmNVd1lyUTlSVmNTbjBTckJnalA3Nk9qa2pCb2l1MDFtb3pLajdpNjVEWE9MU1NvT1hsMldhTGU3VzFuSkYybVRUUA?oc=5
+  source: 'Google News: Adaptation Policy'
+  date: '2026-11-18'
+  category: Adaptation & Sustainability
+  summary: Kazakhstan chosen for global initiative to strengthen climate-resilient infrastructure Qazinform
 - title: Arch targets $162m mortgage ILS issuance under Bellemeade Re 2026-1
   url: https://www.artemis.bm/news/arch-targets-162m-mortgage-ils-issuance-under-bellemeade-re-2026-1/?utm_source=rss&utm_medium=rss&utm_campaign=arch-targets-162m-mortgage-ils-issuance-under-bellemeade-re-2026-1
   source: Artemis.bm (ILS & Parametric)
@@ -176,6 +402,18 @@
   category: Adaptation & Sustainability
   summary: ENACT expands global partnerships and launches new investment initiative with Denmark to accelerate
     nature-based climate action International Union for Conservation of Nature
+- title: A practical framework to integrating climate risks into investment decisions - Consultancy.eu
+  url: https://news.google.com/rss/articles/CBMitAFBVV95cUxOQVNidUlQRkExdXRyZldpaXVoYXRNSHcxQzIycXlJVC0ydGF4WjQzZkhsWFM0LUdCWHBESEo0cnRRUFdYd3RvekllT2pCSVRBYUlHNjg2Zklab2xRUW5hSW9QclJha0RUUWVlWW4zTFZYTGlEajVseTItSkNRSUFXdVpvV0FFOExVOWZuelAtWENEWjVQdFVIcGc5QWY1NnRBeE54eUJmMG9ZS19MRS0zNFI4dVTSAboBQVVfeXFMT3hoc0t4SmR0bmEyUHpsaExsdFNueEpCdENWWWI5TFdzTFcxdTFLYXR3RWlvSGlObWlYZXVPUDZRU1pWY1QtMEV6XzFyVk9GN0NDX0wyUU0tS0x1VV85MENidUZQRW1BczkxdzlJZTNhSnhYUnV6LTJ3WjNzQlhRcTVUbkRRZk9FQVk2WElKUC12NzJxN0FldjRzd0QxSWNpZTBGSG1lbUFqUHdfYVVhd0dBNENXcmRBbmV3?oc=5
+  source: 'Google News: Financial impact modelling'
+  date: '2026-11-17'
+  category: Climate Modelling
+  summary: A practical framework to integrating climate risks into investment decisions Consultancy.eu
+- title: COP31 Will Fail Without a Common Language for Climate Risk | Opinion - Newsweek
+  url: https://news.google.com/rss/articles/CBMilAFBVV95cUxObWNvdHVTMXVoZVFFbjBTQXA1bjNDbHdOQ2N6WVkybnphblFYZHlCaUcwUGZVcFY4TjhKUVJtMEVvazIxbXJkSkwtWGl3c1FsODBVT3dpVHQyYUZXYmE2TGhCY0kyZGQxcDBaVDlYbGh6QWZ4OE0tS2Q1Zkd5YlNXaWRaZVpNQnZZbl9la1FOdldlLWZu?oc=5
+  source: 'Google News: RiskThinking.AI'
+  date: '2026-11-17'
+  category: Physical Risk Service Providers
+  summary: COP31 Will Fail Without a Common Language for Climate Risk | Opinion Newsweek
 - title: Present and future trends of extreme short-term rainfall events in Germany, by downscaling convective
     environments of ERA5 and a CMIP6 ensemble
   url: https://doi.org/10.5194/nhess-26-5897-2026
@@ -324,6 +562,18 @@
   category: Adaptation & Sustainability
   summary: 'India looks forward to Deepen Partnership with Small Island Developing States for Resilient
     Coasts and Oceans: Shri Bhupender Yadav at COP31 in Antalya (Türkiye) www.pib.gov.in'
+- title: 'Investor Focus: AI and Local Regulations Highlight Differing Priorities in Asia-Pacific - Sustainalytics'
+  url: https://news.google.com/rss/articles/CBMi8AFBVV95cUxPTXVZOG82UkhsNGtVNC1lSHFybEF4bHd1QlpzNUY5QWh2aExrek55OEVGWDlaZ3lGNmpBMXVyal9vSk1VYV9DUzhRY0VrSE5hb0pkUm5Ib2dTVTg2ZHc0cjBXZGFHMHNDLWV6bmR2S2QtaVh3alNtejRZcktpeFBMUDNlN1FNYXl6VWltSkg5cnpFMEcyR2V0Y0NTTDR3b2YwZXl3VGk5Y2F5b29VTXBWSEY2TE1nOWxSejB2X29EdEVJY1dkTmh3OTdaQWx3V1dsbVlUbF9yay0xMDE0cjMyY1NNWnZ2eEFoOTF5NnRiTno?oc=5
+  source: 'Google News: Exposure modelling'
+  date: '2026-11-16'
+  category: Climate Modelling
+  summary: 'Investor Focus: AI and Local Regulations Highlight Differing Priorities in Asia-Pacific Sustainalytics'
+- title: 'NZ property resales: 16% of Q3 sellers take a gross loss - Cotality'
+  url: https://news.google.com/rss/articles/CBMijgFBVV95cUxQT25CZ0FCc1BMVG05akdGR09Pa3lyVmJUYzBkSERsUEpXVU5RUDRmeUdGVHdCNlFTWVBjU1QxX0tDT3h3RFZHRHVwaWtJcm50eWxFb1lHbGJDUGVpNzFVVU1RX21Zem00TlpXMTdtVHlZX1Z3SHBxb2llM3dZcTk2VVljWGVFT1BtNVZabjVR?oc=5
+  source: 'Google News: Cotality'
+  date: '2026-11-16'
+  category: Physical Risk Service Providers
+  summary: 'NZ property resales: 16% of Q3 sellers take a gross loss Cotality'
 - title: Co-production of knowledge for effective flood risk management
   url: https://doi.org/10.5194/nhess-26-5853-2026
   source: Natural Hazards and Earth System Sciences (NHESS)
@@ -537,6 +787,12 @@
   category: Adaptation & Sustainability
   summary: Governor Signe Krogstrup on financing the green transition and climate adaptation Danmarks
     Nationalbank
+- title: Peru places US$4.5 billion in green bonds to address climate change - Inspenet
+  url: https://news.google.com/rss/articles/CBMie0FVX3lxTE9lSDRIQ1FDSGEyMXdodUhLM25ybVYyUWwxbGhyZm9jLU15NEtncW56cjBKeVVuV3RBbks4YUxjYm9FdU85QlZ4QWxYNTJiNUxyX3VWT1NfaVRzbEFGMzU4SFNMS2N4UnJocEQyTU5jdUQyQVVjWHdjTDNHbw?oc=5
+  source: 'Google News: Adaptation Policy'
+  date: '2026-11-12'
+  category: Adaptation & Sustainability
+  summary: Peru places US$4.5 billion in green bonds to address climate change Inspenet
 - title: Why businesses should improve insurability and investability through place-based resilience -
     World Economic Forum
   url: https://news.google.com/rss/articles/CBMivwFBVV95cUxNcFVNYXN5c05McHRFZ05ITkRaeVhoSDA3a1VHUWoxOTRiN1BXMkM0R3VOcmhveDhmdWtqTk1qRzVwSEFEZS1TZ000eVpGOWkyekZWMV81Z0ZXZkZzamliYWdfdW1sTGxoZjdOeml5bzRDZ21QYUxsVmktMF83QUlnVmgzY2Fia1g4ZmZpUm9sNEhoQnR4X0hUSnhjYml6M3dwQWUyNWd6aU05cGFxajJBeDAxR0pDYjNRYTMxOVItZw?oc=5
@@ -645,6 +901,12 @@
   date: '2026-11-11'
   category: Adaptation & Sustainability
   summary: 'Mutual resilience must be the next chapter for climate security ODI: Think change'
+- title: Verisk Analytics (NasdaqGS:VRSK) Stock Forecast & Analyst Predictions - Simply Wall St
+  url: https://news.google.com/rss/articles/CBMikAFBVV95cUxNVUV0TXF2QVFjUC1DSGF3NVBVOTc0WVRxeDdlMEtIenA3TzNDTV92M2dqaV9hY2NHWm9OWDdqZkxlenMxY2tHVXBabG81aGg3ZkZaWHJrRW9MOElVZGpMcTVidzMtUTVYS2lUel9jV3RlMG1JZlgzVjlBT1pTeUVscEJVM3ZGektWRFVucDY5WFI?oc=5
+  source: 'Google News: Verisk'
+  date: '2026-11-10'
+  category: Physical Risk Service Providers
+  summary: Verisk Analytics (NasdaqGS:VRSK) Stock Forecast & Analyst Predictions Simply Wall St
 - title: 'The case for climate adaptation: Recognising the value of adaptation and resilience finance
     - Hogan Lovells Cadwalader'
   url: https://news.google.com/rss/articles/CBMixAFBVV95cUxNR3poVU02SmJ1Z3lIUVNocjI4MG5IeUxhUE9hUjZwV1FsZGpCR0ZnVGt5TzZyUWtYd1V6U2d6MmV1cDF3MzZzVElLOTVGdjBwYU95QlI0MEdiTEJvZU54ZDMtTHFKaXdoYWNqbnMxeEVCVE9adFJDZnl1aHZhQjRyRF9Ob1VHNV9vZXM5QkNLNnhPZWEtQV82ZXlxMFBwZmtZR0JYTk1ZV1BMajg2NlVrWU5iOVhGaDRZMFFaLUpGN0xBa3I3?oc=5
@@ -687,6 +949,18 @@
   date: '2026-11-10'
   category: Adaptation & Sustainability
   summary: In Antalya, connecting climate finance with opportunity Home | GEF
+- title: Property catastrophe reinsurance rates may fall 10% at January 2027 renewals - Beinsure
+  url: https://news.google.com/rss/articles/CBMif0FVX3lxTE1fTUhpanVZSlF4ZmdVaG5hdll3djNiQVpKZWZmWWVjRjdMU1Q0NlNyUk9oN3R4TEpaYVgzX1Q1eG1aY0Y4UDBmYWRpUDlpc0hpZjRsemhMOXZFbklIem5SRmdPV1dSa1BJbzFRYkVqVW1VVkNSOUsySkl0bG41UWM?oc=5
+  source: 'Google News: Verisk'
+  date: '2026-11-09'
+  category: Physical Risk Service Providers
+  summary: Property catastrophe reinsurance rates may fall 10% at January 2027 renewals Beinsure
+- title: Reinsurers face 10%+ cuts on Jan. 1. Their cat model checks are getting easier - Insurance Business
+  url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxPV0RKMGNtdkttNWlCZmszVzlFMXRReTdEYTAtdEdtTFZPZzBraFhac1ZXODlqMy16MGg1cG5OSWhoVjBHQjV6ZFlBTlRwMGRDNlgyY1hjTjB6T2RtZUZkWWdVbHF0VzJOa2tFMENPSVRSekdvejN0a241NDdWeWt2LUR6NFo2OENETjhHeHcyb2txdHVhcUlxUzhEVmxfZGNteElMaHl1eVNJVFhGNEFydGVRZ2VXTUpTc0huOVpBeXo0SjFjMFJheEU4Qzg2NDRhVnZRYm1ab1VQU0lyRFE?oc=5
+  source: 'Google News: Oasis Loss Modelling Framework'
+  date: '2026-11-09'
+  category: Physical Risk Service Providers
+  summary: Reinsurers face 10%+ cuts on Jan. 1. Their cat model checks are getting easier Insurance Business
 - title: Cotality Wins Nine Prestigious Chartis Physical and Infrastructure Risk50 Awards - Business Wire
   url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxPd05fVnMwQzQ0MHNIV201cGk2X3ZVTkVzcWxRSnhCZ1p0bjRnaWdBQ0pJSno3aXVRLXdBNEhyQm5GdEI3eTNqNk9jTFdYVFRLbHg0NFZFdEZ6amNpTUt1b3BrQWtvWlBhR20tQ2FFVlpSWlZnS0U2TzJ3bVhrQ2FiN2ZjSlVPX0J3di1tUjVES0NSZGtqSUI4REdFQTV2UXN4Vzlna01lNjVhN3IxUjhHVjJ3M2FpMWNJeGFvVl96NlV4YnlES2hjMDdpNUUxYTYyemNR?oc=5
   source: 'Google News: Cotality'
@@ -842,6 +1116,12 @@
   date: '2026-11-06'
   category: Adaptation & Sustainability
   summary: Building climate-resilient transit with CSA D700 The Environment Journal
+- title: Australian climate tech company XDI scoops two international awards - Plataforma Media
+  url: https://news.google.com/rss/articles/CBMitAFBVV95cUxQajdLTmtYb00wWDYtUHZVZW4yVTA0V2h4cTBKZ3FjN0MxMXZLeU5xZWQ1S1NEa2VMTV9qbElKemg0cTc5MzdsUDMxWk5rdzRyRTZ1Ty1jTWl5ZXhqS05SOTBYbEhuWUJOMFNEZ0lhV2VqS0dkTVZXTUxYbDZTTmwyQW9pLWNMb2hFd1BvUmRXdUZaOTFZYnYwQldHdWJkOXUwTklKRktDVXFqUjl2dEl6LVV0Qk8?oc=5
+  source: 'Google News: XDI'
+  date: '2026-11-05'
+  category: Physical Risk Service Providers
+  summary: Australian climate tech company XDI scoops two international awards Plataforma Media
 - title: Australian climate tech company XDI scoops two international awards - Thailand Business News
   url: https://news.google.com/rss/articles/CBMitAFBVV95cUxQVV9uLTI0dUFPOENWMXZaMmhUVUJ5NHhzSzFtMTdZalpyVkdramNCSVV0d1hOZWlYNXN3TjdzSmlpVTlINDlOY21sWDc5T2Y4ck1BZXgwM2I5ZVNIZXBuejhQTUNsaDVkMFdVWUNxY0FWZ0w2cThkMnhBaW9zX2ExVU5yRVZpQUpjOEVqXzBtb0Y2dDF2N0lwcVBNWkFPVmxFVFdwR2YxUldPREE3VC0zOThvN2s?oc=5
   source: 'Google News: XDI'
@@ -1037,6 +1317,14 @@
   category: Adaptation & Sustainability
   summary: Four African countries unlock $675 million for energy, water and climate-resilient infrastructure
     expected to protect 4.5 million people Business Insider Africa
+- title: 'Verisk''s Jain: From underestimated to understood – inland flood risk in Australia and New Zealand
+    - theinsurer.com'
+  url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVUZ2UERoWWF5aHc5MHViV2l4cWJKUWdKQ295NHlZTEk3ZmQ3WjZkemthVVBCZXVtd0Q5ZzFlMFVPcmlpdUx6S0pvS3YyaVUwd3phT01CLVJBV1RFdDVoVS1VUnN3ZTBmNldxd2QyVEt3b3JyN1ppRmdUNER0OEtnb2RyNm5SYkw4UTFIM0RRVm9WR2dXb2k4OTdlSWYwOGdoR0tMNU16YjJrTDREXzZfT1B5Z2V1RTl1SE9MUEJBcFM0ZF8yU0x5QQ?oc=5
+  source: 'Google News: Verisk'
+  date: '2026-11-03'
+  category: Physical Risk Service Providers
+  summary: 'Verisk''s Jain: From underestimated to understood – inland flood risk in Australia and New
+    Zealand theinsurer.com'
 - title: Global-scale meteorological-to-groundwater drought propagation and the drivers and patterns of
     multi-year groundwater drought
   url: https://doi.org/10.5194/esd-17-1609-2026
@@ -1225,6 +1513,12 @@
   category: Adaptation & Sustainability
   summary: What climate extremes of 2026 teach Europe about resilient infrastructure European Environment
     Agency (EEA)
+- title: Implications of Climate-Resilient Infrastructure on Bangladesh’s Trade Costs - Boston University
+  url: https://news.google.com/rss/articles/CBMirwFBVV95cUxPTkpPdUZFWmNjalR6clp1eGM3TXlMeEhubVU2SDJUQkowOENMdWhLbEI5SWg0b3A2Rk9yNVU0SjBpOHV1WkRIUERvOVBqNENzdGZyR190NGpFb19TZFZodTBUUTFUM0pEVHBuLXVQOHk4aFcyV0JwckpDZ0xQYVJCNURDTFBfaTYwX2lRbEprVnFWZ1BVdkdLekFTb3RPaEYyZWotbkxKNnZGRk9SX2pB?oc=5
+  source: 'Google News: Adaptation Policy'
+  date: '2026-11-02'
+  category: Adaptation & Sustainability
+  summary: Implications of Climate-Resilient Infrastructure on Bangladesh’s Trade Costs Boston University
 - title: Florida AG sues climate analytics provider First Street over home risk scores - ESG Dive
   url: https://news.google.com/rss/articles/CBMisgFBVV95cUxOUVM2T2toNS1fMEVZWjg5dDd4QlZta2ZJNTBTYUp4V1RNcmhZZEpMeDBId0lZdlJoSExHNUhzM1ZoVHlaSzdJVVpOeEhFNXYtc3VtZ0t0YkVBbTlKMkFfODhIcTE0NzJqN0xOaEJTbWxPOVc0eGVQTkxmdWExUVFtanRtV2dDSGNiREZlalZWZUNtVXVnMUlKVnh3eFd6NVFNdmJhaktRUzNNTVhsUTBfSV9R?oc=5
   source: 'Google News: First Street'
